@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "zh-semantics-v1",
   "description": "Authored synthetic development fixtures for contiguous Chinese fragments, complete words, AND queries and phrase matching.",
-  "purpose": "COCT fixed query semantics; expected membership frozen before candidate implementation",
+  "purpose": "Chinese complete-word, contiguous-fragment, multi-term AND, normalization and phrase matching development cases.",
   "documents": [
     {
       "id": "rss:qr_tourism",

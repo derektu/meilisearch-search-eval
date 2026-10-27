@@ -21,7 +21,7 @@ test('CLI help is available without engine or dataset setup', async () => {
   assert.equal(stderr, '');
 });
 
-test('normalization matches ticket 162 and maps converted text to raw text', () => {
+test('normalization canonicalizes Chinese scripts and width while mapping to raw text', () => {
   assert.equal(normalizeSearchText(' ＡＢＣ\u3000台积电\u0085'), 'abc 台積電');
   const projection = normalizeSearchTextWithMap('😀半导体');
   assert.equal(projection.text, '😀半導體');
@@ -108,7 +108,7 @@ test('shutdown failure writes failure artifacts and rejects the run', async () =
     const engine = { async stop() { throw new Error('stop failed'); } };
     const outputPath = path.join(temporary, 'out');
     await assert.rejects(runEvaluation({
-      dataset: datasetPath, baseline: 'B0', binary: binaryPath,
+      dataset: datasetPath, baseline: 'C1', binary: binaryPath,
       port: 7001, out: outputPath, passes: 1,
     }, { client, engine }), /stop failed/u);
     const manifest = JSON.parse(await readFile(path.join(outputPath, 'manifest.json')));
@@ -142,7 +142,7 @@ test('dataset.queries rows remain judged even when they carry exploratory metada
     }));
     const outputPath = path.join(temporary, 'out');
     const { results } = await runEvaluation({
-      dataset: datasetPath, baseline: 'B0', binary: binaryPath,
+      dataset: datasetPath, baseline: 'C1', binary: binaryPath,
       port: 7001, out: outputPath, passes: 1,
     }, { client: successfulClient(), engine: { async stop() {} } });
     assert.deepEqual(results.metrics.judgedRecall, { found: 1, total: 1, value: 1 });
@@ -168,7 +168,7 @@ test('an input changed during execution produces failure artifacts instead of a 
     const client = successfulClient(async () => { await writeFile(binaryPath, 'after'); });
     const outputPath = path.join(temporary, 'out');
     await assert.rejects(runEvaluation({
-      dataset: datasetPath, baseline: 'B0', binary: binaryPath,
+      dataset: datasetPath, baseline: 'C1', binary: binaryPath,
       port: 7001, out: outputPath, passes: 1,
     }, { client, engine: { async stop() {} } }), /inputs changed during the run/u);
     const manifest = JSON.parse(await readFile(path.join(outputPath, 'manifest.json')));

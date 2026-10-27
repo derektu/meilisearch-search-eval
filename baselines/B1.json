@@ -1,10 +1,12 @@
 {
   "id": "B1",
-  "label": "Stock with normalization",
+  "label": "Official release with normalization",
   "normalization": true,
   "engine": {
     "kind": "stock",
-    "env": {}
+    "env": {},
+    "distribution": "official-release",
+    "version": "1.53.2"
   },
   "fragmentReference": false
 }

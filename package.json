@@ -4,14 +4,20 @@
   "private": true,
   "type": "module",
   "description": "Reproducible Chinese search comparisons across normalization, dictionaries and query strategies.",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node --test",
-    "verify": "npm test && node tools/check-repository.mjs",
+    "verify": "npm test && node tools/datasets/validate.mjs datasets/zh-semantics-v1/dataset.json && node tools/datasets/verify-corpus.mjs && node tools/check-repository.mjs",
     "eval": "node src/cli.mjs",
     "engine:build": "node tools/engine/build.mjs",
     "tokenizer:build": "cargo build --release --locked --manifest-path tools/tokenizer/Cargo.toml",
-    "lexicon:coct": "node tools/datasets/fetch-coct.mjs"
+    "lexicon:coct": "node tools/datasets/fetch-coct.mjs",
+    "engine:download": "node tools/engine/download-official.mjs",
+    "eval:matrix": "node tools/run-baselines.mjs"
   },
-  "dependencies": { "opencc-js": "1.4.2" }
+  "dependencies": {
+    "opencc-js": "1.4.2"
+  }
 }

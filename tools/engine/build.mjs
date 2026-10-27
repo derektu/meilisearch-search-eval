@@ -13,7 +13,7 @@ const CHARABIA_VERSION = '0.10.0';
 const CHARABIA_SHA = '27d98f4c66de52108210ee491c9c991513021dfd259bf65e4bbd889687b488d7';
 const args = process.argv.slice(2);
 if (args.includes('--help')) {
-  console.log('Usage: node tools/engine/build.mjs [--kind external|stock] [--target TRIPLE] [--target-dir PATH] [--toolchain 1.91.1] [--dictionary ABS_PATH] [--prepare-only]\nDefault output: .cache/engines/meilisearch-coct-external[.exe], adjacent .manifest.json. No dictionary is bundled.');
+  console.log('Usage: node tools/engine/build.mjs [--kind external|stock] [--target TRIPLE] [--target-dir PATH] [--toolchain 1.91.1] [--dictionary ABS_PATH] [--prepare-only]\nDefault output: .cache/engines/meilisearch-coct-external[.exe], adjacent .manifest.json. --kind stock produces meilisearch-chinese-only, never the official-release control. No dictionary is bundled.');
   process.exit(0);
 }
 const options = {};
@@ -125,9 +125,9 @@ const host = rustc.match(/^host: (.+)$/mu)?.[1];
 if (!host) throw Error('Cannot determine Rust host target');
 const target = options.target ?? host;
 const suffix = target.includes('windows') ? '.exe' : '';
-const output = path.join(cache, 'engines', `meilisearch-${kind === 'external' ? 'coct-external' : 'stock'}${suffix}`);
+const output = path.join(cache, 'engines', `meilisearch-${kind === 'external' ? 'coct-external' : 'chinese-only'}${suffix}`);
 const manifestFile = `${output}.manifest.json`;
-const metadata = { schemaVersion: 1, purpose: 'Research engine, not a product distribution or bit-for-bit reproducibility guarantee', kind, source: { repository: 'https://github.com/meilisearch/meilisearch.git', commit: MEILI_COMMIT, version: '1.53.2', cargoLockSha256: LOCK_SHA }, charabia: { version: CHARABIA_VERSION, archiveSha256: CHARABIA_SHA, override }, jiebaRsVersion: '0.10.3', toolchain, rustc, host, target, profile: 'release', features: ['chinese'], defaultFeatures: false, targetDir, dictionary, environmentContract: kind === 'external' ? { dictionary: 'SEARCH_EVAL_DICTIONARY_PATH', disableSecondary: 'SEARCH_EVAL_DISABLE_SECONDARY_SPLIT', dictionaryLoadTime: 'LazyLock: first Chinese tokenization in each process' } : null };
+const metadata = { schemaVersion: 1, purpose: 'Research engine, not a product distribution or bit-for-bit reproducibility guarantee', kind, distribution: kind === 'stock' ? 'source-chinese-only' : 'external-dictionary', source: { repository: 'https://github.com/meilisearch/meilisearch.git', commit: MEILI_COMMIT, version: '1.53.2', cargoLockSha256: LOCK_SHA }, charabia: { version: CHARABIA_VERSION, archiveSha256: CHARABIA_SHA, override }, jiebaRsVersion: '0.10.3', toolchain, rustc, host, target, profile: 'release', features: ['chinese'], defaultFeatures: false, targetDir, dictionary, environmentContract: kind === 'external' ? { dictionary: 'SEARCH_EVAL_DICTIONARY_PATH', disableSecondary: 'SEARCH_EVAL_DISABLE_SECONDARY_SPLIT', dictionaryLoadTime: 'LazyLock: first Chinese tokenization in each process' } : null };
 await mkdir(path.dirname(output), { recursive: true });
 if (options.prepareOnly) {
   const prepared = path.join(cache, 'engines', `${kind}-prepared.json`);

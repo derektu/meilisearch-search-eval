@@ -1,0 +1,12 @@
+{
+  "id": "C1",
+  "label": "Chinese-only source build with normalization",
+  "normalization": true,
+  "engine": {
+    "kind": "stock",
+    "distribution": "source-chinese-only",
+    "version": "1.53.2",
+    "env": {}
+  },
+  "fragmentReference": false
+}

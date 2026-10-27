@@ -1,91 +1,102 @@
 # meilisearch-search-eval
 
-可重跑的中文搜尋評測：固定測資，分別比較文字正規化、外部詞庫、二次切分與連續片段查詢。供 XS team 與其他搜尋實作共用；初版以 Meilisearch 為主，未綁定 XR Collector 的內部程式。
+中文搜尋流程的參考方案與可重跑評測。固定文件、查詢與相關性標註，分別比較文字正規化、詞庫、二次切分與連續片段查詢。
 
-比較單位是完整搜尋方案，包含引擎、詞庫、正規化、查詢策略及排序設定。**B4 是參考實驗，尚未完成產品整合。**
+## 搜尋方案
 
-## 比較組
-
-| 組別 | 設定 | 用途 |
+| 組別 | 引擎與流程 | 比較目的 |
 | --- | --- | --- |
-| B0 | 預設中文引擎，未加正規化 | 原始行為 |
-| B1 | B0＋文字正規化 | 隔離正規化的影響 |
-| B2 | B1＋外部 COCT 詞頻主庫 | 隔離詞庫的影響 |
-| B3 | B2＋保留第一輪完整詞界 | 隔離二次切分的影響 |
-| B4 | B3＋連續片段補召回與驗證 | 片段查詢參考實驗 |
+| B0 | 官方 Meilisearch 1.53.2 community release，無正規化 | 官方預設行為 |
+| B1 | 相同官方 release＋文字正規化 | 正規化的影響 |
+| C1 | 同版本 Chinese-only source build＋正規化 | 官方發行版與自行建置的控制組 |
+| B2 | Chinese-only＋正規化＋外部 COCT 詞頻主庫 | 與 C1 比較詞庫／載入策略 |
+| B3 | B2＋保留第一輪完整詞界 | 二次切分的影響 |
+| B4 | B3＋連續片段補召回與驗證 | 片段查詢參考方案 |
 
-B0/B1 的「預設引擎」指未修改預設中文詞庫與切分的固定 Meilisearch 版本；本輪可用保留中文功能的 build。B2–B4 使用相同外置詞頻檔、相同實驗 binary，透過設定切換策略。原先「全量 dictionary API」實驗另列診斷結果，不屬於 B0–B4。
+B0／B1 驗證官方 release 的固定 SHA-256，不能用 Chinese-only binary 代替。C1 與 B2 使用相同上游 source、toolchain、target及 Chinese-only features，供詞庫對照；B1→B2 同時改變建置與詞庫，不直接歸因為詞庫效果。
 
-所有組別都要保存實際版本、binary／詞庫／測資 hash；不能把不同設定的結果直接合併成同一 baseline。
+**B4 是記憶體參考方案。** 它能獨立補召回並驗證連續性；儲存、更新、合併排序及大規模效能需要另外驗證。各組設定在 [baselines](baselines/B0.json)，評測契約見[方法說明](docs/methodology.md)。
 
-## 測資與公開範圍
+## 測資
 
-- [zh-semantics-v1](datasets/zh-semantics-v1/dataset.json)：23 份自建文件、22 題、38 組正例及 468 組明確負例。包含完整詞、分散字負例、片段、單字、多詞、引號及正規化。
-- [real-34](datasets/real-34/source-manifest.json)：原34份真實文件的來源 manifest，另保留60題查詢。第三方新聞／字幕全文不放入本 repo；在本機匯入原始快照後執行。
-- COCT 原始資料及衍生詞庫不隨 repo 散布。提供固定版本的取得／轉換程序，輸出留在被忽略的 `.cache/`。
-- 目前兩組資料都是已用於研究的開發／回歸集，**沒有宣稱它們是未見過的 holdout**。後續保留集需獨立建立。
+Repo 包含執行所需的固定搜尋文本：
 
-詳見[測資格式與取得方式](docs/datasets.md)、[評測方法與限制](docs/methodology.md)。
+- [zh-semantics-v1](datasets/zh-semantics-v1/dataset.json)：23 文件、22 查詢、38 組正例與468 組明確負例，涵蓋完整詞、片段、分散字負例、單字、多詞、引號與正規化。
+- [real-34-v1](datasets/real-34/dataset.json)：34 文件的完整固定搜尋文本、60 查詢與50 組正例。標題、來源名稱與正文直接存於 repo，來源與內容hash見 [source manifest](datasets/real-34/source-manifest.json)。其中24筆來源為full、10筆為summary；評測使用檔案內保存的完整輸入，不重新抓網頁或字幕。
 
-## 開始使用
+兩組皆為開發／回歸集。獨立保留集與規模效能測試分開維護。未標註的文件不自動視為不相關。
 
-需要 Node.js 22+。B0/B1 另需相容 Meilisearch binary；建立實驗引擎及 B4 tokenizer 時需 Rust/Cargo、Git 與對應平台的編譯工具。COCT 解析工具需 Python 3。
+COCT 詞頻表使用固定[官方 XLSX 連結](https://coct.naer.edu.tw/file/files/%E9%80%9A%E7%94%A8%E8%A9%9E%E9%A0%BB%E8%A1%A8%20-%20%E5%AE%9A%E7%A8%BF1141208.xlsx)，取得程序驗證原檔與轉換後hash。外部詞庫由引擎在執行時讀取，不嵌入binary。詳見[測資格式與COCT取得方式](docs/datasets.md)。
+
+## 環境與建置
+
+需要 Node.js 22+、Python 3、Git、tar、rustup／Rust 1.91.1與平台對應的C/C++編譯工具。
 
 ```sh
 npm ci
 npm run verify
-```
-
-取得固定 COCT、建立實驗引擎及 tokenizer：
-
-```sh
+rustup toolchain install 1.91.1 --profile minimal
+npm run engine:download
 npm run lexicon:coct
+npm run engine:build -- --kind stock
 npm run engine:build
 npm run tokenizer:build
 ```
 
-COCT 的檔案版本不等於語料統計年份；公開下載也不代表已確認產品再散布授權。[引擎建置、外部詞庫與參數](docs/engines.md)會說明每個步驟與首次載入限制。
+輸出檔案：
 
-## 執行比較
+| 用途 | 路徑（Windows binary加`.exe`） |
+| --- | --- |
+| B0／B1 官方 release | `.cache/engines/meilisearch-official` |
+| C1 Chinese-only source build | `.cache/engines/meilisearch-chinese-only` |
+| B2–B4 外部詞庫引擎 | `.cache/engines/meilisearch-coct-external` |
+| COCT 詞頻檔 | `.cache/lexicons/coct-1141208/coct-news.txt` |
+| B4 tokenizer | `tools/tokenizer/target/release/search-eval-tokenizer` |
 
-每次執行必須使用新輸出目錄及可用的本機 port；由你所在環境的 port 管理方式分配。runner 僅啟動及停止自己的引擎程序，使用隔離資料庫，API dictionary 固定空白。
+`--kind stock` 指未修改上游詞庫／切分程式的source build；它明確使用 `--release --locked --no-default-features --features chinese`，不代表官方release。版本、來源、checksum、target與toolchain見[引擎文件](docs/engines.md)。
 
-以下 `<port>`、`<stock-binary>`、`<external-binary>`、`<dictionary>` 與 `<tokenizer>` 都必須換成你的實際值。macOS/Linux tokenizer通常位於 `tools/tokenizer/target/release/search-eval-tokenizer`；Windows加上 `.exe`。
+## 執行評測
+
+以下命令在repo根目錄執行。`<free-port>` 須替換成環境中分配的可用本機port；runner啟動自己的引擎與隔離資料庫，完成後清理。
+
+```sh
+npm run eval:matrix -- --dataset datasets/zh-semantics-v1/dataset.json \
+  --port <free-port> --out results/semantics-run-1
+
+npm run eval:matrix -- --dataset datasets/real-34/dataset.json \
+  --port <free-port> --out results/real-run-1
+```
+
+每組執行一次首次查詢，再執行三輪暖查詢，分開保存時間。完整matrix包含B0、B1、C1、B2、B3、B4，並輸出逐題差異比較；輸出目錄必須不存在。
+
+單一方案可直接指定：
 
 ```sh
 npm run eval -- run --dataset datasets/zh-semantics-v1/dataset.json \
-  --baseline B0 --binary <stock-binary> --port <port> --out results/semantics-B0
+  --baseline B1 --binary .cache/engines/meilisearch-official \
+  --port <free-port> --out results/single-B1
 
 npm run eval -- run --dataset datasets/zh-semantics-v1/dataset.json \
-  --baseline B1 --binary <stock-binary> --port <port> --out results/semantics-B1
-
-npm run eval -- run --dataset datasets/zh-semantics-v1/dataset.json \
-  --baseline B2 --binary <external-binary> --dictionary <dictionary> \
-  --port <port> --out results/semantics-B2
-
-npm run eval -- run --dataset datasets/zh-semantics-v1/dataset.json \
-  --baseline B3 --binary <external-binary> --dictionary <dictionary> \
-  --port <port> --out results/semantics-B3
-
-npm run eval -- run --dataset datasets/zh-semantics-v1/dataset.json \
-  --baseline B4 --binary <external-binary> --dictionary <dictionary> \
-  --tokenizer <tokenizer> --port <port> --out results/semantics-B4
-
-npm run eval -- compare \
-  --runs results/semantics-B0,results/semantics-B1,results/semantics-B2,results/semantics-B3,results/semantics-B4 \
-  --out results/semantics-comparison.json
+  --baseline B4 --binary .cache/engines/meilisearch-coct-external \
+  --dictionary .cache/lexicons/coct-1141208/coct-news.txt \
+  --tokenizer tools/tokenizer/target/release/search-eval-tokenizer \
+  --port <free-port> --out results/single-B4
 ```
 
-執行輸出包含逐題 ID／排名／位置、正例漏查、明確負例誤收、排序案例及時間。原始輸出留在 `results/`，預設不進版控；分享前移除環境路徑並核對資料權利。報告不能將未標註結果當成不相關，也不能把 B4 記憶體處理時間和其他組完整 HTTP 延遲混在一起比較。
+分享報告：
 
-## 更新測資或加入其他實作
+```sh
+node tools/export-report.mjs \
+  --runs results/semantics-run-1/B0,results/semantics-run-1/B1,results/semantics-run-1/C1,results/semantics-run-1/B2,results/semantics-run-1/B3,results/semantics-run-1/B4 \
+  --out reports/my-evaluation
+```
 
-測資以獨立JSON與manifest維護，修改文件、query或gold時更新資料版本，不在評測程式內針對題目補答案。新增實作時透過adapter接入；沿用相同的文件、查詢與評分規則，保留引擎專屬設定。
+[評測報告](reports/reference-2026-10-27/README.md)記錄方案、資料、結果與限制；機器可讀輸出保存每題ID／排名、漏查、明確負例誤收、版本及hash。B4的記憶體處理時間與引擎HTTP時間分開，不能混作端到端速度比較。
 
-目前 adapter 是本機 managed Meilisearch。未來可加入 XS team 的參考實作；不需要為此先擴成通用benchmark框架。
+## 維護與擴充
 
-已完成的獨立重跑結果見 [首輪 B0–B4 報告](reports/bootstrap-2026-10-27/README.md)。歷史研究結果保存在 [reports/historical](reports/historical/README.md)，與本 repo 重新執行的結果分開。規模效能與獨立保留集驗證是後續研究工作，不列入 XR Collector #162 的結案前置。
+測資以JSON獨立版控。文件、查詢或gold變動時使用不同資料版本；比較程序會拒絕同ID卻不同hash的資料。候選搜尋程式不讀gold來選擇結果。
 
-## 授權
+其他搜尋實作可透過adapter接入相同文件、查詢與評分規則。完整搜尋方案的身分包含引擎、詞庫、正規化、查詢策略及排序設定，不能只依引擎名稱比較。
 
-本 repo 自建程式、文件與合成測資採 [MIT](LICENSE)。外部引擎、OpenCC、COCT及其他第三方資料各自適用原始條款；本 repo 的 MIT 不會替它們重新授權。建置出的 binary、外部詞庫與真實語料不提交。
+自建程式、文件與合成測資採 [MIT](LICENSE)；真實文本、COCT、外部引擎與dependencies各自適用其原始條款，見[來源說明](THIRD_PARTY_NOTICES.md)。

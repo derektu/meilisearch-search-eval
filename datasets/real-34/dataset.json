@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "id": "real-34-v1",
+  "version": 1,
+  "snapshotDate": "2026-10-27",
+  "description": "Fixed Chinese and English news and video search-text snapshots with source attribution and judged query membership.",
+  "documents": [
+    {
+      "id": "rss:108a1504b2cae6cb",
+      "title": "以色列背景引發資安疑慮，馬來西亞禁止公務員使用 Waze",
+      "bodyMarkdown": "在馬來西亞首相安華（Anwar Ibrahim）認為來自以色列的地圖軟體 Waze 有安全疑慮後，馬來西亞已禁 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://infosecu.technews.tw/2026/10/22/malaysia-bans-civil-servants-from-using-mapping-app-waze-citing-links-to-israel/",
+      "publishedAt": "2026-10-22T00:20:20.000Z",
+      "collectedAt": "2026-10-22T01:25:07.974Z"
+    },
+    {
+      "id": "rss:12689431540825b4",
+      "title": "德微旗下亞昕科技10/23登錄興櫃 參考價120元",
+      "bodyMarkdown": "德微(3675-TW)旗下子公司功率半導體公司亞昕科技(7960-TW)今(21)日舉辦興櫃前法人說明會，預計10月23日以每股120元參考價登錄興櫃。亞昕科技今年上半年合併營收8.4億元，年增19.21%，營業淨利1.57億元，年增22.7%，每股純益(EPS)2.41元；累計前8月合併營收達11.99億元，每股純益3.46元，營運及獲利表現較去年提升。 董事長張恩傑表示，全球供應鏈調整與高階電源需求升級，為功率半導體產業帶來新的發展機會。亞昕科技將以自主晶圓設計與製造能力為核心，加速布局高階應用市場。此次登錄興櫃是公司邁向下一階段成長的重要里程碑，未來將在...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635286",
+      "publishedAt": "2026-10-21T13:06:24.000Z",
+      "collectedAt": "2026-10-22T01:23:04.952Z"
+    },
+    {
+      "id": "rss:3d7e6a989e6fc75c",
+      "title": "Windows 電腦狂跳「中毒警告」多為詐騙，使用者必學這些應對步驟",
+      "bodyMarkdown": "Windows 使用者若突然在螢幕上看到全螢幕跳出的安全警告，要求立刻致電客服、下載掃描工具或進行付款，請務必 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://infosecu.technews.tw/2026/10/22/ai-deciphers-plant-power-generation-communication-language/",
+      "publishedAt": "2026-10-22T00:30:12.000Z",
+      "collectedAt": "2026-10-22T01:25:07.697Z"
+    },
+    {
+      "id": "rss:412cdeb8cc8ef9e9",
+      "title": "〈台股盤前要聞〉輝達DSX POD AI工廠6台廠入列合作夥伴、外資終止連十賣",
+      "bodyMarkdown": "台股盤前要聞  1.輝達(NVIDIA)(NVDA-US)21日宣布推出DSX POD模組化 AI 工廠架構，合作夥伴中包含鴻海(2317-TW)旗下鴻佰(Ingrasys)、台達電(2308-TW)、和碩(4938-TW)、廣達(2382-TW)旗下雲達科技(QCT)、緯創(3231-TW)、技嘉(2376-TW)等台廠，預計於2027年初開始在全球交付。  2.台北股市21日在電子股帶動之下出現強勢反彈，最後一盤交易爆發585億元鉅量，拉抬指數上漲160.56點，終場大盤收在46887.77點，上漲594.84點，成交值8331.91億元，並站上5日線，外資也中止對台股的連續10個交易日合計8380.64億元賣超，轉爲買超9.6億元...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635367",
+      "publishedAt": "2026-10-21T21:10:02.000Z",
+      "collectedAt": "2026-10-22T01:23:03.271Z"
+    },
+    {
+      "id": "rss:42c18fc7adc37c9f",
+      "title": "Meta 營收創高、Muse 用戶破千萬人 將拆股",
+      "bodyMarkdown": "社群媒體巨頭 Meta 第三季營收創新高，財測也優於市場預期，新推出的 AI 代理 Muse 推出短短六週用戶 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://finance.technews.tw/2026/10/22/meta-reports-third-quarter-2026-results/",
+      "publishedAt": "2026-10-22T00:40:21.000Z",
+      "collectedAt": "2026-10-22T01:25:07.143Z"
+    },
+    {
+      "id": "rss:4a359e3de6745ded",
+      "title": "三三會建議政府落實AI究責制度 呼籲正視潛在風險",
+      "bodyMarkdown": "三三交流會理事長林伯豐今(21)日表示，AI發展應有益人類，政府也應正視AI發展的潛在風險，建立可追責機制，並立法依「人工智慧基本法」，將AI安全落實為可檢測、可追責、可補救的制度，建立「可檢測、可追責、可補救」的具體機制，兼顧科技創新與公共安全。 三三企業交流會今(21)日舉行10月例會，邀集Google台灣區前董事總經理簡立峰，以「AI新趨勢與企業AI轉型」為題發表演講。 簡立峰在演講中指出，因AI的自主創新能力，造成產業核心競爭力改變的領域，屬於「AI新經濟」方面，目前部分產業已出現這樣的現象，但某些傳統產業可能要再等...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635221",
+      "publishedAt": "2026-10-21T13:22:28.000Z",
+      "collectedAt": "2026-10-22T01:23:04.113Z"
+    },
+    {
+      "id": "rss:62520a04faacb9c7",
+      "title": "輝達發表DSX POD AI工廠 鴻海、台達電等6台廠入列合作夥伴",
+      "bodyMarkdown": "輝達(NVIDIA)(NVDA-US)今(21)日宣布推出DSX POD模組化 AI 工廠架構，合作夥伴中包含鴻海(2317-TW)旗下鴻佰(Ingrasys)、台達電(2308-TW)、和碩(4938-TW)、廣達(2382-TW)旗下雲達科技(QCT)、緯創(3231-TW)、技嘉(2376-TW)等台廠，預計於2027年初開始在全球交付。 輝達創辦人暨執行長黃仁勳表示，AI工廠真正創造價值的時刻，是開始產生Token，而非建築工程完工。透過DSX POD，輝達將工廠製造的精準度與速度導入AI基礎設施建置，將部署時間從數月縮短至數週，讓客戶更快擴充算力，並啟動能夠創造營收的生產環境。 DSX POD參考設計整合Vera R...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635276",
+      "publishedAt": "2026-10-21T13:13:49.000Z",
+      "collectedAt": "2026-10-22T01:23:04.669Z"
+    },
+    {
+      "id": "rss:a7b3b1db95608278",
+      "title": "台越前三季雙邊互訪破113萬人次 觀光會議聚焦永續及智慧觀光合作",
+      "bodyMarkdown": "第13屆台越觀光合作會議昨（20）日在嘉義長榮文苑酒店舉行，由交通部觀光署長陳玉秀與越南國家旅遊局局長阮重慶共同主持。陳玉秀表示，今年1至9月台越雙向旅客往來已突破113萬人次，超越疫情前2019年同期的82萬人次，顯示雙方觀光交流升溫。未來將持續透過定期會議及產業交流，深化旅遊安全、永續觀光及特色旅遊等合作，拓展雙向旅遊市場。 此次越方代表團由阮重慶率領各組室及地方政府觀光主管等30人來台，與台方代表就觀光推廣政策、產業發展及雙邊合作方向進行交流。 觀光署表示，台越觀光合作會議自2012年雙方簽署「台越觀光合作瞭...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635226",
+      "publishedAt": "2026-10-21T13:20:55.000Z",
+      "collectedAt": "2026-10-22T01:23:04.392Z"
+    },
+    {
+      "id": "rss:ab721d29182cd656",
+      "title": "不只要拿到電，AI 資料中心的新戰場是把電、熱與運算整合起來",
+      "bodyMarkdown": "AI 資料中心的擴張正面臨前所未有的物理限制，單靠增加供電容量已不足以支撐下一代運算需求。隨著超大規模 AI \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://technews.tw/2026/10/22/ais-compute-hit-a-wall/",
+      "publishedAt": "2026-10-22T00:45:32.000Z",
+      "collectedAt": "2026-10-22T01:25:06.313Z"
+    },
+    {
+      "id": "rss:add76475f82b5eef",
+      "title": "IBM Q3 財報雙喜但毛利率落漆 盤後股價跌逾 4%",
+      "bodyMarkdown": "電腦硬體與雲端技術大廠 IBM 週三（21 日）公布 2026 年第三季財報，營收與獲利雙雙優於市場預期，軟體 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://finance.technews.tw/2026/10/22/ibm-q3-earnings-positives-weak-gross-margin-after-hours-stock-falls-4-percent/",
+      "publishedAt": "2026-10-22T01:05:25.000Z",
+      "collectedAt": "2026-10-22T01:25:05.758Z"
+    },
+    {
+      "id": "rss:b2f4b1043865bb89",
+      "title": "輝達推歐洲自駕計程車，攜 Bolt 目標布局 2.5 萬輛",
+      "bodyMarkdown": "AI 晶片大廠輝達今天在柏林 GTC 大會宣布擴大與歐洲車廠及交通業者合作，推動自動駕駛計程車（Robotax \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://technews.tw/2026/10/22/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion/",
+      "publishedAt": "2026-10-22T01:20:55.000Z",
+      "collectedAt": "2026-10-22T01:25:05.448Z"
+    },
+    {
+      "id": "rss:b34871909518a467",
+      "title": "台積電產能太搶手！英特爾擴廠向前 能接住AI商機？",
+      "bodyMarkdown": "英特爾(INTC-US)美國晶圓廠擴建取得新進展，亞利桑那州Fab 62已開始安裝生產設備，俄亥俄州新廠也完成首座大型屋頂桁架安裝。在AI帶動晶片需求攀升之際，這些進展顯示，英特爾延宕多年的擴產計畫正逐步推進，但能否吸引足夠外部代工客戶，仍是投資回收的關鍵。 亞利桑那新廠裝機 俄亥俄廠進度仍落後 英特爾晶圓代工主管Naga Chandrasekaran周三(21日)表示，鄰近鳳凰城的Fab 62正進行設備安裝，預計2028年投入營運。鄰近的Fab 52已運作，並於2025年底量產最先進的18A製程晶片，目前主要用於英特爾自家處理器。 設備安裝是晶圓廠投產前的...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635389",
+      "publishedAt": "2026-10-21T17:00:05.000Z",
+      "collectedAt": "2026-10-22T01:23:03.555Z"
+    },
+    {
+      "id": "rss:befcb4a6ff390110",
+      "title": "外資連4點讚穩懋站回500元大關 10/23法說前先回補",
+      "bodyMarkdown": "砷化鎵PA大廠穩懋(3105-TW)預計本周五(23日)召開第3季線上法說會，屆時除了公告今(2026)年第3季財報外，也預計針對第4季與明(2027)年釋出最新的營運展望。據盤後資料，穩懋今(21)日在外資連4買張挹注下，終場大漲7.79%，收512元，不僅終止日K連7黑，也站回500元關卡。 穩懋近期遭投信大量調節籌碼，昨(20)日單日遭賣超金額高達20.37億元，成為賣超金額最高的個股，今日再調節小賣40張，已連6賣。 穩懋之前在法說上表示，因記憶體持續缺貨影響，已對今年手機旺季銷售帶來不確定性，但公司在全球高階智慧型手機上RF GaAs晶圓代工居於領導...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635266",
+      "publishedAt": "2026-10-21T13:45:28.000Z",
+      "collectedAt": "2026-10-22T01:23:03.835Z"
+    },
+    {
+      "id": "rss:c00dcce7075430c7",
+      "title": "鉅亨速報 - Factset 最新調查：景碩(3189-TW)EPS預估上修至12.14元，預估目標價為1290元",
+      "bodyMarkdown": "根據FactSet最新調查，共11位分析師，對景碩(3189-TW)做出2026年EPS預估：中位數由11.64元上修至12.14元，其中最高估值15.16元，最低估值9.78元，預估目標價為1290元。市場預估EPS預估值2026年(前值)2027年2028年最高值15.16(14.82)43.7977.81最低值9.78(9.78)21.5535.98平均值12.3(12.01)31.2255.38中位數12.14(11.64)30.2555.51市場預估營收預估值(單位：新台幣千元)2026年2027年2028年最高值55,456,000100,579,580171,680,660最低值52,990,00075,982,000103,337,000平均值54,126,59084,044,380123,098,290中位數54,119,28081,331,73011...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635509",
+      "publishedAt": "2026-10-22T00:10:32.000Z",
+      "collectedAt": "2026-10-22T01:23:02.716Z"
+    },
+    {
+      "id": "rss:c3816ccee758da0e",
+      "title": "台英深化能源合作，聚焦離岸風電、電網韌性與碳捕捉技術",
+      "bodyMarkdown": "經濟部能源署與英國在台辦事處 20 日共同舉辦「第 21 屆台英再生能源交流會議」及「第 8 屆台英能源對話會 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://technews.tw/2026/10/22/taiwan-uk-energy-cooperation-offshore-wind-grid-resilience-carbon-capture-technology/",
+      "publishedAt": "2026-10-22T00:37:29.000Z",
+      "collectedAt": "2026-10-22T01:25:07.421Z"
+    },
+    {
+      "id": "rss:c6c7dd07c65c20d0",
+      "title": "鉅亨速報 - Factset 最新調查：緯穎(6669-TW)EPS預估上修至123.83元，預估目標價為2727.31元",
+      "bodyMarkdown": "根據FactSet最新調查，共17位分析師，對緯穎(6669-TW)做出2026年EPS預估：中位數由122.85元上修至123.83元，其中最高估值153.23元，最低估值109.85元，預估目標價為2727.31元。市場預估EPS預估值2026年(前值)2027年2028年最高值153.23(153.23)234.44330.57最低值109.85(109.85)138.29180.83平均值127.82(126.8)192.08239.12中位數123.83(122.85)191.09236.83市場預估營收預估值(單位：新台幣千元)2026年2027年2028年最高值1,574,648,3303,143,596,0004,657,332,000最低值1,230,840,0002,045,064,0302,150,773,650平均值1,407,641,0602,580...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635508",
+      "publishedAt": "2026-10-22T00:10:30.000Z",
+      "collectedAt": "2026-10-22T01:23:02.994Z"
+    },
+    {
+      "id": "rss:e85e2879db0864e9",
+      "title": "荷莫茲海峽受阻，巴拿馬運河貨物通行量創新高",
+      "bodyMarkdown": "巴拿馬運河（Panama Canal）營運單位 20 日告訴法新社，由於中東戰爭導致荷莫茲海峽（Strait \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://technews.tw/2026/10/22/hormuz-strait-obstruction-panama-canal-cargo-record/",
+      "publishedAt": "2026-10-22T00:50:58.000Z",
+      "collectedAt": "2026-10-22T01:25:06.035Z"
+    },
+    {
+      "id": "rss:ec6bdc99d62dec05",
+      "title": "毅力號刷新火星行駛紀錄，超越機會號與登月太空人",
+      "bodyMarkdown": "NASA 毅力號（Perseverance）火星車日前再寫太空探索新頁，10 月 11 日於火星表面行駛里程累 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://technews.tw/2026/10/22/perseverance-mars-rover-nasa-driving-record/",
+      "publishedAt": "2026-10-22T00:42:11.000Z",
+      "collectedAt": "2026-10-22T01:25:06.866Z"
+    },
+    {
+      "id": "rss:fc0d7b8df845e842",
+      "title": "鉅亨速報 - Factset 最新調查：京元電子(2449-TW)EPS預估下修至8.46元，預估目標價為346.5元",
+      "bodyMarkdown": "根據FactSet最新調查，共15位分析師，對京元電子(2449-TW)做出2026年EPS預估：中位數由8.51元下修至8.46元，其中最高估值9.35元，最低估值7.62元，預估目標價為346.5元。市場預估EPS預估值2026年(前值)2027年2028年最高值9.35(9.35)16.9322.11最低值7.62(7.62)11.7518平均值8.56(8.58)14.3120.28中位數8.46(8.51)14.720.45市場預估營收預估值(單位：新台幣千元)2026年2027年2028年最高值48,327,22075,787,290108,361,170最低值46,590,42065,481,53087,845,150平均值47,273,44070,595,80095,007,570中位數47,162,72070,073,26095,121,860歷...",
+      "publisher": {
+        "id": "8c0fd06f9dc7d7c7",
+        "name": "Anue鉅亨"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://news.cnyes.com/news/id/6635510",
+      "publishedAt": "2026-10-22T00:10:34.000Z",
+      "collectedAt": "2026-10-22T01:23:02.432Z"
+    },
+    {
+      "id": "rss:feaf5f81371f7875",
+      "title": "連高市早苗都親自示警！PHP 爆重大漏洞，AI 挖出潛伏 20 年資安危機",
+      "bodyMarkdown": "全球網站爆發重大資安危機，廣泛應用於網站開發的 PHP 程式語言遭揭露兩項高風險漏洞，恐讓駭客在未經身分驗證的 \\[…]",
+      "publisher": {
+        "id": "2e4ed3ffabf8e20c",
+        "name": "TechNews 科技新報"
+      },
+      "sourceType": "rss",
+      "sourceUrl": "https://infosecu.technews.tw/2026/10/22/php-loopholes/",
+      "publishedAt": "2026-10-22T00:43:05.000Z",
+      "collectedAt": "2026-10-22T01:25:06.589Z"
+    },
+    {
+      "id": "youtube:ABRdFe03L4c",
+      "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+      "bodyMarkdown": "全世界公认最安全的资产 美国国债 这几个星期 在美国 英国 日本 德国 法国 同时出了状况 按理说呢 平时市场一出状况 大家都会往国债里边躲 但是这次不一样 出状况的恰恰是国债本身 美国十年期国债利率 年初才4%出头 这个月破了5% 一度冲到了5.2%以上 是2007年以来的最高点 那么上一次国债利率 站在这么高的位置 紧接着发生的就是 全球金融危机 更麻烦的是 连美联储也无法决定国债利率 完全是由市场决定的 过去几十年实际利率非常低 借钱几乎是免费的 房贷车贷商贷 拿到便宜的钱一点都不稀奇 一整代人呢 就在这种环境里边长大的 以为这就是常态了 而这个时代已经结束了 而且结束得 比大多数人以为的要更快 所以今天 我只想聊透几个问题 这件事情为什么最后 会影响到每一个普通人 趁他还没有完全爆开\n\n我们现在能够提前做些什么 欢迎来到艾财说 我是Alex 艾财说频道专门分享 学校里边学不到的财商知识 让你财富觉醒 财富自由 欢迎您点赞订阅 打开小铃铛 选择全部 这样就不会错过艾财说 每周更新的精彩影片了 为什么说国债利率 比美联储开会 比哪位大佬又发了 什么帖子都重要呢 因为它是钱的基础价格 房贷企业贷款 农民买机器买种子的贷款 还有政府自己借的钱 都是在这个价格上 再加一点点 才变成最后要付的利息的 这个基础价格一涨呢 整个金融世界就跟着升温 你家的账目也跟着吃紧 你可能不会意识到国债利率 但是你的月供车贷利息 都在跟着变 那债券市场的压力 又是怎么来的呢 旧债到期了 再借一笔新的顶上 行业里边叫做展期 一聊债券很多人就想划走 可是全球债券市场 比股票市场还要大 按美国证券业协会的统计 去年全球债券的存量\n\n大约是160万亿美元 股市总市值 大概是158万亿 美国联邦政府 现在欠了多少钱 八月中旬第一次 突破了40万亿美元 平均摊到每个美国人头上 大概是$11,7000 那这个数字呢 你大概已经听麻木了 但是真正要命的是另一个 美国政府的估算 要借新钱去还的国债 大概有9.7万亿美元 这些旧债 很多是在钱 最便宜的那几年借的 存量的平均利率 只有3.5%左右 现在新借的钱 两年期要付将近5% 那么利息账单有多恐怖呢 美国国会预算办公室估算 今年联邦政府的净利息 要付一万亿美元左右 在联邦预算里边 利息已经排在社保和医疗之后 比国防开支还多 那我是学会计出身的 看一家公司的账 一定要先看利息这一行 利息比安保预算还高的公司 你敢借钱给他吗 所以这件事情呢 不需要导火索 也不需要谁恐慌 只要债券到期\n\n就得按今天的利率重新借 那有人说了 经济一增长 这点债就不算什么了 依我看呢 这笔账靠增长根本填不上 因为利息这几年涨得 比经济快太多了 大砍开支和大幅加税 在政治上都很难走通 剩下的路呢 就只有两条 一条是赖账不还 那就会是世界级别的灾难了 全球金融体系都得跟着塌方 另一条就是多印钱 让美元慢慢贬值 再用越来越不值钱的 美元去还债 这条路美国自己就走过 1942年到1951年 美联储应财政部的要求 把长期国债利率 压在了2.5%以下 战后又经历了几轮通胀 美国公共债务占经济的比例 从1946年的106% 一路降低到了 1974年的23% 那国际货币基金组织 有篇研究论文算过 要是没有财政盈余和压低利率 这些因素 到那一年 这个比例大概只能降到74% 所以我个人的看法是 历史上不少高负债的政府\n\n最后都选择了这条路 这也是没办法的办法吧 那既然将来的钱会越印越多 越来越不值钱 今天借钱给政府 就得多收一点利息做补偿 借的越久就要补偿的越多 这部分多收的钱 行业里面叫做期限溢价 于是利息账单越滚越大 经济的担子 也一点一点加重了 这个过程美国走了十多年 而英国只用了几个星期 就把整个过程走完了 结局相当惨 2022年9月23号 英国刚上任不久的特拉斯 公布了一份迷你预算 一口气减税大概450亿英镑 那钱从哪来呢 没有交代 减税本身未必是坏事 问题是没说清楚 这笔钱怎么补上 债券市场一看 只回应了一句不买账 接下来就是金融历史上 最快的市场崩盘了 英国30年期国债利率 几天之内就涨了一个百分点多 冲到了5%上下 9月26号 英磅兑美元一度跌到了1.03出头 创了历史新低 那更吓人的在后边 英国很多养老基金\n\n用一种策略 拿手里的国债 做抵押去借钱加杠杆 名字叫做负债驱动投资 国债价格一跌 抵押品不够了 就得补保证金 手里边没现金 那就只能卖国债了 这一卖呢 价格就跌的更凶 那你又得再卖 这就是末日循环了 最后英格兰银行不得不紧急出手 买入长期国债 才把这股邪火压住 有意思的是 英格兰银行当时准备的弹药 最多有650亿英镑 而实际呢 只买了193亿英镑左右 市场就稳住了 特拉斯从上任到离任 一共只有49天 刚好七个星期 债市惩罚一个 不靠谱的借款人 方式就很简单 我就不买就好了 很多人没有注意到的是 英国今天借钱的成本 比2022那场危机 最凶残的时候还要高 那这个月 英国30年期国债利率 一度接近6% 是1998年以来最高的 9月8号 英国又发了一批30年期国债 发行利率创了纪录 英国债务管理局1998年成立以来\n\n都从来没有这么高过 好这是英国 那么另外一个国家就更极端了 同样的剧本演了30年 今年才刚刚到最后一幕 如果你希望有人用 通俗系统化的方式 帮你盯着这些宏观变化 拆解成普通人听得懂 做得到的行动步骤 那就记得订阅频道 也可以点击影片 描述栏的专属链接 注册我们艾财会员 拿到市场第一手信息 未来我们还会开放 完整的个人财富 金融投资 地产投资 和避税方面的直播和课程 你会拿到更详细的资产配置 被动收入税务结构的实操指南 日本慢慢熬了几十年 靠央行买下差不多一半的国债 把一个负债累累的局面稳稳托住 你可能会问 日本离我这么远 跟我有什么关系呢 东京正在发生的事情 会一路传导到你的投资组合吗 很长一段时间里边 日本一直是全世界债市 最稳健的一个 利率几乎是零 借日元几乎不花钱 这些便宜的钱 源源不断的流向世界\n\n日本的储户在国内存钱 拿不到利息 那钱就会往外走 美股 美国国债 欧洲国债 只要有利息的都买 日本就成了美国 最大的海外债主 全球低利率能维持这么多年 日本是出了很大一份力的 那他是怎么把利率 压在零附近 这么多年呢 日本央行自己印钱买国债 最多的时候 手里边握着超过 一半的日本国债 政府缺钱 央行就印钱 政府的债大半 由自己的央行兜底买了 直到这两年 日本央行开始往回收 它每个月买国债的规模 从两年前的五万多亿日元 砍到了两万多亿日元 砍掉了一半多 9月18号呢 它又把政策利率 加到了1.25% 是1995年以来最高的 日本十年期国债利率 这个月冲过了3% 是30年来第一次 还有一个标志性的数字 日本央行持有日本国债的比例 今年跌破了一半 是三年半以来第一次 最大的买家一步步退场 那价格就得重新谈嘛\n\n这就是市场最朴素的道理 那么日本财团 保险公司和养老金 就是那些传统上把资金 拿到国外投资的公司和实体 现在会怎么想呢 以前国内拿不到回报 只能出海 那现在日本十年期国债的利率 已经是两年前的三倍左右了 在家门口就能拿到像样的利息 还不用担心汇率风险 那当然会把钱往回搬了嘛 数据也在验证这一点 日本财务省的统计显示 今年一季度 日本投资者净卖出 大约4.7万亿日元的美国债券 折合差不多300亿美元 这里边呢 除了国债 还有美国政府机构 和地方政府发的债 是2022年以来 最大的一次季度卖出 借钱的人 就得开出更高的利息 去吸引别的买家 美国国债利率被推高 所有商业贷款利率 就被推上去了 全世界又拿美国利率 当风向标 所以这从来不只是美国的事情 另外东京那边利率一涨 同样的道理 悉尼的 温哥华的\n\n洛杉矶的房贷都一样上涨 车贷 企业建新厂 人工智能数据中心融资 都要多付利息 所以你看 英国和日本的节奏天差地别 结局却是一样的 而现在这个结局 已经不止属于这两个国家了 我们再把范围放大一点看 美国30年期国债利率 已经来到了2004年 以来的最高点 日本30年期国债利率 创了有记录以来的历史最高 德国30年期 是2011年以来最高 法国十年期是2008年以来最高 荷兰十年期也是2011年以来最高 那我人在悉尼 澳洲十年期国债利率 这个月也冲到了5.4%左右 同样是2011年以来最高 这些记录全都挤在 八月底到九月下旬 这短短的几个星期里边 那为什么会同时发生呢 答案还是政府债务 各国借的太多 放贷人开始紧张了 要更高的利息才肯借 那美国英国都是这样 连一向以管钱严格著称的德国 也开始大举借钱\n\n德国宪法里边有一道 限制政府借钱的法律 叫做债务刹车法律 这几年为了国防和 基础设施开了口子 2026年的预算 连同各种专项基金 新增借款超过了1800亿欧元 中东的战争呢 把油价推到每桶$100上下 美国八月份的通胀 还在3.4%左右 其中能源价格 比一年前涨了16% 美国加油站的汽油 一加仑从一年前的$3.2左右 涨到了$4.3美元左右 油价通胀利率一起往上走 各国政府一边要拖住经济 一边还在扩充军费 花钱的地方只多不少 还有一个细节 很说明问题 今年九月份 美联储 欧洲央行 日本央行 在同一个月里边都加了息 三大央行一起踩刹车 全世界的钱呢 同时变贵了 那借款人呢 已经找不到能拿到 便宜资金的地方了 那说到这里呢 你可能觉得啊 这都是国家之间的事情 其实它离你的钱包 只有一步之遥了 几万亿 收益率 利率\n\n这些词听着 离日常生活很远的 其实它会从五个方向 落到你的身上 我们一个一个来说 第一是房贷 债券利率决定房贷利率 你的房贷一到转贷 或者是续期的时候 你马上就能感受到 债券市场 给政府涨了房租 这笔涨价 最后会一路传导到 每一个有房贷的人头上 第二 税务 政府的利息账单越来越大 总得有人来付吧 美国联邦政府现在 每收上来100块 就有20块出头 要拿去付利息 那一种办法呢 是明着加税 另一种是靠印钱和通胀 悄悄把账摊到每个人头上 我所在的澳洲 在加税这条路上越跑越远 个人收入边际税率 最高超过了50% 已经开始有大批高产和富人 排队离开澳洲了 你所在的国家可能是加税 也可能是通胀 形式不同而已 但是最终买单的都是你 第三是你能享受到 的公共服务 利息是政府预算里 最先要付的一笔 它先从最上面切走了一块\n\n留给学校医院道路的钱 就自然变少了 政府要么少花 要么多借 那多借 又得多付利息 所以即使你付同样多的税务 也只能拿到更少的公共服务了 第四 储蓄 你现金放在银行里边 可如果存款利息追不上通胀 账面上的数字呢 一分没少 能买到的东西却在变少 比如存款一年 给你2%的利息 通胀却是3% 你看着钱多了 实际上每年都在亏掉 一个百分点的购买力 第五 工作 我当过上市公司的总经理 这个逻辑是很熟悉的 融资成本一上去 最先被砍掉的 往往是新招的人和扩张计划 借钱越来越贵 那公司就先停止招聘 再停止扩张 最弱的那些公司 撑不住就会倒下了 那受伤最重的 往往是跟这场债务游戏 最没关系的 普通打工人 这里头呢 没什么阴谋 政府借了太多的钱 借了太久 因为花钱永远比 收税更受欢迎 那通胀的成因呢 不止一个 打仗 油价 需求过热\n\n都会推高物价 但我个人的看法是一个政府 越依赖印钱和 压低利率来还债 通胀就越难真正降下来 通胀是隐形税 交这笔税的是 所有拿着现金的人 那么普通人有没有 什么应对的方法 下边说的呀 是我自己看这件事情的思路 现在大家就能对照着做 每个人的处境不一样 按你自己的情况判断啊 我先说现金 依我看呢 在这种环境里边 现金看着最安全 其实是最吃亏的 留够几个月的应急钱 付得起账单就行了 多出来的钱呢 没有必要大把压在现金上啊 再说国债 利率还在往上走的时候呢 长期国债的价格 会下跌的很厉害 这时候买进去会很痛苦的 期限短的国债 价格波动要小的多 拿来放一放问题不大 我自己的思路呢 一向是两头走 一头呢放短期国债 安全 也不影响近期用钱 另一头如果要放长期国债 你就假设这笔国债 你一定会拿到期 图的就是到期能拿回\n\n本金和约定的利息 那中间那些期限不长不短 看着稳的品种 既没有短债灵活 也没有长债的高息 所以呢我尽量少碰 再说股票 我更看重一种企业 成本涨了能把价格跟着涨上去 客户还不走 这叫做定价权 最好别人还很难抢走他的生意 也就是有护城河 这类公司负债低 现金流稳 扛得住更高的利率 具体是哪几家 每个人的判断不同啊 这里我不点名 最后说黄金 那些能印钞票的央行 自己却在大买黄金 世界黄金协会的数据 今年第二季度 全球央行净买入将近300吨 是有记录以来 第二季度最多的 中国人民银行 到八月底 已经连续22个月 增加黄金储备了 各国央行已经在用 自己印出来的钱 去买没有办法印出来的黄金了 我自己也配置了一部分黄金 打算长期拿着 但别指望它让你明天就发财 黄金说到底 就是个保险 它的用处是在市场最坏的时候 托你一把\n\n对冲的风险是无节制印钞 如果你想时刻关注财经财富 提升财富思维 别忘了订阅频道 顺便帮我点个赞 这里是艾财说 分享学校里边学不到的财商知识 我是Alex 我们下期再见拜",
+      "publisher": {
+        "id": "UCBbpxPZd43zllV0NMzj9nUg",
+        "name": "艾財說imoneytalk"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=ABRdFe03L4c",
+      "publishedAt": "2026-10-03T08:00:12.000Z",
+      "collectedAt": "2026-10-21T07:56:33.664Z"
+    },
+    {
+      "id": "youtube:LFrHquAyz0Q",
+      "title": "Coreweave's 2032 Bond Yields Top 15% (Oct. 15, 2026)",
+      "bodyMarkdown": "The other top story, CoreWeave's debt troubles are raising fresh questions about how the AI build-out gets financed. Bloomberg Intelligence says rising borrowing costs could push CoreWeave to lean more heavily on one of its biggest backers, Nvidia, and that could deepen concerns about circular financing across the AI industry.\n\nJoining us is our Bloomberg Intelligence senior credit analyst, Robert Schiffman. Explain your point of view on what's happened not not like in the last 24 hours. I think in the last 7 days beyond with CoreWeave and what you see in the credit story.\n\n\\>\\> Yeah, I think the market needs to just take a deep breath. It's not as bad as it seems. We are still bullish, but the reality is when when you play with a bull, sometimes you get the horns. And right now, there's a little bit of a lack of confidence that's going on. What happens is, at least in the credit markets, as you go down the credit\n\nscale, rising rates have a much bigger impact. So, what we've seen certainly over the past few days, CPI and PPI and concerns that oil prices are going to continue to go higher is the cost of financing is going higher. And names like CoreWeave need significant amounts of money over the next couple of years, 20, 30, 40 billion dollars annually. And\n\ncan they finance it? So, we you get a little bit of selling pressure. It has I think exaggerated moves. Um I'm not saying the moves are necessarily irrational, um but they're overdone.\n\n\\>\\> Let me let me jump in that. The irrational quote comes from a Bloomberg report uh based on a memo that that CoreWeave CEO Michael Intrator sent sent around starting markets are being irrational in their behavior. I I want to go back to the CPI point. Like to what to our Bloomberg tech audience, lots of people are trying to understand\n\nwhat's going on. Right, so CoreWeave has 52 billion dollars of debt. Um a lot of it unsecured now in distressed territory. And if I look at the financials, their obligations on interest payments are running ahead of their operating income on a quarterly basis, right? So, each quarter they owe more in interest than they're making it\n\non an operating income basis. Now, people think there's going to be a a Fed, sorry, it's hard day today, Fed rate hike coming in December. Explain why all that matters. \\>\\> Listen, Microsoft is AAA rated and they're negative free cash flow after shareholder returns. This is not about a short-term game of trying to generate\n\ncash flow. It's about a long-term game about building compute capacity and generating growth. And I don't think that story has changed at all. If you just go back over the last week, like what has changed? Again, it's just been a confidence issue. We haven't seen any prints, we haven't seen any earnings, we haven't seen any real change in demand.\n\nI think Mandeep just very easily explained away some of these Anthropic numbers. And we actually saw better than expected OpenAI numbers. If if if you do think about it though from a bigger picture perspective, this is somewhat contained. If you know, the ones who are spending the most amount of money and need the most amount of capital are the\n\nlarger hyperscalers, the Metas, the Microsofts, the Amazons. And those guys have ample access to capital. That's not going away anytime soon. I think if you look at CoreWeave, they are going to have to get creative. They're going to have to bring in additional friends like Nvidia, but they have good friends. You know, they have huge clients like Meta\n\nand Microsoft. And there's also other worlds of capital. It doesn't just have to be unsecured debt. There's a lot of private debt deals, there's chip deals, there are data center deals, there's secured loans. I think their access to capital will end up being ample. And this ends up being much more of a market blip than something has really changed.\n\n\\>\\> And as a reminder, Jensen Huang is just in speaking about CoreWeave in Sweden cuz he was asked about it and he says Nvidia does not need to backstop CoreWeave because its cost of capital is actually decreasing. Robert Schiffman of Bloomberg Intelligence, thank you so much.",
+      "publisher": {
+        "id": "UC4lKKWrLu8aPjOsVSXlppRA",
+        "name": "Bloomberg Intelligence"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=LFrHquAyz0Q",
+      "publishedAt": "2026-10-15T15:51:54.000Z",
+      "collectedAt": "2026-10-21T08:54:13.510Z"
+    },
+    {
+      "id": "youtube:NOQ2J_r7hyo",
+      "title": "Blackstone Hauls In $8.7B For Energy Transition Fund (Oct. 19, 2026)",
+      "bodyMarkdown": "One of the stories I highlighted this morning was we saw Blackstone raising an 8.7 billion-dollar deal. No big deal, they're raising money left and right out there. But this one was dedicated to cleaner energy. I thought kind of thought that was kind of passe with this administration in this country, but apparently not. Checking\n\nwith Paul Goldberg, he's a senior equity analyst for Bloomberg Intelligence. He covers all these big private equity companies. So, what's going on here with Blackstone? Again, they're still raising money pretty well.\n\nWhy are they looking at cleaner energy here? \\>\\> Thanks, Paul. I don't think it's necessarily just the cleaner energy, it's just energy in general. Energy and power is really the two key driving forces behind the private markets these days. So, a lot of money going in. So, it's clean energy, but if you look at the investments that some of these funds\n\nare making, it's a lot of the infrastructure into transition into transmission lines, into all sorts of supplies that go into things like data centers and so on. So, it's much broader, even though the mandate talks about the cleaner energy.\n\n\\>\\> Ah, so it's quite So, but this is power we I guess we've all learned power, water for these data centers to the center they're going to build them out like they say they are. You need all that stuff, right?\n\n\\>\\> You absolutely do. We actually published our private credit survey this morning. So, this isn't equity fund, but the survey's on the credit. \\>\\> Okay. We and we asked a lot of questions about the data center investors. Uh one of the the number one area where investors want to put money is power.\n\nMore than 50% of respondents said power is the area where they want to put money first over the GPUs and all the other things that possible and real estate and so on. \\>\\> So, how does it look now? Is it all of this funds seems to be mostly domestic, but as we're finding out it's an international market for power and and these guys now are being influenced by\n\nthat. The data centers, these guys is what I meant. Is this sort of something where they're diverging outside the US, maybe Canada, Mexico, other areas to make more of a longer power kind of channel?\n\n\\>\\> They certainly do. I mean, a lot of these funds are typically very often turn global. Uh we've seen Ares buying a similar assets in Australia and a lot of the alternative managers all over. We've seen deals done in Europe.\n\nApollo funded a lot of those some of those transactions and so on. So, I think a lot of it turns global very \\>\\> How crowded is this space now? \\>\\> Uh I think it is pretty crowded because of there are a lot of players, but so if we look at the tech guys' estimates in terms of the infrastructure that's needed for the data centers and so on, it is\n\nstill very vast. We're talking about trillions. Uh Apollo actually made some estimates a while back in terms of the markets. They said 30 to 50 trillion dollars of energy transition that's needed over the cycle. This is like a big number.\n\n\\>\\> That's like Fed numbers. \\>\\> And and that's just one part of it. The other part is 30 trillion dollars of power and utilities. So, you look at 60 80 trillion dollar opportunity and we're talking about a 9 billion dollar fund or trillion dollar infrastructure in that.\n\nSo, it's crowded, but there's a lot of opportunity. \\>\\> Talk to us about the the private credit business these days. Is it still Can I go out there and raise a quadrillion dollar fund if I'm a KKR or Blackstone?\n\nIs there still a strong demand for private credit today as there has been over the last 10 years? \\>\\> It is. It is. Again, numbers from the survey we the respondents say growth rate can be about 10% and this is of three different categories between the asset managers who manage the money, between the investors who put in the money, and the\n\nbankers who are kind of working together, competing, and so on. So, on average they said about 10% growth rate just for the core private credit in terms of replacement of traditional is about 15% potential, so a lot of opportunity there.\n\n\\>\\> So, just a red headline crossing the Bloomberg terminal, pretty interesting. Saudi Arabia postpones the FII investment event, postponing it to 2027, reflecting kind of the turmoil we're seeing in that part of the world. So, that speaks volumes, I think, as to what's going on out there geopolitically.\n\n\\>\\> Yeah, not fun times over there. They're actually That's the second or third thing now they've had in 2 weeks they've had to change. \\>\\> Yep, absolutely. So, what's going on, just broadly defined with your big You cover all the cool names, the Blackstones, the KKR's, and all that kind of stuff. Is Are these guys Here's the challenge. This is what I was\n\ntold when I first started looking at private equity. It's easy to raise money, it's really easy to invest it, it's really hard to monetize it. \\>\\> How are they monetizing or not monetizing?\n\n\\>\\> They haven't They're not having a very easy time, especially on the equity side. So, credit is kind of mature, so you don't really go around monetizing it, but on the equity side exits are difficult. So, the this energy, actually, this particular energy bucket, energy transition and likes of, has been doing really well. That's why\n\nthey're raising the fund 2 years after they just raised the pre- the previous successor at a 50% higher AUM. \\>\\> You know, you know what I don't like, and you can tell Mr. KKR, Mr. Blackstone this, when KKR sells a deal to, like, a Blackstone, there's my exit.\n\nThat's cheesy. That's just like moving the deck chairs around. \\>\\> Oh, in some cases, you can think about it this way, but in other cases, their portfolios are so large, and some of the M&A's fit in better.\n\nSo, some of these deals actually do make sense to extract extra value out of the combinations. \\>\\> So, energy specifically, what's the preferred exit? Are we just not even close to that? Meaning, you haven't seen a trend yet.\n\n\\>\\> Uh we haven't seen that much, but a lot of I mean, most of the exits are still in the M&A sales. It's not kind of IPOs. If you think of IPOs, it's maybe 10 to 15% of the activity in general, not just energy.\n\n\\>\\> All right. Paul, thanks so much. Appreciate it, as always. Here's another Bloomberg Intelligence analyst based in Princeton, in New York, which again, just like Jeff Langbaum, makes me believe somebody buying you a lunch or dinner today?\n\n\\>\\> Somebody is buying me dinner. \\>\\> See, that's my theory. The only way you get these guys out of their seats in Princeton, which is posh down there, great food, is they got to come to New York and somebody's buying them a lunch or dinner. So, there you go. My theory holds yet again. Paul Goldberg, he's a senior equity analyst at Bloomberg Intelligence.",
+      "publisher": {
+        "id": "UC4lKKWrLu8aPjOsVSXlppRA",
+        "name": "Bloomberg Intelligence"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=NOQ2J_r7hyo",
+      "publishedAt": "2026-10-19T17:20:49.000Z",
+      "collectedAt": "2026-10-21T08:51:59.060Z"
+    },
+    {
+      "id": "youtube:PFpHxOm4Sv4",
+      "title": "JPMorgan Deploys $230B In First Year Of Security Push (Oct. 19, 2026)",
+      "bodyMarkdown": "industries critical to US economic security. Let's bring in Bloomberg Intelligence senior bank analyst Herman Chan. Good to see you. So, this is something Jamie Dimon has talked about for a while. So, why now deploy this capital?\n\n\\>\\> So, last year they unveiled the security and resiliency initiative talking about 1.5 trillion dollars in in assets that will be deployed over a multi-year period. Uh today we've seen some numbers some core numbers about the first year of deployment 230 billion. That's great.\n\nUm Jamie Dimon has talked about in its most recent annual shareholders letter about really strengthening and supporting areas like energy independence and the military and and manufacturing supply chain. So, it's good to see that the the money is really going to to those areas in the first year.\n\n\\>\\> Uh this is also uh JP Morgan I'm struck by Jamie Dimon's comments to the Wall Street Journal this morning saying that JP Morgan wants to work with Trump administration. There clearly is a big investment case in this and JP Morgan has made that clear. But, is there just kind of the added benefit or a second purpose of getting closer to this administration?\n\n\\>\\> I think that's probably some of it, but um the the company themselves has stressed the importance of having the uh the the strengthening economy given the fact that we have a lot of uncertainties in the world in areas like the Middle East and the challenge with China and what's going on in Russia and Ukraine. So, uh I think having the support from the\n\nadministration is helpful, but I it it's it's a cherry on top of the issue of of strengthening the overall country. \\>\\> not the primary purpose, but a a nice add-on. Herman, thank you so much for joining us. Herman Chan from Bloomberg Intelligence.",
+      "publisher": {
+        "id": "UC4lKKWrLu8aPjOsVSXlppRA",
+        "name": "Bloomberg Intelligence"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=PFpHxOm4Sv4",
+      "publishedAt": "2026-10-19T14:03:40.000Z",
+      "collectedAt": "2026-10-21T08:53:11.939Z"
+    },
+    {
+      "id": "youtube:SzM9SRcolnI",
+      "title": "AI Borrowing Spree Hammers Tech Debt in Rush to Reprice Risk (Oct. 09, 2026)",
+      "bodyMarkdown": "How much do you like watch the credit markets? \\>\\> Well, that those are pretty crucial just because they're tied to data center debt. \\>\\> Yeah. \\>\\> And when it comes to credit as well. So, that's pretty crucial because you can see early indications there before you see it in the equity.\n\n\\>\\> So, you keep an eye on it closely. \\>\\> Yes. \\>\\> Cuz it's been kind of interesting some of the things that have been coming out when it comes to that. Um, we should point out kind of the big broad story.\n\nWe know about the finance, right? The amount of money to finance the AI build. It is causing a bit of a repricing of risks around some of the big tech companies. It's showing up in spiking prices for credit, insurance, heightened volatility, and also weakening performance. We can get into it, but Oracle, Broadcom, and SpaceX are SpaceX,\n\nexcuse me, which we just talked about in a big way among the borrowers that priced nearly half a trillion dollars of new debt this year to pay for the infrastructure powering artificial intelligence. That's a that's unbelievable the amount.\n\n\\>\\> seen anything quite like that, and especially heading into earning season soon starting with the big banks next week. At the end of this month, we'll hear from those big tech companies, and that's going to be the crucial question for all those AI-linked companies that have been borrowing to spend more on AI.\n\n\\>\\> you've got a rising rate environment, which we kicked off at 2:00 p.m. talking about like what does that do in terms of the cost to do all that financing? \\>\\> Exactly. All right, so let's get to it.\n\nUh, Robert Schiffman is senior tech credit analyst at Bloomberg Intelligence. He is tasked with keeping an eye on all of this. He's joining us remotely uh in New York on this Friday.\n\nBob, any cracks that you are seeing when it comes to credit broadly cuz it feels like this is part of our narrative right now when we look at the overall kind of market financial system?\n\n\\>\\> Well, I don't know about you guys, but I spend 100% of my time thinking about \\[laughter\\] credit. I actually dream about AI. I have to put my fantasy football league on the side because all I do every day is think about \\[laughter\\] my debt and spread levels and CDS. So, happy to be here to talk. I wish I could be in the studio with you guys. I was on\n\nthe road all week talking with investors. And I'll tell you something, they are long and strong. I've said this many times before. I have never been more bullish on the tech space than I am today, and I'm happy to repeat it right now. I think that even even, you know, the type of things that we're talking about were just wrong in many different\n\nplaces. You know, the the graphic you have on the bottom is that um the tech tech markets are being hammered. It's not true. It just isn't correct. If you look at spreads for even the the the widest trading hyperscalers, Oracle and SpaceX, they're tighter since July. And and yes, CDS levels are wider because it's being used as a trading hedging\n\nvehicle, not so much as a as a real risk of what fundamentals are telling us. Um so I just think that like the media loves to spin this whole AI bubble and the tech world and debt is all blowing up. And quite frankly, it's not. And I think the bond market is much stronger um than what um some people perceive it to be. And I will tell you for for all\n\nthose investors out there that own these hundreds of billions of dollars of debt, they actually feel much more comfortable um than what some people are saying. So I'm going to say in order for them is that um you know, they should be confident even with a lot more debt coming. Um they're in pretty good positions.\n\n\\>\\> So Skydance junk bonds hitting those fresh lows, but at the same time you're seeing that optimism on the tech side of things. Talk to us about the difference between that because where are, to Carol's point, the red flags versus where you're seeing those bright spots right now?\n\nCuz I get nervous when someone's really enthusiastic. \\[laughter\\] \\>\\> It's like it's a it's a contrarian indicator. \\>\\> Well, you know, grab yourself a cocktail right now because we're going to get more enthusiastic. So listen, there's a difference between what what's what happens with certain deals and what's happened with with the\n\ngeneral tech space. You know, with with Paramount, you know, this is a massive levered transaction done in both the high yield um and and grade markets, secured unsecured, loans to fund a very levered legacy style media business. Um so, technicals looked very poor. You have to try to price it uh for success.\n\nAnd listen, the deal's actually doing fine. It's It's It's down a little bit. I don't think there's a lot of people that are that concerned. Our analyst Steve Flint thinks that they're going to have the ability to dramatically de-lever. So, it's basically just, you know, um shaking out the the hedgies that were hoping that the they'd get a\n\nlittle bit of a rally on the break um to those real money buyers. Versus what's happening when the tech space is that people are now starting to understand that we're moving from a There's There's real demand for AI technology. There's real revenues. You You saw today in the Open AI Open AI article about run rate revs hitting 70-odd billion, which is a\n\nyou know, it's really nothing. That those numbers are going to be, I think, in the trillions in in in a half a dozen years. So, it doesn't really matter if it's 50 or 70 billion. But what we're starting to see is people are realizing AI monetization in the tech space. Also getting a much better understanding of what CapEx is going to look like and\n\nwhat funding needs are going to get to look like. Even when we throw out ridiculous numbers like $9 trillion of cumulative CapEx spend through 2031, it's not shocking people in I And I I think what we continue to see is that it's less of a question of can this stuff be funded? It's simply at what price can it be funded at? All these\n\ndeals are working. We know there are more coming. And what's happening What's happening is we're going to see a lot more creativity in how things are being funded. And that it's not just a data center leases. There's going to be chip financing. There's going to be a whole wide variety of those that have deep pockets that are going to lend their\n\nbalance sheets to those that don't. Um but creative financing both in public, private, secured, unsecured market, you know, there's no one really pushing back on fears that there's going to be a bubble that's going to burst. It's simply what's the right price to buy these bonds at? And what do I What would I rather own? But, a structured, secured\n\nlease or an unsecured, you know, double A or triple A home or scale or not? \\>\\> You you talk about kind of, you know, folks getting creative. Um, you know, the story we saw in Barron's, Amazon has had discussion with investors over a potential deal to spin off Nvidia AI chips into a special purpose vehicle, an SPV, backed by outside investors, which\n\nit could then lease back. Um, and they talk about that Amazon could raise cash to pay down its existing debt, protect its balance sheet by spinning off the hardware into an independent vehicle. I guess what I'm trying to understand then the read on that smart or does Amazon Amazon realize, yeah, there's some risk here.\n\nSo, I'm starting to take some moves to protect my balance sheet. \\>\\> It's genius and it's not really as as complicated as as people want to make it out to be. There There already are SPVs that have been created to help raise debt that's off balance sheet, um, that's that's being done at, you know, private levels that offer both\n\nincentives for the buyers as well as for the buyers. \\>\\> the risk is still there? I guess is my question. \\>\\> Well, listen. Ultimately, this is still the debt of the issuer, whether it's an SPV or not.\n\nRating agencies are making the adjustments for off balance sheet debt. Um, you know, analysts are making those adjustments. Not exactly 100% sure how to make the adjustments. They come to me every single day and ask for my model.\n\nUm, and and it changes because the the each each issue is a little bit different. But, why is it smart? You know, listen, they need to borrow the money. If you can borrow it at better terms for yourself. Um, if you can do it and expand your borrowing pool rather than just doing unsecured debt.\n\nRemember, they're doing debt in other countries as well. They're doing yen. They're doing Swiss francs. They're doing Canadian dollars. They're doing euros. It doesn't mean any of this is bad and they're not trying to hide anything. But, just simply creating an SPV, it's doesn't mean there's any more risk. It just means that there's an\n\nopportunity uh to borrow money in a different form from people who want to lend it to you. And quite frankly, those people are lining up. We have done podcasts with attorneys, with the bankers that can't write contracts faster. So, there's clearly a demand out there, and I don't think that there's anything shady just because somebody uses the term SPV. Um\n\nit's just simply a different alternative to raising capital. And when you have, you know, three or 400 billion dollars of CapEx and maybe, you know, 50 or 75 billion dollars of negative free cash flow, listen, you want to be creative in how you borrow. Um but I don't think there's anything shady about it.\n\n\\>\\> Mm, okay. \\>\\> Well, if you're not seeing any red flags just yet, particularly with tech tied to data center debt, what are you watching for to then peak kind of your interest there to see that there could be concerns? Like where those pockets would be?\n\n\\>\\> Well, listen, we're we're we're bond guys. So, we're always concerned about everything. And And there's certainly some cracks that are out there. You know, one is this this Oracle deal where they're where they've talked about force majeure. You know, a lot of people a lot of analysts have to learn how to speak French last weekend. Um where \\[laughter\\]\n\nthere's actual risk to like building this stuff. You know, it's You know, just think about if you're redoing your kitchen. You know, you need to get the permit. You have to line up the electrician and the plumbers and the cabinet guys. It doesn't all work out that smoothly. So, when you're building a billion-dollar facility or a\n\nten-billion-dollar facility, there's a lot of different things that can go wrong, whether it's power or construction or timing. What I don't think what's going wrong though is the demand uh for data compute infrastructure. So, we do have to watch from the um from the the the actual operational perspective um if there's going to be a weakness in\n\nterms of flow down so you can't deliver the compute power as fast as possible. \\>\\> I am really \\>\\> thing that is sort of a double-edged sword is rates. You know, there's a big focus on rates nowadays.\n\nUm the fixed-income community, they love uh higher yields, right? You know, the higher the yield, the better the returns in general. Um but we don't like seeing rates going up during short periods of time. But once they stabilize, demand for fixed-income products continues to go higher. So in in a near-term rising rate environment, we worry that people\n\nhave to stand sidelines, especially when there's such known borrowing needs. But over the long term, I think higher rates are going to be very very attractive, particularly to this space. You know, when you can buy double A long bonds with with six handle on them. And I think people are going to be waving those in in size. And certainly if you\n\ncan get it with a seven handle, it's going to be that much more. I do Listen, I do I do get worried that the market uh gets spun um bad news. You know, there's a reason when you turn on you know, your local news at night, you don't you don't hear about the firemen saving the baby and running out of the burning building until the the 27th\n\nminute. You know, it's everything starts with with almost with a fire and everything that's going wrong. And I think that's what's happened with these tech spaces that um people come on Bloomberg TV or doing a podcast get a lot more attention or in news writing negative articles. And the reality is the market is telling you the\n\nexact opposite. Equity valuations, they're they're near all-time highs and for good reasons. They're they're selling real product and there's real demand. And the growth that you have in this tech space \\>\\> I guess I just I guess I just just to jump in cuz we're we're running out of time here. You know, we've done some reporting and I'm redoing a kitchen so\n\nyou've totally freaked me out with your reference to redoing a kitchen and not getting permits. I'm living it. Um but it's actually going really well so far. But you know, Chris Bryant of Bloomberg Opinion had a good story about when you look at data center projects, either they don't have enough equipment, they have labor shortages, you have\n\ncommunities who are pushing back. So you know, the go-go mentality, there are some obstacles out there and you do wonder how that ultimately slows down the build here in the United States and then what that ultimately means for all the spending that's already being done and tapping credit markets. We've run out of time, but we know we will continue this\n\nconversation with you. Have a good weekend. Nice to catch up of course with our Robert Schifman, he's senior tech credit analyst at Bloomberg Intelligence joining us on this Friday.",
+      "publisher": {
+        "id": "UC4lKKWrLu8aPjOsVSXlppRA",
+        "name": "Bloomberg Intelligence"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=SzM9SRcolnI",
+      "publishedAt": "2026-10-09T20:47:42.000Z",
+      "collectedAt": "2026-10-21T08:55:05.728Z"
+    },
+    {
+      "id": "youtube:V4B_dtZKSuk",
+      "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+      "bodyMarkdown": "如果OpenAI倒下了 這是有可能的 整個美國會一夜之間陷入衰退 如果OpenAI倒下了 整個美國會一夜之間陷入衰退 說這句話的人 是電影大空頭裡邊那個 做空次貸的原型人物 史蒂夫 艾斯曼 上一次他看准的是 2008年的次貸危機 反向押注 市場崩盤之後 狠狠賺了一筆 這一次他盯上的是AI泡沫 說整個AI領域 正在面臨著幾大風險 包括了訂單來源 資金來源 大模型的護城河問題等等 不過奇怪的呢 是他手裡邊還拿著 英偉達的股票 埃斯曼最近上了訪談節目 40多分鐘我完整看完了 感觸特別深 我把裡面最精華的部分 整理出來做了這一期 跟大家分享 這輪AI行情最大的 風險到底在哪裡呢 什麼時候會爆開 美國什麼時候會發生經濟危機 應該如何調整自己的投資方式 保住自己的財富呢 歡迎來到艾財說 我是Alex 艾財說頻道專門分享學校\n\n裡邊學不到的財商知識 讓你財富覺醒 財富自由 歡迎您點贊訂閱 打開小鈴鐺 選擇全部 這樣就不會錯過艾財說 每周更新的精彩影片了 這裡的客戶集中度風險令人震撼 如果發現這家公司 實際上只有兩個客戶 你就會說我不想投資這家公司 一旦其中一個客戶 出了什麼差錯 這家公司就完蛋了 他打了個比方 一家只有兩個客戶的公司 生意再好也不夠穩定 因為走掉一個客戶的話 那生意就完蛋了 這種公司呢 他是不會投的 這就叫做集中度風險 在他看來呢整條AI鏈 就是這樣一家公司 英偉達把芯片賣給雲巨頭 雲巨頭 再把算力租給大客戶 其中最大的兩家 就是OpenAI和Anthropic 這條AI產業鏈收益的 集中度大得嚇人 附註7顯示 截至 7 月底 英偉達70%的應收賬款 來自僅僅五家客戶 警示信號 不是世界末日 但這是警示信號\n\n附註第七條是英偉達最新季報 10Q裡邊的一小段文字 交貨了錢還沒收回來 這就叫應收賬款 截至今年7月底 最大一家客戶 佔英偉達應收賬款的22% 前五家加起來有7成 營收同比漲了106% 但是應收賬款也在漲 半年時間裡邊 從385億美元一下子 漲到了631億美元 差不多呢 是一個季度營收的2/3 那季報還寫了啊 對信用好的投資級客戶 賬期可以放寬到90天 甚至一年 說白了 英偉達就是在 幫自己的大客戶墊錢 7成欠款 壓在5家客戶身上 算多嗎 那在我看來絕對算 可是欠錢的大多是 投資級的大公司 真賴賬的可能性並不高 所以這只是風險 並不一定會成為危機 他還估算 微軟 亞馬遜 Google的AI收入 65%-70% 是來自於OpenAI 和Anthropic兩家公司 甲骨文未來50%的收入 都來自於一家瘋狂虧損的公司\n\n埃斯曼呢 又舉了一個例子 甲骨文簽好的單 一半來自一家 瘋狂虧錢的公司 就是OpenAI 簽了合同還沒交貨的訂單 財報裡邊叫做剩餘履約義務 甲骨文2025年9月9號 公佈的財報裡邊 這個數字從1,380億美元 一下子跳到了4,550億 第二天呢 股價就漲了36% 是1992年以來股票表現最好的一天 這個數字呢 到今年9月份已經堆到了 6,640億美元 標普估計 接近一半來自OpenAI 單子簽了 錢卻沒收到 而且OpenAI還在瘋狂虧錢 所以問題就來了 既然整個圈子不是在虧錢 就是應收賬款收不回來 那燒掉的錢到底是從哪來的呢 在我看來 從英偉達到超大規模雲廠商 再一路向下 這整條產業鏈都寄託在 Anthropic和OpenAI未來 是否健康持續增長上 整個鏈條壓在兩家AI巨頭身上 那最後掏錢的都是這兩家\n\n而這兩家裡邊呢 他覺得OpenAI更弱一些 8月18號華爾街日報報道 第二季度Anthropic收入116億美元 OpenAI是67億 Anthropic的季度收入 第一次超過了OpenAI 在三個月里 OpenAI的收入 增長了10億美元 而成本卻增長了 30 億美元 用我們的話說 這就是'倒掛' 他說的成本 其實就是經營虧損了 包含給員工的股票和期權激勵 第一季度收入了57億 虧損是93億 第二季度呢 收入67億 虧損是123億 收入每漲一塊錢 虧損就要漲3塊 那如果收入漲3塊 虧損漲一塊 那是好公司 但是是現在賬是倒掛的 那問題就在這了 接著他拋出整個採訪之中 最重要的一句 假設OpenAI倒下了 那麼美國會一夜之間 進入經濟衰退 如果OpenAI倒下了 這是有可能的 整個美國會一夜之間陷入衰退\n\n注意這只是假設 他也說以後會有 更多的公司分擔壓力的 不過未來一年 這兩家公司必須要撐住才行 一家還在虧錢的公司 錢從哪來的呢 主持人說他們在虧錢 埃斯曼馬上糾正 這叫失血 這些公司都管自己叫做 盈利前公司 就是如果不算成本的話 就是賺錢的公司 他原本以為呢 錢來自風投 其實看了之後 主要是這五家在投入 亞馬遜 Google 微軟 英偉達 和軟銀 錢一邊投進大模型公司 訂單從另外一邊回流到 這五家巨頭購買算力 左手倒右手 那主持人想起 大空頭裡邊那場戲 把貸款打包再打包 叫做債務擔保證券 也就是CDO套CDO 埃斯曼說確實有點像 只要Anthropic和OpenAI 繼續保持非常非常迅速的增長 並且人們繼續向它們注入資金 這條產業鏈就能維持下去 但如果其中一家真的搞砸了 人們撤回資金或者不再想投資\n\n這條產業鏈就會崩塌 循環本身沒什麼問題 怕的是有人不再給錢了 要是收入壓在兩家AI巨頭 的比例從7成換成一成 那就是另外一回事了 這種玩法呢 歷史上曾經出現過 2000年互聯網泡沫時期 設備商借錢給客戶 讓客戶買自己的設備 朗訊答應給客戶的信貸和擔保 最多的時候有81億美元 真借出去的大概是21億 北電當年承諾了借出31億美元 客戶一倒 壞賬回流 那兩家的股價呢 都跌去了九成以上 北電在2009年1月份 申請了破產保護 那麼今天的情況呢 稍微有點不一樣啊 因為幾家巨頭的現金流都很強 不過口袋裡邊留存的 現金也開始明顯變少了 錢從哪裡來的 現在看清楚了 可就算錢管夠 這兩家還是有一個 繞不過去的麻煩 他們賣的算力太貴了 競爭對手正在用低價和 差不多的產品質量 瘋狂搶生意 那主持人就接著問 Deepseek的新模型\n\n還有Kimi K3 這些便宜模型怎麼看呢 他說這是商業上的 致命弱點了 跟集中度是兩回事 TOKEN是AI按用量計費的單位 他還提到了TOKEN Maxing 我把它翻譯成TOKEN管夠 之前很多公司的策略 是不管用不用得上 都讓員工24小時開著AI 因為當時的TOKEN還很便宜 只是後來呢 兩家AI巨頭大幅度上調了價格 才讓企業開始算計著使用AI了 需求其實並沒有變少 但是隨著便宜的 替代模型越來越好用 貴的那幾家靠什麼賺錢呢 去年AI雙巨頭壓低價格搶客人 但是今年開始價格回調了 Anthropic在3月份收緊了 高峰時段的用量額度 今年4月份 Uber的技術長說 員工大量用AI編程工具 Claude Code 原本以為夠用的預算 不到半年就已經被燒光了 TOKEN管夠的日子 已經成為了過去式\n\n你不需要在所有事情上 都用凱迪拉克（頂配） 這個行業儘管已經 投入了數千億美元 卻沒有任何護城河 今天大家用Gemini 明天用ChatGPT 後天又換成Claude 它們只是輪換著被使用 他的意思是重要的活 交給更貴的模型 其餘的交給便宜的 開放權重的模型 開放權重就是參數公開 誰都能下載來跑的開源模型 買菜用不著開勞斯萊斯嘛 可是幾千億砸下去 也未必砸得出護城河 大模型這行輪流坐莊 今天你領先 明天就會換人了 在開發者常用的平台 OpenRouter上 美國三家實驗室的使用份額 就是Google Anthropic 和OpenAI 一年裡邊從大概7成 掉到了大概3成 雖然這個平台偏開發者 代表不了全部企業 但是另一頭的數字 同樣說明瞭問題 TOKEN單價這兩三年 跌得非常厲害 企業總開支 反而越花越多了\n\n東西便宜了 但是用的就會更多 那麼護城河到底是什麼呢 街邊的雜貨店沒有護城河 因為對面明天就能再開一家 微信是有的 因為你的關係鏈都在上面 你換不走 大模型更像是打車軟件 哪家便宜哪家快 客戶就用哪家 一點忠誠度都沒有 那生意本身沒有護城河 怎麼辦呢 那就必須用恐慌敘事 加上嚴格的法規 強行建造護城河了 如果你希望有人用通俗 系統化的方式 幫你盯著這些宏觀變化 拆解成普通人聽得懂 做得到的行動步驟 那就記得訂閱頻道 也可以點擊影片 描述欄的專屬鏈接 註冊我們艾財會員 拿到市場第一手信息 未來我們還會開放 完整的個人財富 金融投資 地產投資 和避稅方面的直播和課程 你會拿到更詳細的資產配置 被動收入 稅收結構的實操指南 我認為AI末日論 完全是一個幌子 如果我是達里奧·阿莫代 且我真的真的認為 我的產品很危險\n\n確實需要放慢腳步 那我會推遲我的 IPO 他認為 末日論是個幌子 他的推理是這樣的 大公司擔心便宜模型搶生意 就製造恐慌 讓政府出手去監管 最好只剩兩三家持牌的玩家 再把中國模型擋在門外 其實就是想要靠法律 來挖出一條護城河 他的判斷標準很簡單 真怕AI失控 那你就推遲上市就好了嘛 一個人肯拿自己的錢去冒險 我才會把他當真 真覺得危險 為什麼不停下來呢 他引用了馬斯克的話 管這叫做高維棋局 看他把錢放哪 比聽他說什麼都管用 一邊說產品可能毀滅人類 另一邊問你要認購多少股份 這種操作確實是很奇葩的 在訪談節目錄制之後 9月28號 路透社披露了 Anthropic的招股書 報道說最快11月份上市 確實沒有推遲 可這份招股書用了 將近80頁來講風險 馬斯克呢 也是常說AI風險很大 辛頓、本吉奧這些獨立研究者\n\n也警告了很多年了 我的判斷呢 是真的擔心 和生意上的考量 其實是可以同時存在的 那主持人繼續問 那雲巨頭呢 有沒有護城河呢 他說有 就是錢 沒幾家公司掏得出 1,000億美元 建造數據中心 只有這些雲巨頭可以 雲巨頭的競爭優勢 居然是靠錢砸 可這兩年呢 他們手裡邊的現金可 真不像之前那麼多了 三四年前 微軟亞馬遜Google的現金 多到花不完 沒辦法只能回購股票了 那今年算上Meta 四大巨頭買芯片 建機房的資本開支 加起來超過了7,000億美元 平均每天20億啊 公司賺來的現金減掉 必須買的設備的錢 剩下的也就是點零花錢了 財報里叫做自由現金流FCF 亞馬遜過去12個月的 自由現金流是 負的76億美元 甲骨文也轉負了 Google 微軟的餘糧也越來越少 Google自上市以來 就再沒籌集過資金的公司\n\n要通過股權融資籌集850億美元 而非債務 我一定會說 你腦子進水了吧 這麼會賺錢的公司 為什麼要發股票呢 谷歌上一次發新股啊 還是2006年 所以埃斯曼才會說啊 如果兩年前你告訴他 谷歌會發新股來籌資 他會說你瘋了 今年6月1號 Google母公司Alphabet宣佈 800億美元的股權融資 其中伯克希爾就是巴菲特的公司 認購了100億 第二天定價的時候 上調到了847.5億 超過了巴西石油 2010年700億美元的紀錄 成了史上最大的單筆股權融資 另一邊的甲骨文 被曝訂單押在 OpenAI身上之後 股價從330美元一路跌到200 再跌破150 9月11號好財報讓股價衝高 但是最後卻收跌 甲骨文被下調了評級 標普把它評為BBB- 只比垃圾債券高出一級 甲骨文的債務信用評級 離垃圾只差一檔了 意思呢是還算投資級\n\n但是已經是投資級別 裡邊最低的一檔了 標普今年7月份把 甲骨文從BBB 下調到了BBB- 還點名OpenAI是 關鍵的信用風險 另外一位大空頭 邁克爾伯里 在社交平台X上邊發帖 說巨頭把服務器的折舊年限 從3到4年拉到了5到6年 他估計 2026年到2028年(口誤) 會少記1,760億美元的折舊 100億美元的芯片 按照三年攤銷 每年扣33億美元 按6年攤銷 每年只扣17億美元 賬面利潤就多出了16億 現金一分沒多 恕我直言 Michael Burry的觀點過於學術化了 但埃斯曼覺得呢 伯里太學術了 舊芯片還是照樣搶手的 他說老版的A100每顆 還值將近5,000美元 Openai如果倒了 那也不是折舊的問題 好那錢芯片模型都講完了 還剩一樣東西 比芯片還難買 那就是電力 我不會投大模型公司\n\n因為它們沒有護城河 現在我對雲巨頭會有點警惕 我會去看那些拿到這筆現金流的公司 他說想預測市場的都是傻子 他最關注的呢 還是賣鏟子的那些公司 也就是拿到這筆 資本開支現金流的公司 英偉達、美光、GE Arista、思科、伊頓 這是他的名單 我沒有推薦的意思 但是賣鏟子就一定安全嗎 思科就是2000年 最紅的賣鏟人 股價那一年3月見頂 之後兩年多跌去了八成以上 直到2025年12月 才收復當年的高點 這一等 就是25年 賣鏟子的生意呢 比淘金的生意穩 可是買在山頂上 風險依然不小 以後AI智能體幫你比價 訂機票訂酒店 你就不再是旅遊網站的客戶 AI才是客戶 網頁側欄那些廣告 AI根本就不用看 那麼這些網頁廣告 的生意就會消失了 支付環節也可能會受到衝擊 深度嵌在企業流程裡邊的軟件 相對會安全一些 那主持人問\n\n現在的情況像不像1999年 埃斯曼說 現在下結論還太早 可要是兩家AI巨頭裡邊 有一家出事 市場就會有大幅度的回調 很可能要靠下一代人 來收拾殘局了 採訪收尾的時候呢 他講了自己的選股紀律 故事導向 但是要講理性 Palantir再好 如果太貴的話 就是不能買 他喜歡別人搶不走生意的公司 他喜歡別人搶不走生意的公司 比如說穆迪和Visa 最討厭管理層賣股票的公司 週期股他是基本不碰的 那麼整個AI產業鏈 現在越來越不穩定 在AI巨頭連續 虧損的大背景下呢 資金來源就是我們要 關注的市場領先指標了 如果資金出了問題 整個AI產業鏈就會崩盤 最早一波出錢的 是風投和各家巨頭 自己的現金流 包括英偉達 谷歌 微軟等等 第二波是快要耗盡 現金流的巨頭們 自己增發股票和債券 向市場籌資 第三波也就是下一步\n\n是大模型公司自己上市 像你我這樣的普通人籌錢 這三根資金支柱 有一根倒下 產業鏈就會出問題了 我的判斷呢 是這輪行情不會因為 某一個公司的一份財報而崩掉 真正有實質影響的是 某一次融資沒人接盤 所以接下來的半年呢 比英偉達財報更值得 關注的是三件事情 Anthropic上市 能不能順利定價 OpenAI下一輪融資 有沒有人接盤 長期利率或者說資金成本 也就是美國10年期國債利率 能不能從紅線上退回來 如果有一項亮起紅燈 就是你該撤出 AI敘事的領先指標了 當然AI敘事也可能一直撐下去 需求確實存在 增長也是 只是不知道需求能不能 撐住整個行業的增長預期 不過我寧可少賺一點 也不願意賺這波 行情的最後一分錢 所以呢我的兩條建議是 想參與AI 就站在賣鏟子公司那一邊 而且需要接受風險 新上市的大模型公司呢\n\n至少等他交出上市後的 第一份財報 再決定要不要買吧 如果你想時刻關注財富財經 提升財富思維 別忘了訂閱頻道 順便幫我點個贊 這裡是艾財說 分享學校裡邊學不到的財商知識 我是Alex我們下次影片見拜",
+      "publisher": {
+        "id": "UCBbpxPZd43zllV0NMzj9nUg",
+        "name": "艾財說imoneytalk"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=V4B_dtZKSuk",
+      "publishedAt": "2026-10-07T11:16:13.000Z",
+      "collectedAt": "2026-10-21T07:55:59.145Z"
+    },
+    {
+      "id": "youtube:V4rkU57SEdw",
+      "title": "护士，加大剂量！NaNa说美股(2026.10.21)",
+      "bodyMarkdown": "大家好，歡迎回到娜娜說美股 今天是10月21日週三 油價回落提振市場風險偏好 SpaceX和SMCI財報也重燃投資者對AI投資永續性的信心 推動美股盤中震盪走高 尾盤因為一則地緣消息快速跳水 路透社報道稱 美國國務院正準備下令海灣地區部分美國使館工作人員及其家屬撤離 兩名美國官員表示 此衝突是因對伊朗軍事行動可能啟蒙 尤其是與伊朗結盟的也可能在胡塞胡塞胡塞隨後發生衝突而再次被 嚇起來和伊朗結盟的也 可能 發生 了這門 胡塞亂馬 院發言人就出來澄清 稱相關消息不準確 強調撤離安排針對的是沙特境內的非緊急人員 並非此前市場擔心的整個海灣地區大範圍撤離 於是大家又鬆了一口氣 股指隨即又拉回來收復部分失地 這一天天的，各種真假消息層出不窮 搞得人一驚一乍的 最後三大股指集體收漲\n\n標普500收漲0.58%，納指收漲1.05%， 科技股今天領漲市場，道指收漲0.69%。 今天這輪反彈 最重要的催化劑還是AI交易暫時止血 雖然週期股多數也表現不錯 韓國AI數據中心企業Elice股價今天飆升30%， 收復了昨天上市首日32%跌幅中的大部分 韓國KOSPI指數也反彈了 據高盛稱 外國投資者結束了連續18天的SK海力​​士淨賣空78WTI原油 也反彈了 據 高盛稱外國投資者結束了連續18 天的 SK海力​​士淨賣空7WTI原油伊戰前水準 另外 俄羅斯計畫本週四向美國發運4萬噸柴油 相當於約30萬桶 俄羅斯能源部長稱 相關燃料供應合約的簽署已進入最後階段 後續還將安排更多批次的運輸 今晚 所有人的目光都聚焦在Meta身上 公司盤後財 報 向大家證明了一件最重要的事 就是 給AI的\n\n錢3.83美元，年增265%， 也高於預期3.57美元 整合Muse AI 演算法後的廣告推薦和自動化投放效率極其驚人 正在轉化為真實的收入增長 因此 儘管Q3自由現金流量為-21.2億美元 三季度資本開支燒了349億美元 為了建力中心、買芯片和維持AI基礎設施 現金流被劇烈侵蝕 但市場願意繼續為Meta的AI投資買單 股價盤後上漲 公司預計Q4營收將在730億至760億美元之間 高於預期的736億美元 公司還宣布計劃於2027年1月發行無投票權的C類普通股 以股票分割安排為基礎 在不改變祖克柏控制權的情況下推進股本調整 另一家巨頭特斯拉盤後股價對財報反應平淡 第三季營收為280.5億美元 同比持平 每股收益為$0.48，年比-4%。\n\n都略高於預期 自由現金流15 億美元 Optimus人形機器人已在弗里蒙特工廠投產 財報數據本身並沒有亮點 主要靠機器人想像空間和與SpaceX 合併的預期托著 另外 盤後還有兩家半導體公司發布了財報 一個是德州儀器，公司Q3營收$60.6億 同比+28%，環比 +11 億； 公司在第三季向股東返還了$13.5億 其中包括$13億的股息和$4800萬的股票回購 Q4指引樂觀 公司CEO指出 工業、汽車和數據中心市場均呈現廣泛增長 財報也可圈可點 股價盤後上下拉鋸後 只漲了一點 股價最近雖然也跟隨 但 板塊迴調 的 迴調 德州儀器並不是純粹的AI概念股 它的業務覆蓋模擬晶片和嵌入式處理器 最近兩年股價漲幅也不像其它AI股那麼誇張 所以漲的少跌的也少 另一家是LRCX 公司2027財年Q1營收82.2億美元\n\n同比+54%， 環比+22%，預期為81.43億美元 ； 2.2美元，年比+74%， 環比+21%，預期為2.19美元 這麼好的財報，股價居然盤後大跌了 因為公司下一季度盈利指引約86億美元 只略高於市場預期的85.7億美元 盈利指引也缺乏明顯驚喜 股價自去年年中以來，已經大幅上漲 不估值不低估值，未來指引僅僅符合預期 可能就不足以支撐股價繼續上行 因為市場交易的不是過去一個季度有多好 而是未來幾個季度還能好到什麼程度 這也說明投資者對AI股票的估值和後續增長的要求越來越高 以上這幾家公司股價績後表現不一 好壞參半 半導體ETF SOXX盤後小幅走低 看來META財報對它的刺激有限 但盤後不做準 最終還是得看明天盤中的實際情況 今天SOXX剛剛收復5日均線 單日反彈只能說明拋售壓力有所緩解\n\n還不能證明市場對AI投資的質疑已經消失 如果能延續反彈勢頭 那麼下一個目標是上方10日均線525 然後是50日均線535 最樂觀的情況下目前只看到半年線545 但是我覺得拉到這裡還是有點難度的 標普500指數今天收在所有均線之上 但整體上還是處於7600-7800區間震盪 QQQ則終於站上了5日均線 昨天影片裡我們曾分析過 QQQ連續9個交易日在5日均線下方運行的狀態不能持續 1到3個交易日內必然會反彈站上5日均線 所以對於今天這個交易 大家應該都是不意外的 市場原本就存在反彈需求 SpaceX、SMCI以及其他公司的業績 只是為資金反彈大家應該都是不意外的市場原本就存在反彈需求SpaceX、SMCI以及其他公司的業績只是為資金 反彈大家應該都是大 理由不是 大盤報 所以財報才被當作利好解讀\n\n當然這也需要宏觀面的油價與利率配合 至少得保持穩定不要飆升 另外，還有個好消息就是 隨著Q3財報季回購靜默期解除 企業回購窗口很快就要重新開啟了 高盛數據顯示 本週雖然只有12%的標普500成分股開放回購窗口很快就要 重新開啟了高盛數據顯示 本週雖然只有12%的標普500成分股開放回購 窗口很快就要重新開啟了高盛數據顯示本週雖然只有12%的標準 但是企業回購只是潛在的需求來源之一 併不代表股指就能從這裡一路漲上去了 目前我們還是以緩解性反彈來看待這1-3天內的上漲 後面如果QQQ站上了748美元或者標普500站上了7800點 那時候我們再說反轉 沒有達到這個目標之前 行情仍有可能反復出現 地反動人 最近地出戰 旦的說選舉前不會打伊朗 可是現在感覺氣氛好像有點不對 據以色列第12頻道電視台報道: 本週早些時候\n\n數十架以色列戰鬥機和加油機飛越敘利亞和伊拉克上空 逼近伊朗邊境 在即將進入伊朗領空前掉頭返回以色列 報道稱 以方在行動前向美國進行了通報報告 稱此次行動屬於軍事演習和力量展示 旨在對伊朗進行威懾 相關消息 「某些以色列官員實際上企圖誘使伊朗向以軍戰機開火 從而為以色列對伊朗發動軍事打擊提供藉口」。 所以這事兒看來還是得小心點兒 萬一發生了 隨時可能打斷原本正在形成的反彈 今年也就只剩下2個月了 別辛辛苦苦幹10個月 最後2個月吐出去 其它個股方面 SMCI是推動今天 AI 板塊反彈的 大 功臣之一 我 看富途和納斯達克官網上 都寫著 公司 財 報要一個催化劑引發空頭回補的時候 公司並未說明為何選擇在原定財報公佈日期之前提前披露初步業績 只表示將於11月3日照常舉行財報電話會議\n\n進一步討論截至9月30日季度的經營業績績 最新公佈的初步業績顯示 AI伺服器需求依然很強勁 公司營收與利潤都超出市場 並上調業績指引 更重要的是毛利率現在升到12%-12.5%之間了 此前為10.4%-10.8%。 股價開盤一度漲近15%，盤中回落 尾盤收漲9.55%。 感覺華爾街還是不太信任這家公司 寧願抱團隔壁的DELL 另一個大功臣SPCX今天股價日內也同樣衝高回落 但它回落情有可原 畢竟有13億股將於明天週四解禁 股價能扛住這個潛在的賣壓 收漲7.8%， 已經是非常牛比PLUS 他所持 馬 總 畫 AI相關需求依然真實而強勁 這不僅提振了市場對SpaceX本身的信心 也改善了對更廣泛AI生態的整體情緒 手術機器人龍頭ISRG財報後 股價今天盤前一度下跌近9%， 盤中迅速回升，收窄了跌幅\n\n日K在半年線上企穩回升 然給它拉出一根長陽線 承強接力度很績 達前第三季 但很好 啊 芬奇手術量增速放緩至10%， 這是連續第三個季度出現增速回落 僅持平市場預期 股票在昨天盤後和今天盤前遭到了大幅拋售 不過市場反應似乎有點過度 在華爾街機構們組團唱多後 股價幾乎拉回到昨天財報公佈前的水平附近 但今天這日內反彈的似乎也有點過頭組 可能還會 再次 走回 明天 研究人員借助AI 發現PHP程式語言中存在兩個嚴重安全漏洞 部分漏洞甚至可能讓攻擊者無需登入就遠端執行程式碼 歐洲多國政府及公共機構網站今天預防性下線 半個歐洲的政務網今天集體拔網裝死 事件刺激網路安全股集體走強 Data dog、Cloudflare等多股大漲 Cloudflare推出了針對PHP漏洞的免費緊急保護措施 但同時強調，這些措施只是臨時應對\n\n網站運營商仍需盡快安裝PHP補丁 隨著AI模型的演進 全球網絡安全需求與防護壓力顯著升溫",
+      "publisher": {
+        "id": "UCFhJ8ZFg9W4kLwFTBBNIjOw",
+        "name": "NaNa说美股"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=V4rkU57SEdw",
+      "publishedAt": "2026-10-21T22:46:07.000Z",
+      "collectedAt": "2026-10-22T01:22:34.500Z"
+    },
+    {
+      "id": "youtube:YpmIag2gAvs",
+      "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+      "bodyMarkdown": "連續26個星期了 美國政府每一個星期 都在放出應急石油儲備 全世界最大的產油國 正在一桶一桶的掏空自己的油庫 到上個星期為止 庫存降到了2.85億桶左右 44年以來的最低值 更奇怪的是 就在同一個時間段 美國財政部悄悄把 回購國債的規模 翻了一倍 同時美國家庭 在股市裡邊的錢 佔淨資產的比例 剛剛創了歷史記錄 比2000年互聯網泡沫 的時候還要高 那麼這三件事情呢 每一件單獨拿出來 都可以說是巧合 但是三件事情同時發生 可就不是巧合了 全球最大的產油國 為什麼要掏空自己的緊急油庫 財政部翻倍買國債 到底是想在遮掩什麼 而你的資產 可能正在面臨 過去40年以來的最大危險 歡迎來到艾財說 我是Alex 艾財說頻道專門分享 學校裡邊學不到的財商知識 讓你財富覺醒 財富自由 歡迎您點贊訂閱 打開小鈴鐺 選擇全部\n\n這樣就不會錯過艾財說 每周更新的精彩影片了 我們先說石油儲備 美國有一個東西 叫做戰略石油儲備 英文縮寫是SPR 說白了就是國家的 緊急備用油庫 那幹什麼用的呢 哎就是萬一出了大事 颶風來了 油井停了 海峽被封了 油運不進來了 就打開這個油庫 往外放油 目的很簡單 讓加油站不斷供 讓老百姓的日子還能正常過下去 十年前這個油庫 存了將近7億桶油 接近是滿的 但你看看現在 只剩2.85億桶了 砍掉了一大半還多 剩了不到四成 儲備下降可不是今年才開始的 但是今年確實掉的最猛 為什麼呢 因為2026年年初 霍爾木茲海峽的問題 油往外運不出來了 那國際能源屬 緊急搞了一次 歷史上規模最大的 集體釋放儲備原油行動 總量超過了四億桶 美國分攤了其中的1.72億桶 從三月到現在呢 每個星期都在往外放油 26個星期從來沒有間斷過\n\n你可能聽說了 美國總統 說要用委內瑞拉的石油 來補這個缺口 聽著呢是相當完美的計劃 其實根本不是那麼回事 這基本上是個幌子 委內瑞拉產的原油 又重 含硫量又高 行內叫做重質高硫原油 而美國戰略儲備系統 對油的品質有硬性要求 油夠輕夠乾淨 才能往裡邊存 有一個叫做API度數的指標 專門衡量油的輕重 達不到最低限 是不收的 委內瑞拉的原油 偏偏就過不了這個門檻 你想想你家車燒95號汽油 有人跟你說 別擔心 我搞了一大車柴油過來啊 謝謝我車沒法用 那能源部長 後來自己也松口了 說實際上走的是置換的路線 什麼叫置換呢 就是先把委內瑞拉的重油 運到商業油庫裡邊存起來 再拿它去跟美國本土的產油商 換輕質的原油 然後再把換來的清油 存進戰略儲備 那麼這一圈倒騰下來 最快也得2027年 才能開始往回補啊 你想想油庫存量現在\n\n每個星期都在往下掉 回補還要等一年多 這個空檔期 萬一出事誰來頂呢 那麼問題來了 全球最大的產油國 自己不缺油 出口量全球領先 為什麼還在拼命往外放 自己的應急庫存呢 我的判斷是這樣的 油價直接影響通脹的數字 油價漲了 柴油先跟著漲 柴油呢是全球貨運的燃料 柴油一漲 所有靠卡車運輸的東西都跟著漲價 你在超市買的雞蛋 工地上用的水泥 快遞小哥手裡邊的包裹 全部變貴 通脹數字呢 一旦失控 美聯儲就沒有空間降息了 就沒有辦法低成本 借新錢還舊債 所以油庫的真正作用 已經不是應急了 它變成了一張管理通脹的牌 政府在用緊急儲備 去摁住油價 讓賬面上的通脹數字看得過去 給自己繼續借錢 爭取一些時間而已 但是這張牌呢 就快要打完了 現在只剩2.85億桶了 再這麼放下去 要不了幾個月 存量就會跌破歷史最低 到時候中東再升級一步\n\n或者墨西哥灣再來場大颶風 政府手裡邊 已經沒有緩衝墊了 到時候油價就不是漲的問題 而是會飆漲 柴油先跳漲 運費跟著漲 超市貨架上的雞蛋牛奶麵包 紙巾洗衣液全都飛漲 你以為現在物價夠貴了嗎 等油庫徹底見底的那一天 你再回頭看 今天的價格可能還算便宜的 那油庫的問題夠嚴重了 但是接下來的第二件事情 才是真正讓人提心弔膽的 2026年8月份 美國財政部發了個公告 說要把長端國債的 回購規模翻倍 從每次最多20億美元 直接拉升到至少40億 9月09號開始執行 官方給這個操作取了個名字 叫做流動性支持 英文叫做Liquidity Support 你聽著這個名字 就跟在送溫暖一樣 你仔細想想 這到底是在幹什麼呢 政府要花錢 沒錢了你就必須要發債借錢 以前是外國央行在買 日本在買 海灣主權基金也在買 大型養老基金在買\n\n大家都挺開心的 美國國債嘛 全世界公認最安全的 但是現在的問題呢 是美國每個星期 要賣出去的債 實在是太多了 買家不夠用了 30年期國債的拍賣利率 飆升到了5.2%以上 是2001年以來的最高點 利率越高 說明願意借錢給 美國政府的人就越少 美國政府要付的利息也越高 那怎麼辦呢 政府開始自己買自己的債了 這個鏈條呢 我給你捋一下哈 美聯儲印新錢 買政府發的短期債券 那政府拿到了現金 轉手用這筆現金 去回購自己之前 發的長期債券 也就是那些呢 10年20年30年到期的 一買一賣之間 長期借錢要付的利息 被人為壓低 政府的借貸成本 也跟著會降下來 新錢從一個口袋出來 繞了一圈 又進了另一個口袋 利率在過程之中被強行壓低 其實本質上就是變相的印鈔 只不過換了件馬甲 叫叫做流動性支持 那大多數人\n\n是根本看不出來怎麼回事的 你可能想啊 這不就是當年 量化寬松那一套嗎 哎差不多啊 但是這次更隱蔽 上回搞量化寬松的時候呢 至少大家都知道 美聯儲在大買特買 因為新聞天天講嘛 這次名字改了 規模小了一點 悄悄的就開始了 大多數人連這條新聞 可能都沒看到過 到2026年8月份為止 美國國債的淨利息支出 已經超過了一萬億美元 同期軍費開支是多少呢 8330億利息 比軍費多了將近200億 什麼概念呢 美國政府光花在還利息上的錢 比養全球最強的軍隊 還要多出一大截 一個國家利息開支比軍費還高 你說這賬本還能健康嗎 想知道這條路走下去最後是什麼樣子 我們就要看看日本 日本央行在高峰期 自己買了本國 超過53%的國債 一半以上都是央行自己消化掉的 那結果呢 日本打工人的工資 名義上最近終於漲了 2026年春季談判\n\n漲了5.26% 數字看著是挺漂亮的哈 但是你把通脹一扣除 實際工資 連續四年是下跌的 30年了 日本工薪階層的實際購買力 基本上沒有改善 上面印鈔 上面爽 底下打工人默默幫忙買單 這種操作有個專門的名詞 叫做金融抑制 英文叫做Financial Repression 你不用記這個詞 記住意思就行了 政府把利率壓到 低於通脹的水平 讓存錢的人不知不覺幫政府還債 你的存款利率3% 通脹5% 那你每年實際上虧了2% 那你以為錢放在銀行安全嗎 其實你每天都在補貼政府 這可不是陰謀論 是經濟學教科書裡邊 白紙黑字的標準操作 二戰之後呢 美國就用過一輪了 當時政府的債務佔GDP 從120%降低到了30%多 效果非常好 但是那一輪的代價呢 整整一代美國中產階級的存款 縮水了將近一半 那回到今天啊 那幾年美國M2\n\n也就是廣義貨幣供應量 兩年之內暴漲了大概40% 那後果大家都看到了 消費者物價指數CPI 最高衝到了9.1% 是幾十年的峰值 那現在呢 名字換了 手法改了 同樣的事情正在以 另一種方式呈現 政府在印錢 利率被人為壓住 那你有沒有想過一個問題 印出來的這些錢 導致資產增值的那一部分利益 最後流到了誰的口袋里呢 如果你希望有人用 通俗系統化的方式 幫你盯著這些宏觀變化 拆解成普通人聽得懂 做得到的行動步驟 那就記得訂閱頻道 也可以點擊影片 描述欄的專屬鏈接 註冊我們艾財會員 拿到市場第一手信息 未來我們還會開放 完整的個人財富 金融投資 地產投資 和避稅方面的直播和課程 你會拿到更詳細的資產配置 被動收入稅務結構的實操指南 這個答案 可能比你想的還要扎心 這個月呢 有組數據出來讓我愣了好一會\n\nSpaceX OpenAI 和Anthropic三家私人公司 合計估值大概是5.2萬億美元 當然SpaceX現在已經上市了 那什麼概念呢 過去45年 美國所有科技公司 上市第一天的總價值 加在一起大概是四億出頭 也就是說呢 三家還還都沒全部上市的公司 估值已經碾壓了45年來 全部科技巨頭 上市首日的總和 從蘋果到Google 從亞馬遜到臉書 你能叫得出名字的科技公司 全部加起來 當初上市的時候 還不如這三家 而這三家裡面 SpaceX是已經上了 另外呢還有兩家沒上 你手裡邊有退休金 有指數基金 但是你有錢 你也買不到上市的配額 我覺得這就是最扎心的地方 政府印鈔錢流進金融市場 推高了資產價格 但是漲了以後呢 最大的受益者是誰呢 是背後持有這些 未上市巨頭股權的 極富裕的階層 你和我能碰到公開的市場 漲也漲了\n\n但是漲的部分 全擠在那麼幾只股票之上 印出來的錢呢 在往上走的過程之中呢 被一層一層賺走了 到了普通人這一層呢 你能賺點錢 那都是幸運的 那普通散戶 能碰到的公開市場 實際是什麼情況呢 美聯儲最新的數據 美國家庭淨資產裡邊 接近38%放在了股票上面 這包括你直接持有的 也包括了退休基金 和指數基金間接持有的 38%這個比例 是有記錄以來絕對的最高值 我給你個參照物啊 2000年互聯網泡沫最瘋的時候 這個數值是31% 2008年金融危機之前 大概是25% 現在呢比那兩次都要高一大截 而更要命的是集中度 你以為你買了 標普500指數基金 裡邊500家公司很分散 很分散很安全嗎 標普500前五的科技股 包括英偉達 蘋果 微軟 谷歌 亞馬遜 光這五家呢 就佔了指數權重的30%還多 那得將近三成的錢 壓在了五家公司身上\n\n你覺得這還叫分散投資嗎 摩根大通呢 有份報告數據就更扎眼了 標普500前十大權重股 佔了指數差不多40% 而2000年互聯網泡沫那一次呢 前十名才不到27% 現在的集中度 比當年互聯網泡沫還誇張 而且誇張的可不是一點半點 你往深了想啊 當所有人都持有 同一樣東西的時候 表面上看價格在漲 但這個漲呢 是人多造成的 可不是東西本身好造成的 所有人的錢往同一個方向推 那價格自然就會往上走 一旦方向反轉了 你要賣旁邊的人也要賣 隔壁老王也要賣 退休基金也要賣 那你賣給誰呢 已經沒有接盤俠了 能買的人手裡已經沒錢了 那踩踏就是這麼來的 不是因為公司變差了下跌 是因為跑的人太多了 出口太窄 2000年互聯網泡沫 破了之後 標普500花了15年 才回到通脹調整之後的水平 那講到這裡呢 你可能覺得挺絕望的\n\n但是有一群人看到了這一切 而且在做跟普通人 完全相反的操作了 投資這件事情上 我一直相信一句話 不聽別人說什麼 要看別人怎麼做的 一個人在電視上 在社交媒體上說什麼不重要 他把錢放在哪裡 這才最重要 先看看華盛頓那一位 現任總統特朗普 今年六月份財務披露文件顯示 總統個人賬戶做了超過1000筆交易 其中最引人注目的幾筆呢 大額賣出了Meta 也就是臉書母公司 賣出了Palantir 這兩個呀 炒過美股的朋友都知道 是這兩年最火的明星科技股 那他買了什麼呢 第一次買入了伯克希爾哈薩維 就是巴菲特的公司 本質上是一個巨大的保險帝國 它不產生任何超額利潤 但是每天都在穩穩的收保費 而產生現金回報 還買了Visa和Mastercard 你每刷一次卡 他們都收一筆過路費 買了Home Depot 是美國最大的\n\n家居建材零售商 房子不管漲不漲 總要修的吧 到了七月份 他們在同樣的方向上 繼續推進 賣出微軟和亞馬遜 每筆500萬到2500萬美元 你看出規律了嗎 出的全是散戶 追著買的熱門科技股 進的全是不刺激但是通脹越漲 它越賺錢的收費站型企業 不管你買什麼東西 只要刷卡 Visa就抽一筆 油價漲不漲 你家水管漏了 還是得去Home Depot 股市怎麼跌 保險保費一分都不能少交 這些企業呢 有一個共同點 就是定價權 通脹是他們的朋友 而不是敵人 我們再看看全球央行在做什麼 世界黃金協會的數據 2026年第二季度 全球央行一共買了289噸黃金 同比增長了62% 近四年以來最高的一個季度 那中國央行更是 連續20個月在增持 累計持有量達到了2346噸 那這個力度是相當罕見的 黃金今年1月28號 創造了歷史新高\n\n5589美元一盎司 現在回落到4200美元左右 從高點是下跌了不少 但是你要是兩年前開始配置的 依我看呢 你現在應該是非常滿意的 黃金這個東西 不產生利息 不產生分紅 理論上應該是個沒用的資產 但是印鈔機一開 它就變成那個 不會被稀釋的參照物了 紙幣是可以無限印的 黃金從地底下挖出來多少就是多少 你的錢呢 看起來變多了 能買到的東西變少了 黃金就站在那一動不動 什麼都沒做 但是好像什麼都做了 掌握印鈔權的人自己在買黃金 你有沒有想過這個問題呢 印錢的人 比誰都清楚 錢會變成什麼樣子 所以他們用自己印出來的錢 去換一種印不出來的東西 一邊是印鈔的人在買黃金 買收費站 買保險公司 另一邊是普通散戶 接近四成身家壓在股市裡邊 股市三成的權重集中在 五隻科技股上 這兩波人做的事情 是完全反著來的 那你覺得誰的信息更多\n\n誰看的更准呢 1971年 美元正式跟黃金脫鈎 那一年的一美元 按照美國勞工統計局的 消費者物價指數來算到今天的購買力 大概就只剩下12美分左右了 一塊錢變成了一毛二 這還是官方的數字 我個人的看法呢 是同樣的過程正在加速重演 只不過這次不是一刀切 不是某一天突然宣佈 你的錢變少了 你的錢每天都在縮水 但是每天縮的不夠多 讓你感覺不到痛 等有一天你回頭算一筆賬 辛辛苦苦攢了十年的錢 購買力已經被 偷偷拿走了一大半 我個人的判斷是這樣的哈 未來12-36個月 美國政府能用來壓通脹的工具 會越來越少 石油儲備快見底了 財政部 已經在變相印鈔了 而利息支出只會越滾越大 這三樣東西加在一起 指向了同一個方向 你手裡邊的現金 和你存在銀行裡邊的錢 購買力會被一點一點的磨掉 在這種環境之下 最危險的做法不是買錯了什麼\n\n而是什麼都不做 坐在那裡拿著現金等著 覺得等市場穩了我再動 這種想法呢 恰恰就是金融抑制 最喜歡的那一種人 而聰明的錢已經給出了方向啊 不是追最熱的東西 而是去找那些不管環境怎麼變 都在收錢的生意 找那些通脹漲價 他反而賺更多錢的資產 收費站型的企業 實物類的資產 不依賴單一市場的配置 那這些東西呢 可能不會讓你發財 但是它能讓你在別人 財產縮水的時候 能守住自己的財產 如果你想時刻關注財經財富 提升財富思維 別忘了訂閱頻道 順便幫我點個贊 這裡是艾財說 分享學校裡邊 學不到的財商知識 我是Alex 我們下次影片見拜",
+      "publisher": {
+        "id": "UCBbpxPZd43zllV0NMzj9nUg",
+        "name": "艾財說imoneytalk"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=YpmIag2gAvs",
+      "publishedAt": "2026-09-30T08:58:33.000Z",
+      "collectedAt": "2026-10-21T07:57:08.320Z"
+    },
+    {
+      "id": "youtube:Z_oAFyE12Tk",
+      "title": "Coreweave Debt Woes Test AI Buildout (Oct. 16, 2026)",
+      "bodyMarkdown": "Before you went away, Coreweave was fine. I mean, it wasn't in any kind of distress mode. Now it is. \\>\\> Which means we have to talk to like the credit guys now. Which you know how much I enjoy talking to credit analysts, you know. So, let's get right to it. We can do that.\n\nTalk about Coreweave and what's going on and the AI trade and how the bond market, which has been such a big supplier of capital, is dealing with that. Now, Rob Schiffman, senior tech credit analyst for Bloomberg Intelligence.\n\nRob, is this a Talk to us about Coreweave from a credit investor's perspective. Is this this company overlevered? Are they okay? Is the market missing something? How do you approach it?\n\n\\>\\> Well, Coreweave is trading stressed today. And I'd say my level of stress is also a little bit higher because the market sometimes doesn't act so rationally. And one day as an analyst you come in, you look like you're a genius and the next day you look like you have no idea what you're talking about. And people generally just\n\nremember the days you don't know what you're talking about. And I think the move in Coreweave has a lot to do with sentiment and nothing to really do with fundamentals. You know, the the stock sell-off, the bond sell-off, wasn't on any real news. Like, they didn't announce worse earnings. They didn't announce CapEx is going higher.\n\nThey didn't announce that they weren't able to raise money in the markets. It's just a sort of a confidence issue. The reality is, when you start start thinking about stress, you know, a lot of people have talked about Coreweave bonds trading in the '80s or below 80 cents on the dollar. I'd tell you to go look at the Bloomberg terminal and see\n\nwhere some Microsoft long bonds are trading. Triple-A rated. No one's really worried about them. They trade 50 cents on the dollar. So, there's a lot to do with what's going on with rates. Bad CPI and PPI prints, worry people about inflation, the cost of borrowing for high-yield names in particular, and the ones that need to borrow the most like\n\nCoreweave's are being stressed because people are fearful of what the markets could look like in terms of capital access in the future, but not necessarily something that's happened today. And I think if you listen to what Jensen said yesterday, that Coreweave is pretty well positioned. Their cost of capital is actually lower cuz they've\n\nbeen able to borrow a whole bunch of secure debt at single digit rates. And I think over time, listen, this AI trade fear, it's not going away anytime soon. This is going to take a few years to play out. And we're going to have days where the markets are jittery. We're going to have weeks where the markets are jittery, maybe even months. Um and\n\nthen we'll see turnarounds. I don't think people should be overly concerned about CoreWeave, but in particular if you just think about this space, it's dominated by what we call the hyperscalers, which are double-A and triple-A rated credits that have access to unlimited amounts of capital, and that is not going away. And that means\n\nthis whole AI trade is not going away. \\>\\> All right, Jensen Huang, by the way, CEO of Nvidia, which is a CoreWeave shareholder and supplier, so it all is kind of interconnected. Um having said all of that, and you're looking at it from a credit point of view, there was um an analyst, Gil Luria of D.A.\n\nDavidson, who said that he could see the stock going to zero. Is the stock price driving CoreWeave's debt, or is CoreWeave's debt making people question the stock? Well, what what's the catalyst?\n\n\\>\\> Yeah, I I hate to you know, I I say that there's not going to be an AI bubble burst, but I'll burst everybody's bubble. Any stock could go to zero, right? That's happened before.\n\nSo, we have covered a lot of stocks that went to zero. So, listen, that's that's great fear-mongering. I think like those sort of headlines get attention and get mentions on the radio. Uh I think that's wildly unrealistic. CoreWeave plays a huge part in in the whole um AI ecosystem as as as one of the largest um neo clouds, both public and private. I\n\nthink they have a lot of big friends. You know, we wrote a note saying that um you know, one of the largest shareholders is Nvidia. They own 10% of the stock. Um they also have some of the, you know, their biggest partners, the ones that they have the largest contracts with, are Meta and Microsoft.\n\nSo, there's a lot of money that I think can come CoreWeave's way. And quite frankly, there's lots of different uh ways to get access to capital. Not just the unsecured market. So yeah, um bonds are trading in and around 15%. We're actually in the 14% range this morning.\n\nBut they could borrow unsecured. They can borrow secured. They could do private ship deals. They could do data center lease deals. I think the access to capital for them is going to remain abundant. It's not the same as for a double A or triple A rated name, which is unlimited and the cost doesn't actually matter.\n\nBut I think CoreCivic is going to have a lot of different ways to to play this. And thinking about that going to zero as a credit guy, I know the bonds are not going to go to zero. Certainly the secured bonds.\n\nBut I think that's just hyperbole to try to get attention. \\>\\> All right, Rob Schiffman, thanks so much. Appreciate it as always. Rob Schiffman, senior tech credit analyst for Bloomberg Intelligence. Folks, he's one of the best on the street. He's seen it all. He's seen the cycles here. So you want to pay attention to what he's\n\nsaying and read his research at BI Go. But again, I'm just telling you as a graduate of the Chase Manhattan Bank credit training, I would not I don't like this credit right here. And that's just me, but I'm going to defer to Rob.\n\nBut I see 50 billion of debt. I see 7 billion of EBITDA. Good news is it's growing like crazy in the out years. So if you believe that, that's a good way to play it.",
+      "publisher": {
+        "id": "UC4lKKWrLu8aPjOsVSXlppRA",
+        "name": "Bloomberg Intelligence"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z_oAFyE12Tk",
+      "publishedAt": "2026-10-16T21:00:05.000Z",
+      "collectedAt": "2026-10-21T08:53:44.062Z"
+    },
+    {
+      "id": "youtube:aBksDL8pHdc",
+      "title": "买1万股QQQI每月拿5600美元原地退休月月零钱！4%退休法则, 巴菲特早就算过！纳指3大分红ETF改买哪个？2大决策要素! 买错血本无归【艾财说232】",
+      "bodyMarkdown": "网上流传开了一个说法 说买 50 万美元的 QQQI 一个月就能分到 5,600 多美元的配息 持有的人什么都不用做 每个月钱就进了 自己的账户 月月领钱 原地躺平 听到这话呀 我的直觉是骗子又来了 不过仔细研究之后呢 发现问题可没那么简单 QQQI 是一只纳指 ETF 就是在交易所里边 像股票一样买卖的基金 这只 ETF 上市呢才两年多 规模已经冲到了 153 亿美元 是去年底的两倍 确实啊 50 万投资 每个月能拿 5,600 美元 数字上讲是没问题的 可是巴菲特呢 在 2012 年的股东信里边 算过一笔账 跟这个例子非常像 每年领分红和一分不领 每年自己卖掉一点股票 十年以后呢 哪一种到手的钱更多呢？\n\n哎 他自己算出来的答案 可能跟你的直觉不一样 如果你正在准备退休 或者家里老人打算 把养老钱换成 这种月月领钱的 ETF 那这道题呢 就不再是理论题了 这期我把 QQQI 收益表 配息记录 还有交给美国税务局的 申报表都翻了出来 QQQI 和另外两只 同类的纳指收入 ETF JEPQ QYLD 啊 再加上 QQQ 啊放在一起 从 2024 年 1 月同一天算起 配息 大跌 税务 一项一项对了一遍 巴菲特那道题放到 今天这几只基金上边 答案会是什么呢？\n\n月月领钱的背后藏着 四个不为人知的代价 几乎没有人去深入思考 最后一个跟你住在哪里 退没退休有关啊 同一只基金到手的钱 差距真的是太大了 欢迎来到艾财说 我是 Alex 艾财说频道 专门分享学校里面 学不到的财商知识 让你财富觉醒 财富自由 这股热度啊 不止在 QQQI 一只 ETF 身上 摩根大通的同类基金 JEPQ 啊 规模已经有 443 亿美元了 这一类靠卖期权 发钱的基金 到今年 5 月底总规模 超过了 1,750 亿美元 什么概念呢？\n\n差不多是 11 个 QQQI 的体量 这么多人追捧 图的就是配息 QQQI 过去 12 个月 发的钱 14% 这个比例啊 就叫做配息率 50 万美元放进去 一年大约领回 7 万多现金 啊 配息率呢只算了 发多少钱 不管价格涨跌 所以不等于你赚了多少 啊 这个后边会仔细算 QQQI 那 14% 的配息 到底是从哪变出来的呢？ 哎 我们拆开来看 基金手里边有一堆 纳指 100 的股票啊 纳指 100 呢 就是纳斯达克 市场上最大的 100 家 非金融公司 那基金呢会跟 对手方约好 哎 说下个月这些股票 要是涨过某个价位 超出的那一部分 就归对手方了 那约定价位以下的 那段涨幅还是归基金 为了拿到这段 可能的增值呢 对手方先付给 基金一笔现金 这个约定叫做看涨期权 基金手里边 本来就有股票 再把这个约定卖出去\n\n就叫做备兑看涨期权 其实就是基金 把超过约定价位的 那一部分盈利 卖给了对手方啊 换了一笔现金 三只基金卖的 方法不一样 QYLD 是 2013 年 上市的老前辈了 每个月呢把下个月的 涨幅几乎一次卖光 10 月 9 号 QYLD 卖出去的期权 约好的价位 是在 29,475 点 当天纳指 100 在 30,883 点 纳指已经比约定价位 高出了大约 4.8% 了 这一截涨幅啊 基金一分钱都拿不到 全归了买期权的人 JEPQ 是 2022 年上市的 摩根大通的基金经理 主动挑股票啊 再拿一小部分资产啊 现在大概是 15% 吧 最多不超过 20% 去买一种挂钩票据 挂钩票据呢 就是银行发的收益 跟期权挂钩的一种票据 JEPQ 就用这种票据 去卖离现价更远的期权 所以涨的时候呢 它吃到的会多一些 而过去三年\n\nJEPQ 的波动率 大概只有纳指的六成 QQQI 是 2024 年 1 月份 才上市的新人 QQQI 卖的是 纳指 100 的指数期权 同时花一小部分钱 买回更高价位的期权 等于大涨的时候 手里边还留着一张彩票 它还有一招啊 叫做税损收割 就是把账面 亏钱的股票给卖掉 用亏损抵掉赚的钱 这一招到算税务的时候 特别有用 第四只 QQQ 只是做个参照啊 它什么期权都不卖 纳指涨多少它就涨多少 同样按过去 12 个月来算 QQQ 的配息率 大概只有 0.4% 所以一边是卖期权 另一边不卖 差距非常大 期权卖得越多 约定的价位离现在越近 收到的期权费就越多 那代价呢？是留给你的 上涨空间也会变少的 这一点你先记住啊 后边会用到 三种卖法换来三种配息 那同样拿 50 万美元出来 每个月各能领多少呢？\n\n哎 差距比你想的大得多 我们先把口径 统一一下啊 每只基金都拿最近 一个月的配息 乘以 12 再除以 10 月 13 号的收盘价 这么一算呢 QQQI 的配息率 大概是 13.6% QYLD 大约是 11.4% JEPQ 大约是 11.2% 换成 50 万美元 税前每个月 QQQI 你大概拿到 5,670 美元 QYLD 大概 4,730 JEPQ 大概 4,650 另外两只呢 想领到跟 QQQI 一样多 本金就要多准备 10 万呢 QQQ 呢 它几乎不发钱 你买了之后想用钱 就要卖出才行 退休圈子里边 最常用的一把尺子哈 叫做 4% 法则 这个法则呢 是美国一位理财规划师 在 1994 年提出来的 说白了就是 退休的第一年 取出本金的 4% 以后每年按通胀往上调 拿美国过去 几十年的数据回测 最差的情况\n\n也能撑过 30 年 按照这个算法呢 50 万美元的 QQQ 一年取 2 万 每个月大概是 1,670 美元 同样是 50 万本金 QQQI 领的是 QQQ 的三倍还多 那反过来算就更直观了 QQQ 每个月想要领到 和 QQQI 一样多的钱 得准备大概 170 万的本金 多出来差不多 120 万 你可能觉得啊 这还用比吗？ 同样的钱 QQQI 一个月 多领 4,000 多呢 傻子才选 QQQ 很多人看中的 就是这份安心 每个月钱自己会进来 一股都不用卖 市场跌的时候呢 你也不用硬着头皮去 接受亏损 低价卖出 啊 这确实是这类基金 真正的卖点 可这两种钱啊 性质是不一样的 4% 法则的目标呢 是 30 年花不完 还能跟着通胀往上涨 这几只基金 每个月发多少 到底是不是按照 14% 来配息？\n\n这个基金公司 是不保证的 也不会因为物价涨了 就自动多发 那还有一点啊 现在算的数字呢 都是税前的 税后要看你 人在哪个国家 退没退休了 QQQI 用 50 万本金 就领到了 QQQ 要 170 万 才领得到的钱 省下了 120 万的本金 能有这种好事吗？ 假设 2024 年 1 月 30 号 也就是 QQQI 上市交易的第一天啊 四只基金各投 50 万美元 配息全部再投资 不拿出来 而且先不算税 一直拿到 今年的 10 月 14 号 那结果大概是这样的 QQQ 变成了大概 86.9 万 QQQI 大概 80.6 万 JEPQ 大概 78.1 万 QYLD 大约 73 万 三只月月发钱的基金 总回报全部跑输了 QQQ 换成每年的回报 QQQ 大概是 22.7% QQQI 少了 3% JEPQ 少了将近 5%\n\nQYLD 少了 7% 一年少 3% 你觉得差很多吗？ 按照一年来算的话 确实不多 但是按照多年累计的 复利计算呢 会把这点差距 一年一年滚得更大的 现在才两年零九个月啊 同样的本金 QQQ 就比 QQQI 多出了 6 万多 比 QYLD 多出了将近 14 万 那 6 万多是什么概念呢？ 将近 QQQI 一整年 发给你的配息 那为什么会跑输呢？ 前面说了 基金 跟对手方有一个交易 涨过约定价位的 那一部分呢 是归对手方的 平常小涨小跌 基金不怎么吃亏 可是一旦碰上 大涨的月份 超出的那一大截 全让对手方给拿走了 一年里边呢 这样的月份一多 差距就自然出来了 拿 JEPQ 来说啊 2023 年是大牛市 连配息一起算 纳指 100 赚了大概 55% JEPQ 只赚了大概 36% 只吃到了三分之二 左右的增幅\n\n少赚的这一截呢 一部分是卖期权 让出去的 还有一部分 是因为 JEPQ 挑的股票 本来就比纳指稳 涨起来也慢一些 还有一笔明账 管理费啊 QQQI 一年是 0.68% QYLD 是 0.6% JEPQ 是 0.35% QQQ 只要 0.18% 同样的本金放一年 QQQI 收你大概 3,400 美元 QQQ 呢收 900 这笔钱是每天 从净值里边悄悄扣走的 净值呢就是基金 每一份的价值啊 你在账单上面 根本看不到这笔钱 涨也收 跌也收 这门生意可比 卖期权稳当多了 那么时间再拉长一点 看啊 QYLD 上市那一天 投资 50 万美元 到今天大概有 152 万 那同样的钱放进 QQQ 呢？\n\n大概是 477 万 13 年之后的 QQQ 是 QYLD 的三倍多 所以我个人的看法呢 是如果你还在上班 每个月有工资进账 这份月月领钱的现金流 对你没多大用 配息到手 交完税 你可能还要再把这笔钱 投回去 太绕了 资金的效率也不够高 少赚的钱呢 至少摆在明处了 第二个代价 就不容易发现了 每个月领到的 那笔钱里边 有多少 本来就是你自己的呢？ 如果你希望有人 用通俗系统化的方式 帮你盯着这些宏观变化 拆解成普通人听得懂 做得到的行动步骤 那就记得订阅频道 也可以点击影片 描述栏的专属链接 注册我们艾财会员 拿到市场第一手信息 未来我们还会开放 完整的个人财富 金融投资 地产投资 和避税方面的 直播和课程 你会拿到更详细的 资产配置 被动收入 税务结构的实操指南 巴菲特在 2012 年的 股东信里边\n\n讲了这么一个例子 有一家公司 净资产是 200 万美元 每年稳定地赚 12% 而外边呢 总有人愿意 按净资产的 1.25 倍 去买这家公司的股份 方案 A 每年把三分之一的 利润拿来分红 相当于净资产的 4% 方案 B 一分钱不分 股东每年自己卖掉 3.2% 的股份 哎 第一年呢 两边拿到的现金 是一模一样的 那为什么卖 3.2% 就够了呢？ 啊 因为股份 按净资产的 1.25 倍卖啊 整家公司 200 万的净资产 在市场上是值 250 万的 卖掉 3.2% 正好是 8 万 跟方案 A 的分红一样多 那么十年以后呢 卖股的那个人 每年到手的现金 多了大概 4% 手里边剩下的股票市值 也多了大概 4% 用巴菲特自己的话说呢 你既有更多的钱可以花 手里边的资产也会更多 伯克希尔自己啊 就是一分钱 股息都不发的\n\n翻译成大白话呢 领配息和自己卖股 都是从一个锅 里边舀水喝 每次除息 就是配息 发出去的那一天啊 基金的净值 就按配息的金额 往下边掉一截 既然配息的来源 是一样的 那该看的就是 总回报是多少 就是发到手里边的现金 加上基金价格 本身的涨跌 拿 QQQI 过去一年来说啊 总回报大概是 18% 大头是发成现金的配息 基金价格本身 只涨了 3% 左右 那换成 50 万美元的 本金来算呢 一年一共赚了 9 万 7 万多是发到手的现金 价格上涨带来的不到 2 万 你看这 7 万多 明明是赚来的 可是在美国 税务局的眼里呢 它算什么呢？\n\n我翻了 QQQI 交上去的税表啊 去年 6 月份到 12 月 它发出去的钱大概 99% 被归类成了资本返还 意思呢是税务局说 这钱不算你赚的 算是你把自己的本金 还给了别人 基金明明赚了钱 怎么成了还本金了呢？ 啊 因为税务局 只认落袋的钱 股票涨了没卖 那是不算的 卖掉几只亏损的股票 亏的还能拿来抵税 QQQI 呢 就是靠这一招 抵来抵去 账面上几乎 就没利润了 没利润了还照样发钱 那么税务局 就只能当你是 在拿回本金了 不过先别慌哈 税务上的资本返还 不等于真的在吃本金 QQQI 的净值呢 从上市时候的 50 块左右 涨到了现在的 55 块上下 那过去两年多 这只基金发的钱 还是有真金白银的 涨幅撑着的 而真正在吃本金的 是那位基金的老前辈 QYLD 上市十几年 价格从 25 块多 跌到了 18 块多\n\n跌了将近三成 哪一年总回报低于配息 多发出去的那一部分 就是你自己的本金 那为什么还有 这么多人买呢？ 哎 因为省心嘛 每个月钱自动进账户 市场跌的时候 也不用硬着头皮 自己卖股票 这对于退休的人来说 这份安心是实打实的 所以我并不反对 领配息啊 我只是希望 你心里清楚 这笔钱是从哪来的 每个月的配息呢 有一部分本来就是你的 前面的两个代价呢 都是在市场还算平稳的 时候计算的 那么接下来我们看看 市场大跌之后 会发生些什么 我们看看最近一次大跌 2025 年 2 月份到 4 月份 关税导致了市场崩盘 QQQ 从高点 跌了大概 22.8% 三只卖期权的 ETF 呢？\n\nQQQI 跌了 20% JEPQ 也是 20% 左右 QYLD 跌了 19% 左右 也就是说呢 卖期权收来的那点钱 大跌的时候 只能帮你顶 2%～3% 跌完之后多久 能回到原位呢？ 哎 QQQ 从最低点起 两个半月就涨回去了 QYLD 用了六个半月 原因呢 前面 也已经说过了 涨的时候 超出约定价位的那一截 归了对手方 上涨的时候 自然就变慢了 我们再看一次更狠的 2022 年那轮熊市 连配息一起算 QQQ 全年亏了大约 32.6% QYLD 只亏了大概 19.1% 少亏了十几个百分点 看着是挺好 可是第二年呢 市场反弹了 QQQ 涨了大概 54.9% QYLD 呢只涨了 22.8% 连人家一半都不到 拿 50 万美元算一下 这两年的账啊 QQQ 先跌到 33 万多 第二年涨回到 52 万左右\n\nQYLD 呢先跌到 40 万出头 第二年只涨回不到 50 万 所以少跌的那点便宜呢 全被少涨吃回去了 还倒贴了一点 我自己的看法啊 是你要是还在上班 还在攒钱 这笔买卖不划算 那么更麻烦的呢 是配息本身也会缩水 原因很简单啊 这类基金每个月 能收到多少期权费 跟基金本身 值多少钱挂钩的 那基金下跌了 收来的期权费就会变少 能发的钱也跟着变少 QYLD 在 2021 年 每股每个月大概发 0.19 到 0.23 美元 2022 年 5 月份以后 降到了 0.16 到 0.18 美元 到现在也没有回到 2021 年的水平 同样的股数 每个月少领了 差不多两成啊 而 JEPQ 带来的麻烦 有点不太一样 它的配息呢 是跟着期权价格走的 市场越慌 期权就越贵 短期反而有可能 发得更多 不过起伏也很大 同样 50 万美元\n\n9 月份还领了 5,600 左右 10 月份就只剩 4,650 了 这一下就少了 大概 17% 呀 过去 12 个月里边 发得最多的一个月 比最少的一个月 多了一半 对靠这笔钱 过日子的人来讲呢 这种起伏是最难受的 放到 QQQI 身上 会是什么样子呢？ 哎 QQQI 每个月发的钱 差不多是基金价格的 1% 假如基金价格跌了三成 每个月发的钱 大概也跟着少三成 开头说的 50 万美元 现在每个月能领 5,600 多 那到时候就只剩 4,000 左右了 那么我们把三只 放在一起 能不能 分散一下风险呢？\n\n这是很难的 它们底下几乎是 同一批科技股 纳指 100 前十大公司 加起来就占了 47% 左右 所以卖期权 能让你少跌一些 可是碰上这种 崩盘级别的市场回撤 少跌的那几个点 根本没用 啊 我比较担心的是 QQQI 它上市两年多 还没经历过一场 跌好几年的熊市 熊市里边呢 它卖出去的期权 对手方用不上 收来的钱呢 就落袋为安了 税务上就算基金赚了钱 那这样一来呢 配息里边还本金的部分 就会变少一些 但是要交的税 就可能会变多 这一点呢 后边 算税的时候还会再讲哈 这里还有一个风险 叫做序列风险 说白了就是 大跌偏偏赶在你刚退休 刚开始需要 取钱的那几年 靠卖 QQQ 过日子的人 跌到低点也得卖 取同样的钱 要多卖不少股 领配息的人呢不用卖 可是配息会自动变少的 而等市场反弹了 又涨不回去 一次大跌就会让收入\n\n缩水好几年呐 所以大跌来的时候 月月领钱的人 一样要挨打 就算扛过了大跌 这笔钱到你手上之前 还有最后一关 哎 就是税务 你买同一只基金 交的税也是不一样的 取决于你住在哪里 退没退休 那到手呢 能够差出四成啊 好 我们先说口径啊 本金呢还是 50 万美元 用每只基金 上市以来的长期平均值 都按个人名下持有 不算州税和省税 退休的人按 65 岁以上 单身 没有别的 收入来源算 税呢有两层啊 第一层是美国的预扣税 就是发配息的时候 先替美国扣下来的 那一部分 预扣税只扣 不算资本返还的那些钱 第二层是你住的地方 自己的税 有税收协定的 美国扣过的可以抵掉 那钱呢有两种用法 再投资一直不卖 或者是领出来花 而人呢有两种阶段 还在上班 或者已经退休了 那两两一配 就是很多情况了 我首先说居住的地点哈 有三类地方\n\n我全都算了一遍 我全都算了一遍 先说香港 新加坡 马来西亚和台湾 这四个地方呢 跟美国没有 跟美国没有 生效的税收协定 配息就先扣 30% 本地基本是不征收的 香港不征收股息税 新加坡个人 收到的境外收入 一般也免税 马来西亚的 境外收入免税 这项优惠 延期到了 2036 年 台湾的海外所得呢 要算进最低税负 全户超过 750 万新台币 才按 20% 交 所以这四个地方呢 退休前后都是一样的 退休领钱出来花 每个月到手啊 QQQI 大约是 5,860 美元 资本返还那一部分啊 券商年底会把 多扣的税退回来 前提是你的券商 肯做这个调整 QYLD 大概是 3,690 本金还在每年缩水 JEPQ 大约是 3,210 那 30% 基本拿不回来 QQQ 呢 按 4% 自己卖 卖股票的增值 美国和本地都不征税\n\n每个月大约是 1,590 港新马台这四个地方 QQQI 几乎拿了满分 可只要换个地方住啊 这个优势 就会少一大半了 我们看看加拿大 美国和加拿大呢 有税收协定 配息先在美国扣 15% 这 15% 回到加拿大 还可以抵税 那么美国基金的 资本返还在加拿大 怎么算呢？ 哎 这个没有明确的说法 我这里呢保守一点 按全额交税 那么算下来呢 你最后交的税 差不多就是你在 加拿大的边际税率了 按 30% 算 三只 交的税率都一样 QQQI 靠资本返还 省税的那一招 在加拿大用不上 退休领钱出来花 每个月到手的是 QQQI 大概是 4,140 QYLD 3,500 JEPQ 3,210 加拿大呢还有两条规则 要注意一下 第一条是 老年保障金 简称 OAS 2026 年个人净收入超过 95,323 加元 超出的部分\n\n要按 15% 还给政府 QQQI 一年的配息 折合大概 10 万加元 那刚好越过了这条线 超出不多 一年要还的 也就几百加元 可要是你还有别的收入 那超出的越多 就还得越多 第二条 美国 ETF 放在 RRSP RRIF 这类退休储蓄账户里边 配息是不用扣 美国的预扣税的 放在免税储蓄账户 TFSA 里边就照扣 而美国税务居民 又是另外一条规则了 没有预扣税这一层 可是美国自己要收税 还在上班的 QQQI 当年要交的税不到 1% 因为它的配息 差不多全算资本返还 当年不用交 可是这部分呢 要从你的买入 成本里边扣掉 等你卖的时候再补税 啊 那税呢只是往后推了 并没有免掉 退休以后按单身 65 岁以上算 一年收入的头 两万四千多美元 不用交税 那这样算下来呢 QQQI 几乎不用交税 QYLD 大约交 5%\n\nJEPQ 大概 6% 每个月到手呢 是 QQQI 5,920 QYLD 4,740 JEPQ 4,300 好了 三类地方都算完了 其实规律就两条哈 关键看这笔钱 你打算怎么用 第一条呢是 配息再投资 一直不卖 那么三类地方都是 QQQ 赢 QQQ 呢几乎不发配息 涨上去的钱只要不卖 就一分税不用交 另外三只每年 发一大笔配息 凡是要扣税的地方 每年都先被扣一道 按过去的长期平均算 QQQ 税后每年的 增值大概 21% 三只 ETF 里边最好的 QQQI 在港新马台和美国 大概是 19.8% 那到了加拿大呢 只剩 15% 左右了 就算拿满十年 再全部卖掉 把卖出时的税务也算上 QQQ 还是领先 好 第二条 把配息 领出来花 扣完税 每个月到手的钱 三类地方都是 QQQI 最多 注意啊 我可不是说 总回报最高\n\n港新马台领先是最大的 因为税低嘛 QQQI 每个月比 JEPQ 多拿了大约 2,650 到了加拿大呢 QQQI 的税务优势就没了 多领的只是因为 它本来就发得多 同一只 QQQI 你住在低税区 比住在澳洲 加拿大 这种高税国家 要拿更多的钱 而且差距非常大 每个月的差距 大概是 1,700 块 最容易踩坑的呀 是还在上班的时候 就把配息领出来花 在加拿大 澳洲 配息要按照你最高的 那一档交税 上涨的好处呢 又已经卖给了对手方 你是两头吃亏 所以决定选 哪只基金之前 先回答一个问题 这笔钱你是打算 一直放着 还是每个月拿出来花？\n\n另外呢 非美国人 持有的美国注册的 股票和基金身故的时候 超过 6 万美元的部分 最高可能要交 40% 的美国遗产税 澳洲 加拿大居民 按协定能多拿 一些免税额 同一张配息单到手多少 要看你住在哪里 行话叫做 你是哪里的税务居民 你有多少财富 可能不只看 你的投资决策 还要看你的 税务地点决策 感兴趣的朋友 可以关注一下 我的新频道“艾财 B 计划” 好了 账都算完了 落到你自己身上 到底该怎么选呢？\n\n我把人分成四种啊 你对一下 看自己是哪一种 第一种呢 是还在上班 那这笔钱十年之内 都用不上 那不管你住在哪 答案都一样 拿 QQQ 配息再投资 一分不领啊 真的要用钱了 就按比例卖一点 这就是巴菲特的 那套算法了 这笔钱你又不急着用 跌了就跌了 不用卖啊 等它涨回来就是了嘛 我自己十年之内 用不到的钱 也有一部分是这么放的 第二种是已经退休了 住在香港 新加坡 马来西亚 台湾 或者是美国的退休人士 你们可以考虑 QQQI 扣完税每个月 到手是最多的 不过有三件事情 你要想清楚啊 一是你的券商 年底会不会 把多扣的税退给你？\n\n开户之前你要问一下 二是 QQQI 还没有经历过 一场跌好几年的熊市 这是未知的风险 三是每个月发多少 基金公司是不保证的 第三类是也退休了 但是住在加拿大 或者用的是澳洲的 个人账户投资 那么三只 ETF 交的税是差不多的 QQQI 每个月 也就多领一两成 你要是想价格 波动小一点 可以看看 JEPQ 可是它每个月发多少呢 起伏是三只里边最大的 钱放在哪种账户 里边更省税 要找你当地的 税务师问清楚 第四种啊 觉得 QQQI 太新 想找一只十几年的 老牌啊 心里踏实 那么 QYLD 就是 那只老牌的 ETF 它这十几年 交出来的成绩单呢 就是本金 一截一截往下掉 我个人的看法呢 是它不适合拿来 替代退休金啊 我的判断是 接下来一年到一年半 这类基金的规模 还会继续往上涨 越来越多的退休族 会把配息当成\n\n每月的工资 真正的未知变量 是下一次纳指 跌掉两成以上 半年都爬不回来的时候 好 如果你看到这里了 觉得影片对你有帮助 别忘了订阅频道 顺便帮我点个赞 这里是艾财说 分享学校里边 学不到的财商知识 我是 Alex 我们下次影片见 拜",
+      "publisher": {
+        "id": "UCBbpxPZd43zllV0NMzj9nUg",
+        "name": "艾財說imoneytalk"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=aBksDL8pHdc",
+      "publishedAt": "2026-10-17T10:35:20.000Z",
+      "collectedAt": "2026-10-21T07:55:20.866Z"
+    },
+    {
+      "id": "youtube:bDXI6vqn2ro",
+      "title": "精神小伙们盘后回来了！NaNa说美股(2026.10.20)",
+      "bodyMarkdown": "大家好，歡迎回到娜娜說美股 今天是10月20日週二 盤前油價走高 韓國股市大跌，AI板塊拋售潮再起 但開盤後 隨著中東局勢傳出緩和消息 美股迅速扭轉跌勢 標普500盤中一度拉升至7748點附近 以色列第12頻道和《新阿拉伯人總報》 巴基斯坦陸軍參謀長 伊朗方面也已初步同意 但隨後，相關消息又遭到質疑 以色列總理內塔尼亞胡跳出來表示不同意 並稱自己昨天剛與特朗普通過電話 表達了“必須推翻伊朗政權”的強硬態度 彭博社也緊跟著報導稱 伊朗與美國的談判仍在繼續 有關雙方即將達成協議的消息並不屬實 股指即回吐了部分隨 幅 在過去70 7730 點之間高位橫盤消化 絞殺選擇權 從交易層面看，這種盤中急拉急跌 說明市場對地緣政治消息仍極為敏感 最終標普500收漲0.28%， 納指微幅收跌 道指收漲1.02%。\n\n與昨天相比，市場廣度有所改善 上漲股票數量明顯多於下跌股票 傳統工業與週期股整體跑贏科技股 資金在科技股承壓的背景下 轉向其他板塊尋找機會 AI產業鏈內部的風險偏好依然偏弱 今天韓國一家AI數據中心企業Elice Group 首日上市遭遇了滑鐵盧 股價開盤就往下掉 32%。 奇葩的是 這家公司IPO時受到極其熱烈的追捧： 機構認購倍數達到388倍 散戶認購也超過400倍 市場認購保證金規模超過10萬億韓元 如此火爆的認購 最終卻換來上市首日的大幅破發 反差 昨天 對市場來說 相當豐盤研究公司對報塊公司尤其 公佈了一份匯報公司報告 的遠期獲利表達了極度悲觀的態度 預計公司2028-2030年每股收益將比市場共識低50%-70%， 因此給予該股減持評級 目標價只有$39\n\n這與摩根大通和巴克萊等其他國際大行的多頭觀點截然相反 英國金融時報也來湊熱鬧 披露科技巨頭的信用保護成本持續攀升 投資者正在搶購信用違約交換（C DS） 以對沖AI債務風險 9月 與Alphabet、亞馬遜、Meta和英偉達等巨頭所發債券掛鉤的CDS 每周平均交易額超過90億美元 7月份這一數字還不到20億美元 以上種種因素 直接引發了美股盤前AI板塊的震盪 開盤頭半小時， CRWV股價快速下殺 一度跌破了60美元 下探至57美元附近後才出現買盤 隨後重新回到60至65美元區域 這個走勢說明低位確實存在承接 但還不足以證明底部已經形成 抄底要慢慢來，別玩太大 防備它重演7月份那時候的走勢 跌破通道下軌後短暫拉要慢慢來，別玩太大防備它重演7月份那時候的走勢跌破通道下軌後短暫拉兩天又繼續下殺\n\nWTI原油期貨價格早盤一度漲超2.6%， 隨後回落 市場持續關注中東供應風險 據媒體報導 美國國防部長赫格塞思昨天秘密訪問以色列 與以色列總理內塔尼亞胡舉行會談 但會談的具體內容尚未公開 這次訪問距離以色列10月27日議會選舉僅剩八天 內塔尼亞胡 上週表示 沒有計劃在10月27日以色列選舉前再次攻擊 伊朗特朗普 此前也表示 美國不會在11月3日中期選舉前再次轟炸伊朗 現在市場共識是美股在選舉前回調 選舉後大漲 一直漲到年底 但我反倒有點擔心中期選舉 後特朗普 與內塔尼亞胡徹底放開手腳對伊小伊上強度 說不定小伊上強度說不定 選舉 易日整體處於震盪狀態 波動率掉了很多 上週五被恐慌的交易員們瘋狂搶購的看跌期權在這種持續震蕩的波動中迅速貶值 做空美股大盤是高難度動作 尤其在期權交易中更是如此 很多人看對了方向\n\n甚至博弈到了大盤的迴調 但最後耗 耗時間不要加速其損失的價值如此很多人看對了方向甚至博弈到了大盤的 複調 但最後耗損 時間 。 爆炸）時去追買看跌期權： 那時候的Put 最貴、風險收益比最差 QQQ 連續9個交易日在5日均線下方運行 這種情況通常很難維持太久 正常情況下 QQQ在5日均線下方運行的時間平均持續3～5 個交易日 即便在熊市中 QQQ連續運行在5 日均線下方運行的時間平均持續3～5 個交易日即便在熊市中 QQQ連續運行在5 日均線下方運行的時間平均持續3～5 個交易日 算 在熊市中QQQ連續運行在5 日均線下方運行的時間 平均持續 13個交易日內出現均線迴歸 強行收在5 日均線上方的機率很高 短線做空資金在獲得持續9天的單邊獲利後 面臨較高的獲利了結需求 這並不是說市場已經觸底 而是在當前這個節點\n\n繼續追空或開空的風險收益比已經變得非常不划算 空頭承擔的風險已經大於可能的收益 這一輪下跌後，科技股估值大幅壓縮 NDX遠期本益比已跌至20.5倍 此前極端擁擠的多頭部位已被大幅清洗 根據高盛主經紀商業務部門數據 對沖基金在上週以近十年來最快的速度賣出AI股票 對沖基金的淨槓桿率（Net Leverage）已降至43.7%， 處於五年最低分位 同時 總槓桿率（Gross Leverage）仍高居90%分位數（213.9%） 說明對沖基金並未完全撤離市場 而是透過大量削減多頭頭寸、增加空單的方式激進地降低了淨敞口 今年迄今 標普500指數已積累了相當可觀的漲幅 而且指數已連續四年大漲 機構們可能想在年底前 為保護業績而進行強制壓牌風控 與 貝戶股電導率 尚未大舉逢底買進 導致市場短期缺乏支撐\n\n在宏觀金融條件改善(美債收益率企穩)之前 市場想要恢復並維持反彈動能是比較困難的 但同時，淨敞口下降也意味著 一旦宏觀環境改善或財報超出預期 空頭回補可能放大市場反彈 但在此之前 短期市場仍受籌碼面和風 控盤 股本 SOXX今天打到490支撐位後回升 昨天高開低走削弱了部分抄底資金得信心 因此今天盤初再次下探並不意外 好在很快就止步回升了 當前半導體板塊處於超賣區域 技術性反彈的條件正在積累 但本周密集的財報仍會影響資金的風險偏好 如果能夠守住490並重新站回短期均線 則有機會形成更穩定的反彈結構 若跌破，則進一步下探至年線 這附近可能會出現大量抄底買盤 需要注意的是 華爾街日報今天獨家報道 Anthropic的初步S-1招股書草案披露公司在實現爆炸性營收成長的同時 也面臨著高昂的算力成本與巨額虧損\n\n公司在2026年上半年實現營收163億美元 較去年同期的11億美元大幅飆升 其中約20%來自僅 預見高達 87億美元 仍將貢獻其總收入淨額 這個數字看起來非常驚人 不過 其中720億美元來自於公司為籌集資金所發行的可轉換公司債及其他金融工具 因價值變動所產生的非現金會計費用 如果剔除這個因素 其單純的運營與算力開支導致的實際虧損額會小得多 除了財務數據外 招股書草案中還用大量風險與重大責任與重大 責任提示了圍繞模型對齊及災難性事件的潛在風險 並明確指出 一旦發生嚴重的AI安全事故 潛在損失可能超出現有保險賠償限額 今天市場對這篇獨家報道反應相對平淡 但隨著IPO進程推進 投資者對這些細節的審視只會更加嚴格 個股方面 SPCX盤後公佈財報 公司Q3營收145.8億美元 同比增長161%。\n\nEPS 0.35美元，去年同期為-0.36美元 均優於市場預期 SpaceX CFO：雲端服務的需求尤其強勁 馬斯克： 預計SpaceX到2027年底年度經常性收入（ARR）可達5000億-1兆美元 股價盤後上漲 奈飛盤後也公佈了財報 Q3127億美元 ， 營收成長 128.897%。 均好於預期 但是Q4和全年指引不及預期 導致股價盤後下跌，讓股東們失望了 股價已經較去年峰值腰斬了 復甦的希望似乎仍未到來 得出個爆劇才行 NBIS股價反復回踩測試164附近區域 說明在這附近存在一定的買盤抄底意願 但是MACD柱狀圖顯示賣方動能尚未衰竭 空頭依然佔據短線主導權 月均線剛剛下穿50日均線 進一步確認了中短期下行趨勢的延續 逢高拋售的壓力依然存在 但50日均線仍高於年線\n\n說明這一波劇烈調整暫時仍屬於長期上漲趨勢中的中級回調/洗盤 並沒有演變為真正的熊市 黃仁勳明天發表主題演講 希望能帶帶小弟們反彈 164美元若失守 那價格將會下探7月前低146美元附近去尋找底部 NVDA股價這幾天猶如老僧入定一般橫著不動了 市場正等待GTC柏林大會及黃仁勳的主題演講 路透社報道 字節跳動、阿里巴巴與騰訊等中國科技企業已經向英偉達訂購超300萬片全新RTX PRO 5500 顯卡 合計超過350 億美元 英偉達已告知客戶及合作夥伴 由於需求大幅超出原定產能 無法保證能夠足額交付訂單 這麼大的利好，而且又遇上GTC大會 股價居然都沒起飛，太讓人失望了 我手裡有300股，成本220美元 現在還增加 10億美元現在還增加143億公司 13 億 美元 。\n\n淨利24億美元，年增11%。 都高於市場預期 並上調了2026年全年盈利展望 多家機構紛紛表示看好 股價依然下跌 理由是因為營運資金時序問題 自由現金流同比下降14%， 管理層還警示 GE9X發動機項目的虧損預計將在2027年產能爬坡階段 造成 約$3億的業績 拖 報 主要 累事 也公佈了業績 Q3 銷售額66億美元 年增1%； 調整後每股收益$2.50，較去年同期成長12%。\n\n該公司還披露已與亞馬遜達成戰略商業協議 使自己成為亞馬遜光學互聯及其他數據中心產品的供應商 根據該協議，3M已發行認股權證 允許亞馬遜在七年內以每股164.89美元的價格購買最多316萬股普通股 股價大漲 通用汽車GM調整後季度盈利同比增長22%， 達到41億美元 雖然超出市場預期 公司還宣布200億美元股票回購計劃 但全年每股收益指引中值略低於市場預期 股價就跌了6.84%。\n\n日線和周線級別都破位了 暫時保持觀望 總結來說，科技股的賣壓出現緩和 但風險並未全面解除 反彈能否持續仍有待觀察 資金並沒有完全離開股票市場 而是在不同板塊之間重新分配風險敞口 目前依然以健康回調來看待本輪調整",
+      "publisher": {
+        "id": "UCFhJ8ZFg9W4kLwFTBBNIjOw",
+        "name": "NaNa说美股"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=bDXI6vqn2ro",
+      "publishedAt": "2026-10-20T22:53:10.000Z",
+      "collectedAt": "2026-10-21T07:53:50.933Z"
+    },
+    {
+      "id": "youtube:mPaQ7O5NM0A",
+      "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+      "bodyMarkdown": "最近美聯儲乾了一件大事 上次這麼做呢 還是2023年7月份 整整三年沒動過的東西 突然重新啓動了 9月16號 美聯儲新掌門沃什 拍板加息25個基點 利率從3.5-3.75%的區間 拉升到了3.75-4% 而且是12票贊成 零票反對 全票通過 就在美聯儲宣佈加息的這一天 布倫特原油就是 國際油價的基準價格 站在了$100之上 美國柴油價格刷新了歷史記錄 化肥價格也漲了三四成 加息撞上了油價衝擊 上一次這兩件事同時發生 還是1979年 之後的將近50年裡邊 美元購買力蒸發了88% 而黃金從$35 一直漲到了4300多 漲了120倍 一代人的銀行存款 被通脹悄悄榨乾了 而選對了投資的人 資產翻了數倍 那為什麼會這樣呢 因為有一種你看不見的力量 正在每一天 每一年的吃掉你手裡邊的錢 美聯儲重啓加息週期\n\n可能會讓這段慘痛的歷史重演 歡迎來到艾財說 我是Alex 艾財說頻道專門分享 學校裡面學不到的財商知識 讓你財富覺醒 財富自由 歡迎您點贊訂閱 打開小鈴鐺 選擇全部 這樣就不會錯過 艾財說每周更新的精彩影片了 通脹有兩種病因完全不同 治法也就完全不同了 搞不清楚這個區別 後邊的分析你就看不明白 第一種叫做需求拉動型通脹 說白了呢 就是大家太有錢了 花得太猛 市場上的東西不夠賣了 商家一看 供不應求 那就漲價唄 那這種情況下呢 加息是有用的 把借錢的成本給拉高 信用卡利息高了 車貸貴了 房貸貴了 那大家自然就不花錢了 物價就能穩得住 第二種叫做成本推動型通脹 也叫供給側通脹 不是你花錢花多了 而是生產東西的成本 被硬生生推了上去 原材料貴了 能源貴了 運輸貴了 那最後這些成本 全都會堆到 你買的每一樣東西上面\n\n這種通脹 你加息有什麼用呢 你把貸款利率加到天上去 石油該是100還是100 化肥該漲價還是漲價 你壓制的是借錢的人 不是漲價的原因呢 那現在的全球通脹 是屬於哪一種呢 伊朗戰爭打到現在 已經半年多了 國際能源署說 這是有史以來 全球石油市場 最大規模的供給中斷 最近沙特的東西輸油管線 還被襲擊 陷入癱瘓了 全球的石油貿易已經全部被打亂 布倫特原油從年初的$65左右 一路竄到了$100以上 你想想這個傳導鏈 油價漲了 柴油呢跟著漲了60% 柴油是運輸的血液 卡車運費就跟著漲 那另一邊化肥價格也在漲 一種叫做無水氨的關鍵原料 半年間漲了36% 美國農業聯合會四月份做了調查哈 70%的農場主說 買不起足夠的化肥來種地了 農場層面的成本漲幅 達到了40% 從生產到銷售的每一個環節 都變得更貴了 化肥貴了 種地就變貴\n\n糧食變貴 運輸也變貴 那麼商店進貨就會變貴 自然就要漲價賣 中間每轉一手呢 成本就會疊加一次 到你手裡邊的時候 漲幅已經被放大了好幾倍了 最後呢 你在超市裡邊拿起一袋麵粉 一看標價 比去年高了15%-20% 但是你的工資可沒怎麼漲啊 這種通脹加息能治嗎 那你把利率從3.75%加到4% 那伊朗就停火了嗎 霍爾木茲海峽就通航了嗎 加息唯一做到的事情 就是讓已經被成本 壓得喘不過氣的農場主 和小企業主 借錢變得更貴 美聯儲加息其實是一個 教科書級別的誤判 不是沃什不夠聰明 是他根本就沒得選 為什麼 他在新聞發佈會上的講話 已經明確給了我們答案 沃什9月16號 在新聞發佈會上的發言 你得細品 顯而易見的事實是 通脹太高了 持續太久了 他說通脹太高了 持續太久了 記者就追問啊 你加25個基點 又打不開霍爾木茲海峽\n\n那他回了一句 我們管不了任何一個 單獨的價格 不管是油價 還是超市裡面的食品 但我們能做的 是確保這些價格的上漲 不再擴散 你聽明白了嗎 他自己都知道加息治不了油價 他怕的是通脹預期失控 怕的是物價漲了之後 所有人都覺得物價還會繼續漲 然後企業就提前漲價 工人就要求漲工資 預期本身就變成了 通脹的發動機 這25個基點呢 與其說是經濟工具 不如說是一個表態 做給市場看的 也做給選民看的 你看我們央行已經在行動了 那為什麼不像 80年代的沃克爾那樣 把利率加到15% 20% 暴力壓通脹 因為那個時代 跟今天有一個巨大的區別 1981年 沃克爾加息加到最猛的時候 美國聯邦債務 佔GDP只有31% 幾乎不欠錢 利率給拉升到天上去 政府也扛得住 企業是倒了一批啊 經濟衰退了一陣子 但是通脹呢 被生生壓了下來 代價很大\n\n但是效果也是實打實的 那現在呢 2026年第二季度 美國聯邦債務 佔GDP 124.6% 是沃克爾時代的整整四倍啊 更要命的是 未來12個月 大約有九萬到十萬億美元的 美國國債到期 需要續借啊 差不多等於 日本加德國的全年GDP了 舊債平均利率是3.5%左右 而新借的是5%起步 就這1.5%的差距乘以九萬億 每年多出來的利息就是上千億美元 你還一點都沒還本金呢 所以沃什也沒辦法暴力加息 124%的債務率 每加一個百分點的利率 一年就多掏將近 3000億的利息 比很多國家一年的GDP都多 如果拉到百分之十呢 那聯邦政府光還利息 就可能超過每年兩萬億 比全年軍費還多 那就不是政府去壓通脹了 而是政府被自己的 利息賬單先壓了 當年的沃克爾能贏 是因為他手裡邊有牌 沃什也就只能喊兩嗓子 因為他兜里已經沒子彈了\n\n很可能這25個基點 就是他能出的全部 124%的債務 總得想辦法處理吧 但是怎麼處理呢 其實不用猜 這個劇本80年前就演過了 而且效果好的不得了 二戰剛剛結束的時候 美國也差點被自己的債務壓垮 聯邦債務佔GDP 超過106% 跟現在的124% 是一個量級的 那當時是怎麼處理的呢 可不是用省出來的錢還掉的 也不是加稅加出來的 靠的是一招 叫做金融抑制 原理很簡單啊 讓利率長期低於通脹 或者說讓通脹在高處保持更久 那我們打個比方 你存銀行利率給你2% 但物價每年漲5% 你看著存款是在變多的 其實每年能買的東西少了3% 這3%呢 不會出現在任何賬單上 不會有人告訴你 但它就這麼一年一年的 把你的購買力給吃掉 這3%呢 是你交給政府的隱形稅務 政府欠的債呢 也是一個道理啊 100萬的債 通脹一抵消\n\n實際值的錢就越來越少了 從1945年到1980年 美國的實際利率 大約有一半時間是負的 就是名義利率減去通脹 出來的數是個負值 每年就通過這種方式 債務負擔就會輕一點點 你感覺不出來 但是積少成多 35年下來 債務佔比從106% 降低到了31% 不是因為把錢還掉了 是錢本身不值錢了 那你可能覺得這是老黃曆 那跟今天一點關係都沒有 但是你看看今天的數字 可能想法就會改變了 美聯儲剛把利率加到4% 八月份的CPI 就是消費者物價指數是3.4% 美聯儲更看重的 另一個通脹指標 叫做核心PCE 反映的是美國人 實際消費指數的變化 是3.7% 利率4%減核心pce 3.7%等於0.3% 那實際利率呢 幾乎是零 用某些口徑算 甚至還是負的 名義上再加息 實際上利率是原地不動 名義上在控制通脹 實際上通脹正在幫政府\n\n把那124%的債務 一點一點給蒸發掉 那是誰在買單呢 可不是政府啊 政府是受益方 買單的是每一個手裡邊 攥著美元現金的人 你的儲蓄賬戶 給你4%出頭的利息 扣掉3.7%的通脹 你實際賺了零點幾 你以為你在存錢嗎 其實你在給這台 債務蒸發機供應原料 那你可能想說 這不就是你一個人在這推理嗎 那我接下來給你看的東西 是全球最有錢的一群機構 用真金白銀投的票 看看他們是怎麼做的 如果你希望有人用 通俗系統化的方式 幫你盯著這些宏觀變化 拆解成普通人聽得懂 做得到的行動步驟 那就記得訂閱頻道 也可以點擊影片 描述欄的專屬鏈接 註冊我們艾財會員 拿到市場第一手信息 未來我們還會開放 完整的個人財富 金融投資 地產投資 和避稅方面的直播和課程 你會拿到更詳細的 資產配置 被動收入 稅務結構的實操指南 全球央行過去四年\n\n乾了一件很反常識的事情 瘋狂買黃金 2022年買了超過1000噸 2023年1000多噸 2024年還是1000多噸 連續三年每年都超過1000噸 2025年呢 是863噸 稍微少了一點 但也是2022年之前 年均400-500噸的將近兩倍了 2026年7月份 世界黃金協會發佈了 第二季度的報告 全球央行淨買入288.9噸 是有記錄以來 當年第二季度的最高值 比去年同期多了62% 最有意思的細節呢 是第二季度黃金價格跌了16% 價格往下掉 央行卻在往裡邊衝 那你見過散戶越跌越買嗎 可能偶爾見過啊 但是全球央行集體這麼乾 這可不叫炒黃金 這叫戰略轉向 波蘭央行一個季度買了51噸 中國央行買了33噸 創了近兩年單季新高 據世界黃金協會調查 89%的央行認為 未來12個月 全球黃金儲備還會增加 74%的人認為\n\n美元在各國儲備中的佔比 未來五年會下降 那這些人 管著幾萬億美元的國家財富 可不是在賭博 這叫調倉了 轉折點呢 就出現在2022年 俄烏戰爭之後 西方凍結了俄羅斯 3000億美元的海外儲備 那一刻 全世界的央行都學到了同一課 你放在紐約聯儲 放在倫敦清算所的美元資產 人家一道行政命令 就能凍住 你碰不到也用不了 那黃金可不一樣 挖出來運回國 鎖在地鎖在自己的地下室裡邊 沒有任何制裁命令 能夠碰得到它 你拿在手裡就是你的 不需要依賴任何第三方 那金融術語呢 叫做沒有對手方風險 說人話呢 就是只有黃金 是真正只屬於你自己的資產 最瞭解貨幣 這套遊戲的那群人呢 一邊印美元 印歐元印人民幣 一邊用印出來的錢拼命買黃金 他們不會在新聞發佈會上說 我們對自己印的錢沒信心 但是資產負債表呢 已經替他們攤牌了 這個行為本身其實\n\n就是最大的信號 2025年 黃金全年漲了64% 這是哪一年以來 最大的年度漲幅呢 1979年 你看又是1979年 當年伊朗革命油價翻三倍 沃克爾加息 黃金呢從220漲到850 翻了將近四倍 2026年伊朗戰爭 油價破100 沃什加息 黃金2025年漲了64% 那今年一月份 衝到了$5597的歷史記錄 你把這些變量列出來比較 每一項都在一一對應 油價衝擊 央行加息 通脹高企 黃金飆升 將近50年前的劇本 現在又開始上演了 你看印鈔的人選了黃金 而沒有去選自己印出來的紙幣 那你的錢現在應該放在哪裡呢 很多人會說 那我就存銀行 安全第一嘛 你先別著急下結論 1971年的尼克松 乾了一件事情 他切斷了美元跟黃金之間的聯繫 在那之前呢 每一美元背後都有 對應的黃金做擔保 但從那天起 美元變成了一張政府 承諾支付的憑證\n\n其實就是張欠條 55年過去了 按勞工統計局的 消費者價格指數算 一美元在1971年能買到的東西 現在呢只值大約12美分 那購買力就蒸發了快 90%啊 那換個說法 你爺爺那輩子攢下來的一萬美元 如果55年以來一直存在銀行 那麼今天能夠買到的東西 只值當年的$1000 同期黃金呢 從$35漲到4300多 漲了120多倍 但這只是第一個財務陷阱 很多人以為自己已經行動了 把錢從銀行搬到了股市 可惜股市裡邊呢 還藏著第二個坑 叫做假性分散 標普500 美國最大的500家上市公司 組成的股票指數 你知道前十大公司 佔了整個指數的多少嗎 41% 歷史記錄 蘋果微軟谷歌這些行業巨頭 合在一起叫做\"Magnificent 7\" 七家公司佔了35% 你以為你在對衝通脹嗎 如果利率再上升的話 這些公司的股價第一個扛不住 為什麼呢\n\n因為你買科技股買的是未來 利率越高 那麼未來的錢 錢在今天就越不值錢了 你以為你的錢在做分散投資嗎 那實際上 大部分壓在了 對利率最敏感的那一類資產上 如果你另外還單獨買了 幾只科技股 AI概念股 那集中度可能達到百分之六七十 所以我自己呢 會定期做一件事情 把持倉全打開 看底層資產 不是看你買了幾只基金 是看基金裡邊的股票 有多少是重復的 不少人一查才發現 三隻基金底層資產 居然是一模一樣 所以普通人其實真的 要在加息週期裡邊 仔細想想這幾個事情了 第一你的現金佔總資產多少啊 超過30%的話 在一個政府需要通脹 來徵發債務的世界裡邊 這些錢五年之後 還能買多少東西呢 第二你的分散投資真的很分散嗎 打開底層的投資看一眼 有多少押注在了同一個方向上 第三什麼資產能跑贏通脹呢 大方向呢 有三類硬資產\n\n這一類包括黃金白銀 好地段的房子 這類實物資產 是沒法憑空隨意增加供給的 你還可以考慮抗通脹的工具 比如說TIPS 美國財政部發的一種國債 利息會跟著通脹自動調整 那物價漲了 你拿到的錢也會增加 還有一種叫做 有定價權的好公司 就是成本漲了 能把價格轉嫁出去 利潤不受擠壓的那一種 這幾類資產 有一個共同特點 它們的價值央行沒法去決定 不管哪個國家的央行 開多少台印鈔機 黃金還是就這麼多 好地段呢 還是那麼幾塊 有護城河的公司呢 也不會因為多印了 幾萬億就會垮掉 我自己在做資產配置的時候 會問一個很簡單的問題 如果通脹未來三年 都在4%左右 這個東西的實際回報 是正的還是負的 能過這關的留下 過不了的就得重新想想了 1979年和2026年 表面上看是同一個故事在重演 油價衝擊央行加息 黃金即將起飛 但真正的區別呢\n\n不是在事件本身 在債務體量 1979年 美國欠的債是GDP的31% 沃克爾有大把子彈 2026年是124% 沃什手裡邊幾乎沒子彈了 那意味著 這一次 政府連硬著陸的選項都沒有了 唯一的路就是讓通脹替他還債 而通脹的燃料 就是你手裡邊的現金 所以呢 這不是一個 要不要行動的問題 你已經在牌桌上了 區別只在於你是 看懂了規則的玩家 還是正在被使用的籌碼 如果你想時刻關注財富財經 提升財富思維 別忘了訂閱頻道 順便幫我點個贊 這裡是艾財說 分享學校裡邊 學不到的財商知識 我是Alex 我們下次影片見拜",
+      "publisher": {
+        "id": "UCBbpxPZd43zllV0NMzj9nUg",
+        "name": "艾財說imoneytalk"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=mPaQ7O5NM0A",
+      "publishedAt": "2026-09-23T09:24:05.000Z",
+      "collectedAt": "2026-10-21T07:57:41.936Z"
+    },
+    {
+      "id": "youtube:nwmvMh6P1Lo",
+      "title": "Earnings, Cashflows and Stock Prices: The AI Storm blows through!",
+      "bodyMarkdown": "Hi, welcome back. About a month ago, I did a session on rising interest rates in the US and across the world and how equities have been surprisingly resilient. That they've held their own and actually gone up even as rates have increased.\n\nAnd one reason I noted was that in the aggregate at least US companies are reporting much higher earnings. That led me to think about a an issue that I think we all need to consider more seriously.\n\nWe know that companies are spending trillions of dollars on AI. On AI CapEx and we hear the stories about how this CapEx is good and bad. And also stories about the accounting consequences. In fact, one story I've heard is this the AI CapEx that is causing the increase in earnings at US companies. And I'm before it.\n\nCuz when companies usually invest in CapEx it lowers earnings. It doesn't increase them. How much it lowers earnings will depend on how you amortize the CapEx. So clearly, I'm not looking at the complete picture. So in this session, here's what I plan to do.\n\nI plan to set the table by first updating what I did in the last session by bringing in what happened in September to interest rates. And if you thought interest rates were going up in the previous 8 months of the year, you should take a look at what happened in September. So I'm going to update the rates in September and what stock prices\n\ndid. And also estimate a measure of the price of risk in equity markets at the end of September. Then I want to turn my attention to the nuts and bolts of how AI CapEx is playing its way through the financial state of the companies both of the companies making the CapEx. And here I think is the missing piece. As well as the companies that are benefiting\n\nbecause they supply the ingredients for the CapEx. So let's get the show on the road. As I know, I noted at the start, this has been a year of rising rates. The Treasury bond rate during the course of the year has gone from 4.18% to more than 5%.\n\nAt the same time, stocks are putting much higher earnings. So, you got higher rates and much higher earnings. And at least up till now, the higher earnings effect is dominating the higher rate effect.\n\nSo, it behooves us all if we're investing in equities to take a look at why earnings are rising, where is the increase in earnings coming from, and is it sustainable? So, as I said, this session is about focus on those focusing on those nuts and bolts.\n\nSo, let's start with the interest rate story. Last session, that when I talked about interest rates, it was the end of August and I talked about how rates had risen already during the course of the year.\n\nAnd I might have used the word slowly because the rate rise had been gradual. Well, in September, that changed. Rates continued to rise, but this time they climbed much more quickly. In fact, during the course of September, the 10-year T-bond rate, and I'm going to keep that as my focus, increased from 4.75% to 5.29%, a 0.54% increase. And that\n\nincrease was across the board. You're saying, \"So what? 0.54% is not a big deal, is it?\" In fact, to see how big a deal 0.54% is, here's what I did. I went back all the way to 1962, started at '62, and every month I computed the change in the T-bond rate.\n\nSo, this is the histogram, nothing No, nothing special about it. But, I wanted to see how unusual is a 0.54% increase in rates. As you look at the distribution of changes in rates, you can see that the 0.54% would put you in the top 10% of months. I mean, there have been months where rates have gone up more than 0.54%, but this was an unusually\n\nunusual month in terms of the increase in rates. Now, normally when rates increase by that much you'd expect stocks to suffer, but at least in September they did not. So I wanted to focus in on equity resilience in 2026. And I want to do it in a little more detail than focusing on an index.\n\nSo here's what I did. I took all of the companies that were publicly listed on December 31st of 2025 in the US. And I'll explain in a minute why I started with that sample. And then I looked at the aggregate market cap of these companies by month, every month of these 9 months of the year.\n\nSo as you can see over the 9 months in the aggregate US equities have added about 12 to 13% in overall market cap. But you can also see the the that it's been pretty unbalanced. Technology clearly is is done much better than some of the other sectors. But one of the things that's interesting about this graph is it kind of maps out how\n\nhow disparate this market has been in terms of how it's reacted to rates. Now it's kind of tough to read that effect by looking at monthly rates. So here's what I'm going to do. I'm going to break down what's happened in 2026 by quarter.\n\nAnd each quarter I'm going to look at the percentage the dollar change in that quarter as well as the percentage change in 2026 by sector. So let's look at the percentage change by sector in 2026 first, this column.\n\nLet's look at the best performing sectors. Technology is up there. But you also see energy and no surprise there. Energy is up collectively by 39%, technology is up 24 and 1/2%. Materials up 21%, but there are sectors that have almost done nothing during the course of the year. Communication services, consumer discretionary, utilities.\n\nNow let me take a pause and explain why when I did these aggregate market caps I focused only on the companies that were listed on December 31st of 2025. If you look at the total market cap without that constraint, the market cap for communication services has actually increased about 2 trillion in 2026, which I seem to be ignoring.\n\nYou're saying, \"That's not fair.\" Well, here's where the 2 trillion came from. It came from SpaceX going public during the course of the year. Now, to treat that as an increase in market cap is not quite fair because it's not like you could have bought SpaceX at zero at the start of the year and it rose to 2.2 trillion. You'd have bought it at 2.2\n\ntrillion, stayed around 2.2 trillion. So, I've focused in only on the companies that started the year as publicly listed in coming up with these aggregates. Clearly, some sectors did much better than others.\n\nBut, I also looked at another statistic cuz I kept reading about how uh uh how top-heavy this market was and how unbalanced this market was. And to look at that balance, I looked at the percentage of stocks in each sector that went up by quarter in 2026 and over the course of the year.\n\nSo, let's take technology. Over the course of the 9 months, technology clearly has had a very good 9 months, up 24 and 1/2% but only 52% of technology stocks have been up in 2026. Put differently, the sector is up 24 24 and 1/2% but 48% of technology stocks are actually down for the year. In fact, across the market, it's almost 50/50.\n\nHalf of stocks are up, half of stocks are down. So, even though the aggregate market is 12.25%, it is entirely possible that if you look at your portfolio, you see none of the gain cuz you happen to hold a disproportionate amount of your money in the 50% that went down.\n\nSo, that percentage of stocks uh Now, I'm not going to read too much into this. Is it good? Is it bad? It is what it is. You can see that the markets have done reasonably well over the course of the year, but it's been the effects have been dispersed across sectors and probably across market caps. So, how are we to make sense of all of these\n\ndifferent movements in equity markets? One way I keep my sanity, and it's barely, is by computing an implied equity risk premium for the S&P 500 at the start of every month. You say, \"What's an implied equity risk premium?\" It's analogous yield to to a yield to maturity for a bond.\n\nIf you're familiar with the yield to maturity calculations in a bond, you take the bond price, you take the expected cash flows on a bond, which are coupons and a face value. And the yield to maturity is an internal rate of return. What you can expect to make on that bond if you pay that price today.\n\nIf you apply that to stocks and you take the S&P 500 at the start of 2026, 7,651.54 is what you'd pay for the index. And you think about the cash flows you expect to get on stocks, it's not coupons, right?\n\nIt's dividends and buybacks. I can't tell you what they will be in the future, but I can tell you what they were in the last 12 months, in this case about 198.17. More from buybacks than dividends in the US.\n\nAnd as a final piece of the puzzle to get expected cash flows, I bring in analyst forecasts. I know, I know you don't trust analysts, but in this case they're estimating aggregated earnings for the S&P 500, and they don't do badly. They're not that biased when it comes to you know, index level earnings.\n\nAnd they're they're becoming increasingly optimistic over the course of 2025 or 2026. The start of 2020 start of October 2026, they were forecasting a growth of 14.59% on a compounded basis. Actually much more in the near years, 2026, 2027.\n\nWe'll talk about why. But after year five, I bring that growth rate down to the growth rate of the economy. Now, I one of the tricks I've learned to use to make that forecast is rather than sitting there and wrestling with forecasting the entire economy, I use the risk-free rate as my proxy, 5.29%.\n\nSo, I've got expected cash flows, and then I look for that discount rate that makes the present value of those cash flows equal to the level of the index today. That's it. That's basically what I'm solving for. What I get as my solved discount rate is 8.99%. You think, \"What does that tell me?\" At the start of October 2026, if you bought the S&P 500,\n\nyou can expect to earn 8.99%. You might not like it. You might say it's too low, too high. This is what you can expect to earn given what you paid for the index and expected earnings in the future.\n\nNow, to convert that into equity risk premium, you subtract out the risk-free rate. That used to be easy until a couple of years ago. You just subtracted out the T-bond rate, which would give you 3.7% as your equity risk premium.\n\nBut, to the extent that you view the US Treasury itself as risky, because after all the US has lost its AAA rating, you'd get an equity risk premium of 3.92%. Now, part of you is saying, \"What do I do with that?\" I'm not a market timer, but if you're a market timer, a low value for the equity risk premium should trouble you. You're\n\ndemanding too low a price for risk. The end of 1999, peak of the dot-com boom, this number was 2%. 3.7%, or if you prefer 3.92%, is a lower number than normal, but not by much. In fact, over the course of this year and going into 2025, you can see that the equity risk premium has kind of moved around within a range between 3.7%, the low that we have now,\n\nand maybe 4 4.2%. In fact, the total expected return on stocks has actually gone up during the course of the year. It just hasn't gone up as much as the T-bond rate has. Markets are repricing stocks to deliver higher return, but T-bond rates rising more has lowered the implied equity risk premium.\n\nMake of that whatever you want, because now I want to turn my attention to what I came to do this session for, which is to look at the effect of AI CapEx in the accounting statements and in terms of corporate finance consequences.\n\nNow, you heard the numbers, right? The hyperscalers, I organized them in my in my post on AI in my session on AI. The six largest hyperscalers in the space, which include Meta, Alphabet, Amazon, Microsoft, Coreweave, and Oracle, have collectively already invested 2 trillion. If you bring in the other players in the game and you update\n\nthat number, you're already at close to 3 trillion. And that number could get as high as 8 to 10 trillion if you look at the commitments they made. So, let's start with that as a fact. Companies are investing massive amounts in CapEx.\n\nLet's call these peop- these companies the builders. They're investing. Now, when you think about investing in CapEx, CapEx goes into your balance sheet as an asset, right? I'm not It's not like I'm giving them credit. It sho- It's just the accounting. Shows up as an asset.\n\nAnd when your balance sheet assets go up, something has to change on the other side, either debt or equity. And that effect will depend on how the AI CapEx is being funded. Now, if you look at the big hyperscalers, especially the ones in the Mag 7, it's about a third of the financing is coming from debt, two-thirds from equity. You're saying, \"Where are they\n\ngetting the equity?\" They have cash cow businesses. Alphabet has 175 billion coming from the advertising business. That's covering a big chunk. There are other investors in AI CapEx who are using far more debt, but your debt and equity will reflect how the AI CapEx gets funded. So, that's where it's going to show up on the balance sheets of the\n\nAI builders. You're saying, \"What about the income statement?\" There is no way the year that you do CapEx that your earnings are going to go up. They can only go down. And how much will they go down? They'll go down by how much you're amortizing that AI CapEx at.\n\nI've seen a lot of articles talking about the scandal in this space. They argue that companies are spreading out their amortization over too many years. That's true that it'll lower the amortization this year, but it's not going to increase earnings. It's going to make the hit on earnings to lower.\n\nIt is true that there can be earnings from the AI CapEx, but it's still early in the process. We're not seeing much of those earnings. Now, finally, if you look at the cash flows, you've got more book value because of the AI CapEx. You've got lower earnings. You're saying, \"What about cash flows?\" The cash flows have to go down, right?\n\nCuz no matter how much you downplay the amortization effect on earnings, CapEx is CapEx. You're spending the money. So, if you look at the builders, that's what's happening in their financials.\n\nBut remember, there's another side to the transaction. If you think about what this AI CapEx is going into, and I've tried to get different statistics on this, but a big chunk of it is going into chips.\n\nSomebody's selling them the chips, right? Who are the biggest players in the game? Nvidia, obviously, is the biggest beneficiary. Taiwan Semiconductors. Followed by equipment, networking equipment. And there you get companies like Broadcom that are playing a role.\n\nMy point is CapEx to the builders becomes revenues to suppliers of architecture. Which include the chip companies, the networking equipment companies, the power companies, not the power the price of the power they sell, but actually building power plants.\n\nAnd the real estate business, data centers. So, what's showing up as CapEx for some companies becomes revenues for other companies in the space. And you know how that's going to play out. And those companies, those revenues become net income. How much net income will depend on the net margins company like Nvidia, which has astonishingly\n\nhigh net margins, 50, 60%. We'll see much of it flow into net income. And what about the cash flows? That high net income will also translate into much higher free cash flow to equity.\n\nWhen you look at markets in the aggregate, you're including both the builders and the suppliers, right? So if you look at the aggregated effect, the CAPEX is the CAPEX. But you look at earnings.\n\nThe earnings effect will depend on what the net margins are of the suppliers relative to the amortization. And the amortization is low and the net margins are high, which is the case now, the earnings collectively for companies will increase as a consequence of AI.\n\nThat's why AI CAPEX will increase earnings. It's not at the hyperscalers, but it's collectively across companies. But collectively across companies, cash flows have to decrease. And it's just common sense. If you're investing two, three, four trillion, that's got to come out of the collective cash flows. So you'll have lower cash\n\nflows. The hyperscalers will see the big effect. That effect will dominate whatever free cash flow equity increases you see at the suppliers. So if you are looking at aggregate numbers, I'd expect aggregate invested capital to rise, aggregate net income to drop, and aggregate cash flows to be lower.\n\nSo let's look at the numbers and see if that's what's happening. Let's start with the CAPEX part. So here I focused on the CAPEX and statement of in the statement of cash flows. Before I start, there are two caveats. One is I'm looking at only publicly traded companies because that's what those are the companies for in which the data is\n\npublicly accessible. You're saying, \"So what? There are private businesses in the AI CAPEX space, suppliers and builders, which are pretty big, right? I mean, I'm not going to be mysterious. Anthropic and OpenAI are not in my sample because they're private companies. SpaceX in my is my sample only a portion of the period. So, to the extent that those\n\nprivate companies have CapEx and revenue effects and earnings effects, I'm missing that in this table. The second is some or a big part of this AI CapEx, depending who you talk to, is off-balance sheet in the form of joint ventures and off-balance sheet entities.\n\nThat might not be percolating all the way through the accounting statements. So, the what you're going to see is an incomplete effect, but it's still the effect I'm going to focus on because that's the number you're going to see out there as the public number for companies.\n\nSo, here I've gone back to my sector breakdown and I've looked at the CapEx in the last calendar two last two calendar years, the last 12 months, and in the first two quarters and the first in the second quarter of 2026 relative to the second quarter of 2025 just to see how much numbers have changed.\n\nTake a few examples. Let's take technology. The second quarter of 2026 is is 80% higher than the second quarter of 2025. Shows you the rate of change even with my incomplete information.\n\nCommunication services and consumer discretion are also seeing big jumps, but again, you can see the variation across sectors. Some sectors there's hardly any change. Some sectors huge change. Collectively, CapEx across companies is up 36% on a quarter-to-quarter basis if we focus just on the second quarter and 26% if you look at the last 12 months versus\n\nthe last calendar year. CapEx is growing at US companies. How is this showing up in in in in the balance sheet? It's showing up as higher book equity, higher debt, and higher invested capital.\n\nBook equity is up 13% in the aggregate across all companies. Almost 1.6 1.8 trillion dollars. Debt is up 1.9 trillion dollars, which is about 8%. And invested capital is about up about 3.7 trillion, 13%. That CapEx is showing up as higher book values. Again, I'm not rewarding or punishing companies, but this invested capital is going to carry\n\nforward. And when you compute things like return on equity and return invested capital for the entire market in the aggregate, that number will be affected by this rise in invested capital, rise in book equity, rise in total debt.\n\nSo, notice that the debt did go up a little bit more than the equity, at least in the aggregate. More of the funding for this CapEx is coming from debt than equity. What about the earnings effect?\n\nAgain, let's focus on the aggregate. In the aggregate, and I've done three comparisons here, which first is the last 12 months versus the calendar year 2025, and in the aggregate earnings are up 49% on that dimension.\n\nI've also compared the second quarter of 2026 to the second quarter of 2025, and their earnings are up again 49%. First quarter 20 So, clearly across the board, you're seeing this big jump in earnings.\n\nWhat does that tell you? At the moment at least, the earnings at the suppliers of AI CapEx, the boom at the those companies is offsetting the amortization. Now, if the people who are arguing that amortization lives are being set artificially high are right, maybe we're overstating the earnings effect, but my guess is even if you adjust to the\n\namortization life, you're going to see a pretty big jump in earnings. Looking across sectors again, you can see that the effects vary across sectors. I mean, technology has seen earnings go from 531 billion to 727 bi- So, from calendar year 2025 to the last 12 months, you're seeing an increase of almost uh almost 200 billion dollars in earnings.\n\nSo, ev- on every comparison, you can see variations across, but here again, there's something that is worth watching. Even if you take a sector like technology that in the aggregate is seeing a big jump in earnings, and you look at the percentage of companies within technology that are reporting higher earnings, less than half of all companies.\n\nSo, the story continues to hold what you saw in the market cap. Collectively, the market is reporting higher earnings. But individually, those higher earnings are not spreading across companies, it's in a subset of companies.\n\nSo, now let's move on to the final effect, which is you've got higher CapEx, higher book values, perhaps dec- uh higher earnings, at least in the aggregate. What happens to cash flows? I think the cash flow effect is much clearer.\n\nCollectively, cash flows at companies will have to decrease when you reinvest more, because that reinvestment, whether it comes from the buyers or the sellers of that CapEx, ultimately comes out of aggregate earnings. So, even if you report higher earnings, you have higher CapEx offsetting those higher earnings.\n\nNow, rather than track out the direct cash flow effect, I'm going to look at what companies are doing in terms of returning cash flows to shareholders in the form of dividends and stock buybacks. Again, in this table, you have the aggregated dividends and buybacks across all US companies broken down by sector. And I've looked\n\nat the last calendar year, the first two quarters of 2026, as well as the last 12 months. So, let's take dividends. Collectively, US companies returned about 857 billion dollars in dividends in the last 12 months. That's up about 5% 6% from where it was in the last calendar year. Not bad, right? But not not clearly not the 45 50% you're seeing\n\njump in earnings. You're saying, \"What about buybacks?\" In the last 12 months, buybacks have been about 1.3 trillion. That's about up about 8% from the 1.2 trillion that it was in the last calendar year.\n\nAnd in fact, the second quarter of 2026 saw a slight dip from the second quarter of 2025 in terms of buybacks. Buybacks are growing, but again, at a rate far less than earnings. In fact, interestingly, if you bring in stock issuances and net them out against buybacks, the the growth in net buybacks, buybacks net of stock\n\nissuances, has been about 5%. Again, big differences across sectors. But you can see that dividends and buybacks are growing at rates far lower than the growth in earnings. You know where this shows up?\n\nIf you track how much companies are returning to their shareholders, which I do for at least for the S&P 500, and measure it up against earnings. For much of the last 25 years, starting around 20 2004, US companies have been returning higher and higher percentage of their earnings to their shareholders, 80, 90, even more than 100%.\n\nIn the last three or four years, you've seen the divergence. Earnings have continued to surge at much higher rates, but the cash flows have not increased at the same rate. The percentage of earnings that's returning to share that's being returned to shareholders is much lower. It's about 63%.\n\nThat reflects the fact that that CapEx in AI is draining cash flows that would have otherwise have gone to shareholders. So, this point, we have a sense at least of the big picture, which is AI CapEx is creating a negative cash flow. It's increasing book capital. In the aggregate, it might actually be pushing up earnings at least in the near term.\n\nAnd in the aggregate, it's pushing down cash flows that companies have available to return to shareholders. Yeah. Which sets us up for a broader question, which is all All this is being done in the hope that AI will pay off.\n\nLet's play it out. Let's say the AI boom is real, that there is a payoff coming, that there is a big market out there. Here's what would you expect to see? You should see the earnings at the AI builders start to rise over time. Right now they're not making much in in revenues and earnings from their AI capex, but that should change if AI is a\n\nreal is a real deal. Your earnings should go up. Does that mean that these companies market cap should go up? Not necessarily. Here's why. When you invest two two and a half three five trillion in AI capex, making 50 billion in income is not enough, right? Cuz that capital require has to earn at least its cost of capital.\n\nLet's give it an 8% cost of capital, not an unreasonable number. 8% of 5 billion is 400 billion. If you don't generate 400 billion dollars in earnings and cash flows, you're not making enough of a return to justify the cost of capital.\n\nSo AI might succeed in terms of being real and delivering a boom, but if companies collectively have trouble earning their cost of capital, the market value will have to get written down. The accountants will not write it down because their earnings are good and therefore you're making money, there's no write-offs.\n\nThe cash flow should start improving these companies because as the earnings start to come in and capex starts to level off, the net capex will start to get lower. The cash flow should come back.\n\nBut the builders, even if they emerge as successes from this, will be a will be very different as businesses. They'll be capital intensive businesses. A Meta, Microsoft, and Alphabet 10 years ago were capital light high growth businesses. If they succeed, they'll become capital very different game for investors to play and for the companies\n\nto manage. That's if the boom is real. What if the boom fizzles? What if there's no revenues and earnings at the end? Then we have a problem. The first is the earnings at the AI builders expected in the long term will never materialize.\n\nThe accountants wake up and say this was a mistake and start writing down the trillions of dollars of capex. Big hits. They you can call them extraordinary and one time, but they're still hits.\n\nAnd if the AI capex was funded disproportionately with debt, we have a truncation risk problem. What am I talking about? That the companies might be unable to make their debt payments and the pain will be felt both by the companies which will go into distress as well as the lenders to these companies.\n\nThe cash flows may eventually recover at the AI builders, but it'll take a while to get there. And the market will exact its own pain for the for from these companies partly because you've had all of these hundreds of billions of dollars of capex with nothing to show for it. And partly because you lose trust in management that did that.\n\nAnd told you to believe but never delivered. So, I think that both scenarios, both pathways remain open and somewhere in the middle might be the end game, but it's worth thinking about the consequences.\n\nSo, then what do I do as an investor? As I see it, you have four possible games you can play. One is you can go all in on the AI story winning. That AI company AI is going to, you know, drive disruption. Not only is it going to disrupt a lot of business, it's going to happen in the near term. And it's going to be total.\n\nHey, that's the Leo Ash Brenner thesis, right? He of course created a hedge fund. He bought the companies who benefit from the AI story winning, sold short on the companies who be disrupted. The mistake of course that he made, and I talked about this before, was that he had too much conviction. So, he levered up to the hilt and the leverage brought him\n\ndown. So, maybe you can do what Leo did without the leverage. So, that's one one possible pathway. The second is you can say, well, crowd wisdom is still wisdom. The market is building in a consensus in AI where it thinks AI will win and be big, but it'll take longer than than the AI optimist think it will and be perhaps smaller\n\nthan they think it's going to be. That's being built into the market. You can go along with the market consensus. And implicitly, that's what you're doing when you buy an index fund of all US equities or the S&P 4 even the S&P 500 fund is you're going with the market consensus.\n\nThe third is you can trust the AI story in its broad in its broad contours and say, you know, I think AI is going to win, but it's you know, there's going to be lots of barriers, blocks to get over.\n\nIt's not going to be as profitable as people think it is. Which will mean you're more cautious about jumping in today because you think the market's being too upbeat about the future, not assessing the risk.\n\nWhat will this mean? You will leave the bulk of your money still where it is, which might be in the market, but new cash coming in you might hold as cash saying, I'm going to wait to see how this plays out.\n\nAnd there's a fourth possibility. You might think that this is all entirely built on smoke and mirrors. That the AI stories is going to crash and burn. And there are two things you can do. One is you can sell all your stocks and put your money in cash or if you don't trust cash because inflation is already you can look at other collectibles, cryptos,\n\nwhatever strikes your fancy. I let's call that the paranoid pathway. The other is you can decide to stay in the market and try to take advantage of investors that you think are being too gullible. By doing what? By selling short. By by reversing the Leo story. So, you're going to sell short the companies that benefit from AI and you're going to buy into the\n\ncompanies that are supposed to be disrupted and hope to make money from the crashing out story. I mean, I am not going to prejudge this, but I I mean, it behooves me be behooves me to tell you where I am in this process.\n\nWith the bulk of my portfolio, I'm going to go with the market consensus. I do hold five of the mag seven. Four of those companies are big AI capex companies. So, whether I like it or not, implicitly I'm assuming that at least in the aggregate we're not going to crash.\n\nAt the same time, the cash that's coming into my portfolio, I'm leaving as cash. My cash balance in my brokerage account is higher than it's been historically because I'm not sure I buy into the thesis as completely as I would need to for that money to go into the market as well.\n\nNow, in doing this, I know I've left money on the table. In fact, my Nvidia investment, I've sold over four blocks. It's probably going to keep going up at least in the near term, and I'm okay with that because I need to sleep well at night, and I'm okay with leaving money on the table.\n\nSo, your assessment then has to depend on what not only what you think about AI, but what helps you sleep at night. One more thing, if you're you know, I'm I'm I'm too old to think about this as a key component, but if you're younger, a key component of your portfolio is your human capital. The present value of the wages you will make,\n\nand you got to factor in what the AI threat will do to that. If you're in a business or an industry where AI is coming for you, you have a human capital impact you've got to factor in. You've got to invest in things that are not affected by AI as much. So, you've got to find a way of hedging, at least partially, the possibility that you could lose your job.\n\nWe live in interesting times, and you can see why the Chinese use that as a curse because interesting times can make us stressed out. So, I wish you the best in thinking through this and I hope that this session has helped frame your thinking on how AI is playing out in financial statements and earnings and ultimately in how we price equity.\n\nThank you and take care.",
+      "publisher": {
+        "id": "UCLvnJL8htRR1T9cbSccaoVw",
+        "name": "Aswath Damodaran"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=nwmvMh6P1Lo",
+      "publishedAt": "2026-10-08T20:39:46.000Z",
+      "collectedAt": "2026-10-21T09:29:37.265Z"
+    },
+    {
+      "id": "youtube:xbTzxeaZhlw",
+      "title": "The Real Reason Tesla Announced The Roadster | The Brainstorm 154",
+      "bodyMarkdown": "The combined entity certainly could be the most valuable company in the world and under some assumptions and in fact many sets of future worlds it could be worth more than hundred trillion dollars in enterprise value.\n\n\\>\\> All right, this week we're talking about things blowing up. Roadster launching itself, hedge funds blowing up maybe for the second time in just a matter of months. But Brett, you got to be in person at the Tesla Roadster unveil. You saw it with your own eyes.\n\nWas it as incredible as the live stream? Can you confirm no AI used? \\>\\> Yeah, I I mean I can though it really didn't look real when it happened. And um and so it's still a little flumxing that they managed to create that car that can do those tricks, call it. Um, I think I was thinking over the weekend about the reason behind it and Tasha\n\nwrote about this in our newsletter, but I do think that event was in part, you know, and maybe primarily marketing for a prospective SpaceX Tesla merger. And those companies when they do stuff together, it rates all time in terms of doesn't look real over actually real ratio. I I mean in person it it really almost makes your mind go like because\n\nyou're like how did that happen? Um and you know the car does look really cool and I'm sure they'll sell some number of them at $250,000 a pop. And it's not something that Ferrari or Porsche or anybody else could duplicate. At least the the rocket thrusters. I don't think they could do the downforce fans. So, the car can uh you know, people were\n\nsimulating over the weekend thinking it could maybe beat an F1 um car around the track because of the downforce advantage it would have. Um you know, and it's kind of um uh call it. It's certainly not going to be material to Tesla's immediate financial or medium-term financial prospects. Um, and I think that kind of beyond just advertising the\n\nmerger, which might have been kind of like the reason for this particular PR event, um, I do think engaging in these kinds of, um, spiky, non- consensus, maybe a little fun and weird projects is a way to keep a workforce motivated, to keep great designers like France engaged and Lars engaged. And so it's almost like a necessary um output of a company\n\nthat is still operating on the edge. Um and I think one of Elon Musk's superpowers is to keep his companies on the edge. Uh there's this tendency as companies get big, they make decisions by committee and so their output becomes very average. This was is non-A output and an extreme example of it. And so that's \\>\\> right. It's it's almost everyone's\n\nperception as this being a totally unnecessary thing is the difference between Elon companies and uh other companies which is that he sees it as necessary right is it it's not necessary in the traditional sense \\>\\> but it's also I I I think also from a you know one it's amazing marketing as in every single person in you know even\n\noutside of my tech circles was talking about it you know, over the over the weekend. Um, and there's think about how they've like named the, you know, Plaid as the super fast speed for their cars.\n\nPlaid as a name for super fast speed, which is a reference to the movie Space Balls, which, you know, what percentage of their perspective, you know, car buying population has seen the movie Space Balls or or even gets that? um kind of making those choices that are odd a little off-kilter um I think is probably optimum business strategy and\n\num but it is risk it there's an embedded risk there that you're going to do something that people don't get that then kind of like doesn't hit the sweet spot um so um and they they his companies have been very good at continuing to take risk and when you have a lot of capital to deploy means you're taking bigger risks but that's\n\nfine as long as you're doing enough good expected value positive bets, then you'll continue to grow in an extreme way, which we think they will. \\>\\> Okay. Then to the key point that you called out first, we're recording this on Monday, October 19th. I think Khi has a 75% chance of a merger before is it the end of the year? I don't know what\n\nthe timeline is. Uh tomorrow we've got SpaceX's earnings call. Wednesday Tesla's. Do you think a merger is announced this week? \\>\\> Yes, I think that they're, you know, this event timing was intentional over the weekend. Many of the SpaceX executives followed Tesla X accounts.\n\nUh, which to me is like a tipping of the hand. Um, they also said, didn't you say they they changed the order of the earnings? Q2 it was it was Tesla then SpaceX and now it's SpaceX then Tesla.\n\nSo to me I saw that I was like oh and they're one day apart. I was like okay I feel like this is \\>\\> yeah and they have to announce it with sufficient window in front of the annual meeting of the Tesla shareholders so the Tesla shareholders can vote. Um we will see you know if and how they announce the terms. Um, I think that there's, you\n\nknow, it would not surprise me. I mean, almost any terms wouldn't surprise me. It would not surprise me if if there was, um, if the the combined company um was roughly split between Tesla and SpaceX shareholders upon activating the merger. And I think from, you know, we're incredibly optimistic on both companies prospects independently, but\n\nwhen you combine them, you end up with actually much better returns for either shareholder bases. So I think there's lots of reasons why both shareholder bases should support the merger at almost you any reasonable conversion ratio. Um SpaceX is cash flow constrained. They could come back to the equity market, but they have probably\n\nthe the largest um extraordinarily high ROIC set of investments in front of them of certainly any company I've ever looked at. Um and Tesla is about to tip into a point where its robo taxi network begins to print a lot of cash. And I don't think that Optimus is cash flow constrained. I think it's execution constrained. You know, there's all the\n\nmechanical stuff and all the software stuff that you have to figure out. Um, and so Tesla's excess cash could be put to extraordinarily good use by SpaceX launching connectivity satellites and AI satellites. So \\>\\> talk about a crazy futuristic company all under one roof. SpaceX SI-Tesla hyphenated.\n\n\\>\\> I was thinking I was thinking about Yes. I don't know what they're going to call it. They just should call it super intelligence. um the um the the and also think back to the entire journey of Tesla, you know, you and I faced so much blowback and Tasha, you know, supporting the company as it was going through the Model 3 ramp. Um people\n\ntried to bully us out of like supporting the position. Uh, and it is ironic that it could be that that same company, there was an entire identity subculture wrapped around Tesla Q, which would be the ticker if the company went bankrupt.\n\nPeople made their entire identities the idea that this company was going to be a zero. And now it could be \\>\\> the first hundred trillion com the combined Yeah. The combined entity certainly could be the most valuable company in the world. And um you know under some assumptions and in fact you know I think many many sets of future\n\nworlds it it could be worth more than hundred trillion dollars in enterprise value. \\>\\> Wow. \\>\\> What a journey. \\>\\> What a journey indeed. All right then talking about ROIC big concerns with coreweave and whether or not there is enough return for them to stay solvent.\n\nuh as interest rates go up. And then obviously I think that ties almost directly in with the rumors around Enthropic having meetings, a lot of information leaking out about their revenue growth uh and just how vertical that has gone. Where do you want to start?\n\n\\>\\> Yeah, I think they they're intrinsically tied. So this is so what's happened over the last week is like a bunch of AI exposures have gone sideways in an extreme way including you know coreweave is down a lot in the equity market and then bonds are trading at something like a 15% yield you know they raised it at 9%. So um clearly\n\na heroic bond manager could come in and make his year assuming that core actually pays out on those bonds. So um this is screaming for um somebody to underwrite it. Uh simultaneously the in demand for there's no at least that we've seen and I don't think anybody's pointing to it softening in the demand for the GPUs that core reef is\n\ninstalling in their data centers. Everybody is short compute. Uh you know the you can look at rental prices for the GPUs they're installing and they're they're heavily up. And so you don't look at kind of like that demand picture and then assume that Cororeweave is in any sort of trouble. You have to make some second order. Well, a couple years\n\ndown the line, their demand is going to fall off cuz I don't know, nobody's going to want to pay for intelligence anymore. Um or you could have like the Neocloud company Coreweave or other just misexecute on a bunch of projects where they can't deliver the performance obligations they have to the people who are paying on the back end. And so\n\ndepending on how their contracting is set up, there could be some penalty rates. But I don't I think my suspicion is that um what's going on is there's like a couple of hedge funds blowing up.\n\nAnd in fact, it might be the um this guy who ran the situational awareness fund which blew up in Wasn't it just Leopold? \\>\\> Well, so he got blown up cuz he had a huge amount of leverage on going long kind of like this AI infrastructure stuff and the semi stuff and and just got caught out by you know interest rates market cycle burbles and because\n\nhe was had so much leverage on and options on uh his entire portfolio got scooped up by Citadel. his entire public book, but he stayed alive because he had this huge anthropic position that he couldn't lever really cuz it's a private shares. And so, um, this is all at least the reporting. He had this big chunk of anthropic and that managed to keep his\n\nfund afloat. And he's like, I'm rebuilding from here. Now, you can imagine the banks that are doing the anthropic IPO are probably getting pretty aminable to taking on anthropic shares as collateral to lend against now because, you know, they've underwritten underwritten the whole business. They're beginning to line up the buyers of these\n\nthese shares on the back end. And so, they have a fair amount of comfort as to what these things are worth. And you can also imagine Leopold who's been blown up and it's like, \"Oh man, I'm missing the run now cuz I'm not liquid enough. Well, I have these nice juicy shares. like a like pledge to the banks to get some money out and to get back in the game.\n\nAnd repeatedly in September, that's what he began to do. And he did a lot of options in September. And maybe this same guy is getting blown up again. And and everybody's getting caught off sides by the same person getting liquidated.\n\nAnd we're going to learn that Citadel's bought his book again, you know, in a week \\>\\> from themselves. I mean it's like so I do think like the way the tape is acting something like there's rumors of other hedge funds something like that is happen happening and it would also um mean that there's even more sensitivity to whatever anthropic is doing at the\n\nmargin if that's kind of the you know their willingness to lend if they're like oh demand for this IPO is softening a little will diminish and maybe they go back to him it's like you have to pledge more capital against this stuff whatever and so anthropic pick is uh you know reportedly having investor meetings and um despite the fact that everybody has\n\nto sign NDAs when they go to those meetings, reporters are getting little tidbits of their financials that'll come out that we will find out if they're actually true once the S1 is officially published. But um people are worried about Anthropic's you know growth dynamics.\n\n\\>\\> So can we dive in dive in there? What was it because of the quarterly and people were worrying worrying that \\>\\> growth the fastest growing company in the history of the world is no longer growing as fast as the fastest growing company in the world ever has or what what is the fear there \\>\\> and it's still growing faster than any\n\ncompany I mean like so the on the rumored kind of second quarter results their topline growth like their annualized growth was something like 3500 100% year-over-year. And on this most recent quarter, their quarterly growth, so sequential growth annualized, you would say, oh, now they're only growing 340% year-over-year. Uh, and so,\n\nyes, that is a slowdown from 3,500%. But it's still or or to give you some perspective, there are 32 companies in the history of I think the world, but definitely in the US that on an inflationadjusted basis have added more than $30 billion in revenue over the course of a year. So trailing 12 month versus previous trailing 12 month 32 of\n\nthose only four have done so by at least tripling their revenue. So, Enthropic is still, you know, more than tripling its revenue on the quarterly annualized growth, but only four have done so by more than tripling their revenue. And it's all happened in the past basically couple years. It's there's an Nvidia quarter where they did that. There's a\n\num there's a Micron recent quarter where they did that and then Enthropic is doing it and probably OpenAI is doing it on this quarter. So, and Enthropic is doing it by more than 10xing its revenue whereas everybody else is like a bit more than 3x. So it is no hyperbole to say that this was the most remarkable 12 months of business performance ever\n\nrecorded in US financial markets or we'll find out it was when the S1 is published assuming these rumors of the revenue are true. Not only that if you read the reporting it also suggests that they have gap gross margins at like 85%.\n\nSo they are growing faster than any company has ever grown at their size and printing off gross profit that is well in excess of you know mostly the entire field. Uh and that gives them if the concern about coreweave is who's going to pay for this future GPU that they're going to build. Well, you have this company alongside OpenAI that seem to\n\nhave extraordinarily healthy, you know, financial plenty of gross profit to throw at future compute. Um, and so I think the satisfying explanation is somebody had a lot of leverage on and they got caught off sides. And um the catalyst could be kind of this you know some like oh is anthropic losing share to open AAI or are they getting hurt by\n\nthe Chinese models and they are directly getting hurt by the Chinese models because they cut off the Chinese models distillation efforts or the openweight models mostly from China distillation efforts against their APIs meaning some high singledigit percent I think is the reported rumoring um of their revenue in the pri entire quarter was from other\n\ncompanies trying to basically suck kind of their model out through the straw of their API and they said well we're not going to let these guys get basically very inexpensive R&D like that anymore so we we figured out a way to systematically clip that off and that you know cut some revenue out of the third quarter that's clearly\n\nstrategically good for them um but it does like growth \\>\\> you know impact their revenue and so then therefore you know they in in in like trying to impair the open weight model guys they did hurt their financial metrics marginally. It is it is another \\>\\> I don't know what do you think?\n\n\\>\\> It's another brick in the wall of \\>\\> uh ideas suggesting that the leaders are actually going to pull away as opposed to be caught from you know openweight competition here which I think is important and interesting \\>\\> but I I think that's very non-conensus and and it's what I believe.\n\n\\>\\> Yeah. as in I think that there there is like the broad consensus out there is that and and the concern for the likes of Coreweave is that um OpenAI and Enthropic have these plans to spend a lot of money training models not inferring them not providing them to end customers but developing better models and if it turns out that R&D spend is\n\nbad money spent then they will basically you know I don't know they'll no longer have a competitive edge and they'll go bankrupt or they'll um stop spending it and that'll cut into the in demand for compute um in the 2 to threeyear time frame and one I mean if you've tried to heavily use these AI tools they are extraordinarily useful and\n\nextraordinarily inane still give them any kind of leash at all and they'll happily waste a lot of tokens to produ produce business output that is way subpar and cost you more time than it saved you. uh and so and there is plenty of evidence that there's lots of engineering room to make them better.\n\nThere is this interpretability paper about the underlying neurons which suggests you can do much more control of the underlying models. There's, you know, there's lots of ways that these things can get better. And if you look at the the performance metrics, they are performance their their performance is doubling per unit cost on a every month\n\nor every two months basis. Uh so um the the the reason the frontier labs, these closed labs probably could accelerate away is because they have models 6 months in advance of everybody else and they get to access those models at cost rather than having to pay.\n\n\\>\\> It's like being a Moor's law cycle or two ahead of everyone else, right? It's \\>\\> it's like being three ahead of everybody else. And but also like if the gross margin is true for anthropic, it's really like uh you know everybody else has to pay 4x more. So it's really like being uh six more like so it's like being a decade and a half ahead. It's\n\nreally unfair, you know, like their R&D dollars spent is worth uh I mean I can't do the math in my head and I should, but it it's literally worth uh 100 to a,000 times more than somebody else's. So for somebody this is I think the interesting test case here is SpaceX which is clearly going to try to spend to catch up um right now doesn't have as much\n\ncompute as they have and is actually renting off compute to them. Um, and at some point it will begin to acrue compute resources where it should be able to catch up. But it I think it's spotting them a lead right now. And the open weight guys, \\>\\> honestly, forget it.\n\n\\>\\> Well, the here's the counter, \\>\\> which I think \\>\\> Okay, \\>\\> I mean, we'll see where it goes. Okay, Moore's law coincidentally the amount of time it took to double transistors was roughly in line or that pace was groable by humans and the business cycle which is it's like you know you were running up against those constraints and then it\n\nwas like finally a new chip is coming out like just wait for the next generation. It's like now you can do it you can play all these games. It's like your computer was starting to lag anyway because it couldn't keep up with like the newest graphics and memory constraints and all of that. Whereas, I think this is moving so fast. the it's\n\nlike the number of people who actually know what to do with the tool is so low that it's like they're 10 years ahead but with I'm trying to think of the right analogy here but it's like they have it it's like they have they have they have a golden tool but it's like I don't know there's a hundred people in the world that know how to use the tool \\>\\> and so\n\n\\>\\> but think of think they can they can use they can use that call it golden tool to deliver intelligence more less expensive. So people think about the frontier as just being the PhD level model, \\>\\> right? And they say, well, why do I really need that? And for one thing, you need it because it apparently takes a PhD to successfully do a calendar entry\n\nor, you know, I mean, I think that there's a lot of like things these things still get wrong and if you do them with the highest class model, they get them right. But the real frontier is actually the full PTO frontier which is like the less intelligent thing that is quicker that is less costly and they can spend their R&D model R&D dollars to\n\ndevelop the frontier which they're doing now because internally they need those highest class models to continue to drive forward but then you know and and OpenAI has done this um more aggressively than Anthropic but then they can turn around and compress those models down and deliver cheaper performance per cost at low cost as\n\nwell. And so um I I think people have this belief that oh well kind of the cheap models are going to be cheaper and come out of open weight and so these guys are just going to occupy the Ferrari niche in the ecosystem. But actually it's almost like having a Ferrari allows you to also compress it down into a Honda Civic. Um whereas if\n\nyou don't have a Ferrari you can't make the Honda Civic. Uh and so I think that that they're actually going to dominate the whole curve. And so this idea that people are going to trade off to trade off from the frontier into uh open weight will actually be a very expensive decision to make, not a cheap decision to make because your your cost per task\n\nis going to go up. And so then you're having to weigh off, well, is it worth doing that to then have full control over the data that comes into it and to fine-tune it? And I think that's gonna be that's so what a lot of enterprises are doing. I think it's going to turn out to be a losing bet and we'll see.\n\n\\>\\> Right. I I agree with that. But that's not what the market is doing today in that it's like people aren't as price discriminant as they should be across the frontier today. \\>\\> You mean they're just spending all their money on the most expensive models?\n\n\\>\\> Yeah. People are spending all their money on the most expensive models or they're going open weight even if it's the same price as not going open weight. \\>\\> See, I don't even know that like like this this this narrative that people are going open weight. I have not seen a demonstration that on an economic basis share is going towards open weight\n\nversus closed weight as in what I and maybe I'll do it myself but I want to see gigawatts devoted to open weight versus closed weight \\>\\> over time. People point to these token measures which is like the stupidest metric possible. Like a one token is not the same as another token. And of course you can create a very very small model\n\nthat can just print out random tokens and you can say look at all the share it's taking. It's printing out random tokens but it's it's not the same thing at all. \\>\\> That's good marking. Let's let's spin up uh let's let's take over open route.\n\n\\>\\> The most used tokens. Yes. Um so so I'm not sure like what you can see is the the closed like between Enthropic and OpenAI these are two companies Enthropic is probably you know they're both delivering um all-time historical you know revenue uptake at extremely large size um and it could be that open weight is also that's also happening with the\n\ninfrastructure attached to open weight systems though I haven't seen in the numbers to prove it. And so then we're just left with the narrative. And there's a lot of people who are incentivized to present this other narrative, uh, you know, and have sour grapes about not having anthropic and open AAI exposure. Uh, and so, you know,\n\nthat's kind of where I'm at. Um, the Yeah. And and I think it it is not I think everybody Oh. Oh, the other thing you said which I thought was interesting was that um well the Mors law cycle just was conveniently timed to people's ability to like deal and process with this stuff where it's like oh well my computer was kind of getting old anyway\n\nand here's a twice as performant computer for the same cost or you know four times as per performant as I if I wait four years so I'm going to upgrade and but those consumer product decisions and all of that uh call it societal like uh call it um impedance matching um happened because of the rate pace at which technology was moving. And so like\n\nstartups are going to operate in a different way than big enterprises which are on that cycle. They're going to operate in a way that is more aligned with kind of like these performance gains. And so I think that there's you're right that there's societal friction that'll prevent uptake here, but then that'll leave room for companies that are really taking\n\nadvantage of these capabilities and how quickly they're moving to take a ton of share and to turn over a lot of game boards. Agree. \\>\\> What an exciting time to be alive. \\>\\> All right.\n\n\\>\\> It really is. It's like I I Yes, \\>\\> it is. You know, you see all the chaos and everything, but uh amazing things happening. Hopefully next week we will be talking about equally exciting things. Hopefully the hedge funds who are going through issues will have cleared out and the market \\>\\> been liquidated \\>\\> can continue climbing uh the walls of\n\nworry that people throw at it. \\>\\> Sam, last question. Are you going to reserve a Roadster? \\>\\> You know, no. Although I I am I'm I'm almost assuredly not. I'm very tempted with the Model Y L. That's, you know, if I had if I had space and the ability to get one of the rocket versions invited to buy one of the rocket versions and\n\ncould store it, I think that is going to be one of the most valuable cars in the history of the world. Um, but \\>\\> as a as a collector's item, as a collector, there's there's only going to be likeif 50 out there and it's like \\>\\> in particularly cuz half of them will like do spectacular crashes trying to do some crazy opinion or something for uh Ferris\n\nBuer's Day Off 2.0. \\>\\> Don't Don't unwrap it out of the package. \\>\\> Exactly. \\>\\> Got it. \\>\\> All right. We'll see everyone next week. \\>\\> Arc Investment Management LLC is an SEC registered investment adviser. Ark, Wolf Financial, and Public are separate, unaffiliated entities and do not have a relationship with respect to any company\n\nmarketing or selling the products or services of the others. ARK, Wolf Financial, and Public make no representation or warranties regarding and expressly disclaim any responsibility or liability for any acts, omissions, losses, or damages of the other entities or their affiliates, officers, employees, or agents. No company shall be liable for any\n\nindirect, incidental, consequential, or special damages arising out of or in connection with this podcast or its contents. The information provided in this show is forformational purposes only and should not be used as the basis for any investment decision and is subject to change without notice. It does not constitute either explicitly or\n\nimplicitly any provision of services or products by ARC. An investor should determine for themselves whether a particular investment management service is suitable for their investment needs.\n\nAll statements made regarding companies or securities are strictly beliefs and points of view held by ARK and/or show guests and are not endorsements by ARC of any company or security or recommendations by ARC to buy, sell, or hold any security. Historical results are not indications of future results.\n\nCertain of the statements contained in this show may be statements of future expectations and other forward-looking statements that are based on ARK's current views and assumptions and involve known and unknown risks and uncertainties that could cause actual results, performance, or events to differ materially from those expressed\n\nor implied in such statement. ARK assumes no obligation to update any forward-looking information. ARK and its clients as well as its related persons may but do not necessarily have financial interests in securities or issuers that are discussed. Certain information was obtained from sources that ARC believes to be reliable.\n\nHowever, ARC does not guarantee the accuracy or completeness of any information obtained from any third party.",
+      "publisher": {
+        "id": "UCK-zlnUfoDHzUwXcbddtnkg",
+        "name": "ARK Invest"
+      },
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=xbTzxeaZhlw",
+      "publishedAt": "2026-10-21T20:00:09.000Z",
+      "collectedAt": "2026-10-21T21:32:06.579Z"
+    }
+  ],
+  "queries": [
+    {
+      "id": "M01",
+      "query": "股",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "single-character",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M02",
+      "query": "債",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "single-character",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M03",
+      "query": "電",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "single-character",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M04",
+      "query": "金",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "single-character",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M05",
+      "query": "稅",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "single-character",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M06",
+      "query": "風電",
+      "expectedIds": [
+        "rss:c3816ccee758da0e"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "two-character",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M07",
+      "query": "觀光",
+      "expectedIds": [
+        "rss:a7b3b1db95608278"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "two-character",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M08",
+      "query": "資安",
+      "expectedIds": [
+        "rss:108a1504b2cae6cb"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "two-character",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M09",
+      "query": "拆股",
+      "expectedIds": [
+        "rss:42c18fc7adc37c9f"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "two-character",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M10",
+      "query": "利率",
+      "expectedIds": [
+        "youtube:ABRdFe03L4c"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "two-character",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M11",
+      "query": "台積電",
+      "expectedIds": [
+        "rss:b34871909518a467"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "proper-name",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M12",
+      "query": "Waze",
+      "expectedIds": [
+        "rss:108a1504b2cae6cb"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "proper-name",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M13",
+      "query": "CoreWeave",
+      "expectedIds": [
+        "youtube:LFrHquAyz0Q"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "proper-name",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M14",
+      "query": "Blackstone",
+      "expectedIds": [
+        "youtube:NOQ2J_r7hyo"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "proper-name",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M15",
+      "query": "JPMorgan",
+      "expectedIds": [
+        "youtube:PFpHxOm4Sv4"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "proper-name",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M16",
+      "query": "DSX POD",
+      "expectedIds": [
+        "rss:62520a04faacb9c7"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "mixed-language",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M17",
+      "query": "AI 工廠",
+      "expectedIds": [
+        "rss:62520a04faacb9c7"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "mixed-language",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M18",
+      "query": "QQQI 退休",
+      "expectedIds": [
+        "youtube:aBksDL8pHdc"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "mixed-language",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M19",
+      "query": "IBM Q3",
+      "expectedIds": [
+        "rss:add76475f82b5eef"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "mixed-language",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M20",
+      "query": "Factset EPS",
+      "expectedIds": [
+        "rss:c00dcce7075430c7"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "mixed-language",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M21",
+      "query": "国债利率",
+      "expectedIds": [
+        "youtube:ABRdFe03L4c"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "script-variant",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M22",
+      "query": "國債利率",
+      "expectedIds": [
+        "youtube:ABRdFe03L4c"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "script-variant",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M23",
+      "query": "美联储",
+      "expectedIds": [
+        "youtube:mPaQ7O5NM0A"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "script-variant",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M24",
+      "query": "美聯儲",
+      "expectedIds": [
+        "youtube:mPaQ7O5NM0A"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "script-variant",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M25",
+      "query": "台积电",
+      "expectedIds": [
+        "rss:b34871909518a467"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "script-variant",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M26",
+      "query": "CoreWeav",
+      "expectedIds": [
+        "youtube:LFrHquAyz0Q"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "typo",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M27",
+      "query": "Blackston",
+      "expectedIds": [
+        "youtube:NOQ2J_r7hyo"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "typo",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M28",
+      "query": "Nvdia",
+      "expectedIds": [
+        "youtube:LFrHquAyz0Q"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "typo",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M29",
+      "query": "Windwos",
+      "expectedIds": [
+        "rss:3d7e6a989e6fc75c"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "typo",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M30",
+      "query": "台績電",
+      "expectedIds": [
+        "rss:b34871909518a467"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "typo",
+      "exploratory": true,
+      "split": "main"
+    },
+    {
+      "id": "M31",
+      "query": "circular financing",
+      "expectedIds": [
+        "youtube:LFrHquAyz0Q"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "english",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M32",
+      "query": "Energy Transition",
+      "expectedIds": [
+        "youtube:NOQ2J_r7hyo"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "english",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M33",
+      "query": "Security Push",
+      "expectedIds": [
+        "youtube:PFpHxOm4Sv4"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "english",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M34",
+      "query": "Cashflows",
+      "expectedIds": [
+        "youtube:nwmvMh6P1Lo"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "english",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M35",
+      "query": "Roadster",
+      "expectedIds": [
+        "youtube:xbTzxeaZhlw"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "english",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M36",
+      "query": "SearchEvalMissingTokenQzxv791",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": true,
+      "category": "negative",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M37",
+      "query": "qzxvplmno139xyz",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": true,
+      "category": "negative",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M38",
+      "query": "冰河企鵝量子香蕉",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": true,
+      "category": "negative",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M39",
+      "query": "ZephyrQuokkaNoMatch139",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": true,
+      "category": "negative",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M40",
+      "query": "月球海豚不存在測詞",
+      "expectedIds": [],
+      "forbiddenIds": [],
+      "expectZero": true,
+      "category": "negative",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M41",
+      "query": "台積電 產能",
+      "expectedIds": [
+        "rss:b34871909518a467"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "multi-word",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M42",
+      "query": "外資 穩懋",
+      "expectedIds": [
+        "rss:befcb4a6ff390110"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "multi-word",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M43",
+      "query": "台越 觀光",
+      "expectedIds": [
+        "rss:a7b3b1db95608278"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "multi-word",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M44",
+      "query": "離岸 風電",
+      "expectedIds": [
+        "rss:c3816ccee758da0e"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "multi-word",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "M45",
+      "query": "資安 Waze",
+      "expectedIds": [
+        "rss:108a1504b2cae6cb"
+      ],
+      "forbiddenIds": [],
+      "expectZero": false,
+      "category": "multi-word",
+      "exploratory": false,
+      "split": "main"
+    },
+    {
+      "id": "H01",
+      "query": "可追責",
+      "expectedIds": [
+        "rss:4a359e3de6745ded"
+      ],
+      "forbiddenIds": [],
+      "category": "traditional-body-term",
+      "split": "holdout"
+    },
+    {
+      "id": "H02",
+      "query": "亞利桑那",
+      "expectedIds": [
+        "rss:b34871909518a467"
+      ],
+      "forbiddenIds": [],
+      "category": "traditional-place-name",
+      "split": "holdout"
+    },
+    {
+      "id": "H03",
+      "query": "陳玉秀",
+      "expectedIds": [
+        "rss:a7b3b1db95608278"
+      ],
+      "forbiddenIds": [],
+      "category": "traditional-person-name",
+      "split": "holdout"
+    },
+    {
+      "id": "H04",
+      "query": "無水氨",
+      "expectedIds": [
+        "youtube:mPaQ7O5NM0A"
+      ],
+      "forbiddenIds": [],
+      "category": "traditional-specialized-term",
+      "split": "holdout"
+    },
+    {
+      "id": "H05",
+      "query": "期限溢价",
+      "expectedIds": [
+        "youtube:ABRdFe03L4c"
+      ],
+      "forbiddenIds": [],
+      "category": "simplified-specialized-term",
+      "split": "holdout"
+    },
+    {
+      "id": "H06",
+      "query": "税损收割",
+      "expectedIds": [
+        "youtube:aBksDL8pHdc"
+      ],
+      "forbiddenIds": [],
+      "category": "simplified-specialized-term",
+      "split": "holdout"
+    },
+    {
+      "id": "H07",
+      "query": "Michael Intrator",
+      "expectedIds": [
+        "youtube:LFrHquAyz0Q"
+      ],
+      "forbiddenIds": [],
+      "category": "english-person-name",
+      "split": "holdout"
+    },
+    {
+      "id": "H08",
+      "query": "transmission lines",
+      "expectedIds": [
+        "youtube:NOQ2J_r7hyo"
+      ],
+      "forbiddenIds": [],
+      "category": "english-multiword-body",
+      "split": "holdout"
+    },
+    {
+      "id": "H09",
+      "query": "Herman Chan",
+      "expectedIds": [
+        "youtube:PFpHxOm4Sv4"
+      ],
+      "forbiddenIds": [],
+      "category": "english-person-name",
+      "split": "holdout"
+    },
+    {
+      "id": "H10",
+      "query": "amortize",
+      "expectedIds": [
+        "youtube:nwmvMh6P1Lo"
+      ],
+      "forbiddenIds": [],
+      "category": "english-long-document-body",
+      "split": "holdout"
+    },
+    {
+      "id": "H11",
+      "query": "Perseverance",
+      "expectedIds": [
+        "rss:ec6bdc99d62dec05"
+      ],
+      "forbiddenIds": [],
+      "category": "english-proper-noun-in-chinese",
+      "split": "holdout"
+    },
+    {
+      "id": "H12",
+      "query": "rocket thrusters",
+      "expectedIds": [
+        "youtube:xbTzxeaZhlw"
+      ],
+      "forbiddenIds": [],
+      "category": "english-multiword-body",
+      "split": "holdout"
+    },
+    {
+      "id": "H13",
+      "query": "期限溢價",
+      "expectedIds": [
+        "youtube:ABRdFe03L4c"
+      ],
+      "forbiddenIds": [],
+      "category": "traditional-query-simplified-document",
+      "exploratory": true,
+      "split": "holdout"
+    },
+    {
+      "id": "H14",
+      "query": "稅損收割",
+      "expectedIds": [
+        "youtube:aBksDL8pHdc"
+      ],
+      "forbiddenIds": [],
+      "category": "traditional-query-simplified-document",
+      "exploratory": true,
+      "split": "holdout"
+    },
+    {
+      "id": "H15",
+      "query": "Perseverence",
+      "expectedIds": [
+        "rss:ec6bdc99d62dec05"
+      ],
+      "forbiddenIds": [],
+      "category": "english-typo",
+      "exploratory": true,
+      "split": "holdout"
+    }
+  ]
+}

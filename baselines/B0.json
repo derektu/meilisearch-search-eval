@@ -1,10 +1,12 @@
 {
   "id": "B0",
-  "label": "Raw stock Meilisearch",
+  "label": "Official release, raw query/text",
   "normalization": false,
   "engine": {
     "kind": "stock",
-    "env": {}
+    "env": {},
+    "distribution": "official-release",
+    "version": "1.53.2"
   },
   "fragmentReference": false
 }

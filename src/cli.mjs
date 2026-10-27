@@ -66,7 +66,7 @@ function integerArgument(value, label) {
 function usage() {
   return [
     'Usage:',
-    '  node src/cli.mjs run --dataset PATH --baseline B0..B4 --binary ABS --port RESERVED --out UNIQUE_DIR [--dictionary ABS] [--tokenizer ABS] [--passes 3]',
+    '  node src/cli.mjs run --dataset PATH --baseline B0..B4|C1 --binary ABS --port RESERVED --out UNIQUE_DIR [--dictionary ABS] [--tokenizer ABS] [--passes 3]',
     '  node src/cli.mjs compare --runs DIR,DIR,... --out FILE',
   ].join('\n');
 }

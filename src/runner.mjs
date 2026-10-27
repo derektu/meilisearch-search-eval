@@ -3,7 +3,7 @@ import { createReadStream } from 'node:fs';
 import { mkdir, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { loadBaseline, resolveEngineEnvironment } from './baseline.mjs';
+import { loadBaseline, resolveEngineEnvironment, verifyEngineIdentity } from './baseline.mjs';
 import { buildFragmentIndex, prepareQueryGroups } from './fragments.mjs';
 import { exploratoryQueries, loadDataset } from './dataset.mjs';
 import { evaluateResults } from './evaluate.mjs';
@@ -28,6 +28,7 @@ export async function runEvaluation(options, dependencies = {}) {
   let engine = null;
   let engineEnvironment = {};
   let engineVersion = null;
+  let engineIdentity = null;
   let indexSettings = null;
   let fragmentIndexInfo = null;
   let judgedQueryIds = new Set();
@@ -46,6 +47,8 @@ export async function runEvaluation(options, dependencies = {}) {
       dictionaryPath,
       tokenizerPath,
     });
+    // Verify the official control before constructing or starting any engine.
+    engineIdentity = verifyEngineIdentity(baselineRecord.config, { sha256: inputSnapshot.files.binary.sha256 });
     dataset = await loadDataset(datasetPath);
     judgedQueryIds = new Set(dataset.queries.map((query) => query.id));
     engineEnvironment = resolveEngineEnvironment(baselineRecord.config, dictionaryPath);
@@ -137,6 +140,7 @@ export async function runEvaluation(options, dependencies = {}) {
     tokenizerPath,
     engineEnvironment,
     engineVersion,
+    engineIdentity,
     indexSettings,
     inputSnapshot,
     inputVerification,
@@ -230,7 +234,7 @@ function validateStrategyOptions(options, baseline) {
 async function buildManifest(context) {
   const {
     options, baselineRecord, datasetPath, binaryPath, dictionaryPath, tokenizerPath,
-    engineEnvironment, engineVersion, indexSettings, inputSnapshot, inputVerification, status, error,
+    engineEnvironment, engineVersion, engineIdentity, indexSettings, inputSnapshot, inputVerification, status, error,
   } = context;
   const files = inputVerification?.files ?? inputSnapshot?.files ?? {
     dataset: await safeFileRecord(datasetPath),
@@ -248,6 +252,7 @@ async function buildManifest(context) {
     files,
     runnerSource: inputVerification?.runnerSource ?? inputSnapshot?.runnerSource ?? await sourceTreeRecord(),
     engine: {
+      identity: engineIdentity,
       version: engineVersion,
       settings: indexSettings,
       environment: engineEnvironment,
@@ -329,7 +334,8 @@ async function sha256(filePath) {
 
 async function sourceTreeRecord() {
   const sourceDirectory = fileURLToPath(new URL('.', import.meta.url));
-  const files = (await readdir(sourceDirectory)).filter((name) => name.endsWith('.mjs')).sort();
+  const files = [...(await readdir(sourceDirectory)).filter((name) => name.endsWith('.mjs')),
+    '../tools/engine/official-release.mjs'].sort();
   const hash = createHash('sha256');
   for (const name of files) {
     hash.update(name);

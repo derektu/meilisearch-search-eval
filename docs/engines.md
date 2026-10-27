@@ -6,15 +6,39 @@ The public repository contains patch/build instructions and evaluation code. It 
 
 | ID | Text normalization | Engine | Secondary splitting | Fragment reference |
 | --- | --- | --- | --- | --- |
-| B0 | off | stock | stock behavior | off |
-| B1 | on | same stock | same stock behavior | off |
+| B0 | off | official community release | upstream behavior | off |
+| B1 | on | same official release | upstream behavior | off |
+| C1 | on | Chinese-only source build | upstream behavior | off |
 | B2 | on | external-dictionary engine | on (`0`) | off |
 | B3 | on | same external engine and dictionary | off (`1`) | off |
 | B4 | on | same as B3 | off (`1`) | on |
 
-`baselines/B0.json` through `B4.json` declare these controls. `${DICTIONARY_PATH}` is an explicit placeholder for an absolute local file; it is not a URL and does not trigger a download. The runner expands and records its effective strategy. These files describe experiments; changing one does not turn an incompatible result into a passing test.
+`baselines/B0.json` through `B4.json` and `baselines/C1.json` declare these controls. `${DICTIONARY_PATH}` is an explicit placeholder for an absolute local file; it is not a URL and does not trigger a download. The runner expands and records its effective strategy. These files describe experiments; changing one does not turn an incompatible result into a passing test.
 
-B0/B1 accept any explicitly supplied compatible stock binary path. Record its bytes, SHA-256, version, and provenance. An official all-language release and an unmodified source build with only the `chinese` feature must be identified separately. B2/B3 use one binary and one dictionary hash; only `SEARCH_EVAL_DISABLE_SECONDARY_SPLIT` changes. B4 is a reference retrieval layer, not an alternative Meilisearch ranking engine.
+B0/B1 require the pinned official Meilisearch 1.53.2 community release asset for the host platform. The runner checks its SHA-256 before starting the process and rejects a same-version source build. C1 is the explicit normalized Chinese-only source-build control. B1→C1 measures distribution/build differences; C1→B2 controls source, toolchain and features for the dictionary/loader comparison. B1→B2 changes both build and dictionary. B2/B3 use one binary and one dictionary hash; only `SEARCH_EVAL_DISABLE_SECONDARY_SPLIT` changes. B4 is a reference retrieval layer, not an alternative Meilisearch ranking engine.
+
+## Official release
+
+```sh
+npm run engine:download
+```
+
+The downloader selects the host's community asset from the fixed [v1.53.2 release](https://github.com/meilisearch/meilisearch/releases/tag/v1.53.2), verifies the pinned SHA-256 and size, checks `--version`, and writes `.cache/engines/meilisearch-official` (`.exe` on Windows) with an adjacent provenance manifest. Existing files must pass the same checks. Unsupported host/architecture pairs fail explicitly; there is no enterprise or source-build fallback.
+
+[official-release.mjs](../tools/engine/official-release.mjs) defines asset URLs, bytes and digests. The macOS arm64 community asset is `meilisearch-macos-apple-silicon`, 341,683,536 bytes, SHA-256 `7fa492746343c1dd7217ead82fc6d42e74c1304593e4604f52ca71cf44d61b28`.
+
+## Chinese-only source-build control
+
+```sh
+rustup toolchain install 1.91.1 --profile minimal
+npm run engine:build -- --kind stock
+```
+
+The output is `.cache/engines/meilisearch-chinese-only` (`.exe` on Windows). Here `stock` means unpatched upstream Chinese tokenization; it does not mean an official release binary. The recorded distribution is `source-chinese-only`.
+
+The script checks out commit `ec006cecec6f684b1dcaee093a45ab4c05707127`, verifies Cargo.lock, and invokes Cargo with `--release --locked -p meilisearch --no-default-features --features chinese --target <host-triple>`. Rust defaults to 1.91.1. It applies no Charabia override for this control. `--target`, `--toolchain` and `--target-dir` select and record the build environment.
+
+C1 uses this binary and the same normalization as B1. Its manifest records source, toolchain, target, features, executable bytes and SHA-256. It is a distinct control even when search IDs match the official release.
 
 ## Build the external-dictionary research engine
 
@@ -40,7 +64,7 @@ npm run engine:build -- --target-dir /absolute/path/to/cargo-target
 # Fetch/verify source and prepare the isolated patch without compiling.
 npm run engine:build -- --prepare-only
 
-# Optional unmodified chinese-only source-build control.
+# Chinese-only source-build control for C1.
 npm run engine:build -- --kind stock
 ```
 
