@@ -24,6 +24,8 @@ await mkdir(path.dirname(out),{recursive:true});await mkdir(out);
 const summary={schemaVersion:1,generatedAt:new Date().toISOString(),purpose:'Chinese search reference evaluation on versioned development datasets',notes:['Unjudged results are not irrelevant.','B4 inherits non-Han engine results and keeps eligible primary order; fragment recall is an in-memory reference.','B4 reference processing timing excludes engine HTTP and tokenizer preparation; it is not an end-to-end comparison.','The report includes metrics, identities and ID/rank results. Input texts are versioned separately in datasets/. Credentials and local paths are excluded.'],distributionControl,runs:rows};
 await writeFile(path.join(out,'summary.json'),JSON.stringify(summary,null,2)+'\n');
 let md='# 中文搜尋方案評測\n\n本報告使用固定文件、查詢與相關性標註，評估正規化、詞庫、二次切分與連續片段查詢。兩組資料皆為開發／回歸集，不是獨立保留集。\n\n## 方案設定\n\n| 組別 | 設定 |\n| --- | --- |\n| B0 | 官方Meilisearch community release，無正規化 |\n| B1 | 相同官方release＋正規化 |\n| C1 | 同版本Chinese-only source build＋正規化 |\n| B2 | Chinese-only＋正規化＋外部COCT主庫 |\n| B3 | B2＋保留第一輪完整詞界 |\n| B4 | B3＋連續片段補召回與驗證參考 |\n\nB0／B1的binary SHA符合固定官方release。C1用來檢查官方release與自行建置差異；C1→B2才是同source／toolchain／features下的詞庫對照。B1→B2同時改變建置與詞庫，不單獨歸因為詞庫效果。各run的binary、字典、baseline設定、資料及runner source hash在機器可讀結果中記錄。\n\n';
+const plain=await readFile(new URL('../docs/plain-language.md',import.meta.url),'utf8');
+md+=plain.replace(/^# /u,'## ')+'\n';
 for(const id of new Set(rows.map(x=>x.datasetId))){
  md+=`## ${id}\n\n| 組別 | 已標註正例命中 | 明確負例誤收 | 完整通過查詢 |\n| --- | ---: | ---: | ---: |\n`;
  for(const r of rows.filter(x=>x.datasetId===id)){const q=r.quality;md+=`| ${r.baseline} | ${q.judgedRecall.found}/${q.judgedRecall.total} | ${q.negativeViolations} | ${q.fullyPassingQueries}/${q.judgedQueryCount} |\n`;}
