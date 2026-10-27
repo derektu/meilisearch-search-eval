@@ -37,7 +37,9 @@ Repo 包含執行所需的固定搜尋文本：
 - [zh-semantics-v1](datasets/zh-semantics-v1/dataset.json)：23 文件、22 查詢、38 組正例與468 組明確負例，涵蓋完整詞、片段、分散字負例、單字、多詞、引號與正規化。
 - [real-34-v1](datasets/real-34/dataset.json)：34 文件的完整固定搜尋文本、60 查詢與50 組正例。標題、來源名稱與正文直接存於 repo，來源與內容hash見 [source manifest](datasets/real-34/source-manifest.json)。其中24筆來源為full、10筆為summary；評測使用檔案內保存的完整輸入，不重新抓網頁或字幕。
 
-兩組皆為開發／回歸集。獨立保留集與規模效能測試分開維護。未標註的文件不自動視為不相關。
+- [zh-contiguous-holdout-v1](datasets/zh-contiguous-holdout-v1/README.md)：26份完整自編文件、46查詢、63組正例與1133組封閉世界負例，涵蓋連續片段、引號、明確AND、繁簡／NFKC及Latin／混合條件。
+
+前兩組為開發／回歸集，第三組提供固定保留集案例。已公開的資料可作回歸；後續獨立盲測另行凍結。規模效能負載與相關性證據分開，未標註的文件不自動視為不相關。
 
 COCT 詞頻表使用固定[官方 XLSX 連結](https://coct.naer.edu.tw/file/files/%E9%80%9A%E7%94%A8%E8%A9%9E%E9%A0%BB%E8%A1%A8%20-%20%E5%AE%9A%E7%A8%BF1141208.xlsx)，取得程序驗證原檔與轉換後hash。外部詞庫由引擎在執行時讀取，不嵌入binary。詳見[測資格式與COCT取得方式](docs/datasets.md)。
 

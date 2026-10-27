@@ -1,8 +1,9 @@
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {fileURLToPath} from 'node:url';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import path from 'node:path';
 import {validateDataset} from './validate.mjs';
-const folder=new URL('../../datasets/real-34/',import.meta.url);
+const folder=process.argv[2]?pathToFileURL(path.resolve(process.argv[2])+path.sep):new URL('../../datasets/real-34/',import.meta.url);
 const bytes=await readFile(new URL('dataset.json',folder));
 const dataset=JSON.parse(bytes),manifest=JSON.parse(await readFile(new URL('source-manifest.json',folder),'utf8'));
 const hash=v=>createHash('sha256').update(typeof v==='string'||Buffer.isBuffer(v)?v:JSON.stringify(v)).digest('hex');
