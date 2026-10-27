@@ -1,0 +1,675 @@
+[
+  {
+    "id": "M01",
+    "query": "股",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "single-character",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M02",
+    "query": "債",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "single-character",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M03",
+    "query": "電",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "single-character",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M04",
+    "query": "金",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "single-character",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M05",
+    "query": "稅",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "single-character",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M06",
+    "query": "風電",
+    "expectedIds": [
+      "rss:c3816ccee758da0e"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "two-character",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M07",
+    "query": "觀光",
+    "expectedIds": [
+      "rss:a7b3b1db95608278"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "two-character",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M08",
+    "query": "資安",
+    "expectedIds": [
+      "rss:108a1504b2cae6cb"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "two-character",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M09",
+    "query": "拆股",
+    "expectedIds": [
+      "rss:42c18fc7adc37c9f"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "two-character",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M10",
+    "query": "利率",
+    "expectedIds": [
+      "youtube:ABRdFe03L4c"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "two-character",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M11",
+    "query": "台積電",
+    "expectedIds": [
+      "rss:b34871909518a467"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "proper-name",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M12",
+    "query": "Waze",
+    "expectedIds": [
+      "rss:108a1504b2cae6cb"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "proper-name",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M13",
+    "query": "CoreWeave",
+    "expectedIds": [
+      "youtube:LFrHquAyz0Q"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "proper-name",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M14",
+    "query": "Blackstone",
+    "expectedIds": [
+      "youtube:NOQ2J_r7hyo"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "proper-name",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M15",
+    "query": "JPMorgan",
+    "expectedIds": [
+      "youtube:PFpHxOm4Sv4"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "proper-name",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M16",
+    "query": "DSX POD",
+    "expectedIds": [
+      "rss:62520a04faacb9c7"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "mixed-language",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M17",
+    "query": "AI 工廠",
+    "expectedIds": [
+      "rss:62520a04faacb9c7"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "mixed-language",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M18",
+    "query": "QQQI 退休",
+    "expectedIds": [
+      "youtube:aBksDL8pHdc"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "mixed-language",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M19",
+    "query": "IBM Q3",
+    "expectedIds": [
+      "rss:add76475f82b5eef"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "mixed-language",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M20",
+    "query": "Factset EPS",
+    "expectedIds": [
+      "rss:c00dcce7075430c7"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "mixed-language",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M21",
+    "query": "国债利率",
+    "expectedIds": [
+      "youtube:ABRdFe03L4c"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "script-variant",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M22",
+    "query": "國債利率",
+    "expectedIds": [
+      "youtube:ABRdFe03L4c"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "script-variant",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M23",
+    "query": "美联储",
+    "expectedIds": [
+      "youtube:mPaQ7O5NM0A"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "script-variant",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M24",
+    "query": "美聯儲",
+    "expectedIds": [
+      "youtube:mPaQ7O5NM0A"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "script-variant",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M25",
+    "query": "台积电",
+    "expectedIds": [
+      "rss:b34871909518a467"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "script-variant",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M26",
+    "query": "CoreWeav",
+    "expectedIds": [
+      "youtube:LFrHquAyz0Q"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "typo",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M27",
+    "query": "Blackston",
+    "expectedIds": [
+      "youtube:NOQ2J_r7hyo"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "typo",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M28",
+    "query": "Nvdia",
+    "expectedIds": [
+      "youtube:LFrHquAyz0Q"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "typo",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M29",
+    "query": "Windwos",
+    "expectedIds": [
+      "rss:3d7e6a989e6fc75c"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "typo",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M30",
+    "query": "台績電",
+    "expectedIds": [
+      "rss:b34871909518a467"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "typo",
+    "exploratory": true,
+    "split": "main"
+  },
+  {
+    "id": "M31",
+    "query": "circular financing",
+    "expectedIds": [
+      "youtube:LFrHquAyz0Q"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "english",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M32",
+    "query": "Energy Transition",
+    "expectedIds": [
+      "youtube:NOQ2J_r7hyo"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "english",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M33",
+    "query": "Security Push",
+    "expectedIds": [
+      "youtube:PFpHxOm4Sv4"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "english",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M34",
+    "query": "Cashflows",
+    "expectedIds": [
+      "youtube:nwmvMh6P1Lo"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "english",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M35",
+    "query": "Roadster",
+    "expectedIds": [
+      "youtube:xbTzxeaZhlw"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "english",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M36",
+    "query": "XR139MissingTokenQzxv791",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": true,
+    "category": "negative",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M37",
+    "query": "qzxvplmno139xyz",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": true,
+    "category": "negative",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M38",
+    "query": "冰河企鵝量子香蕉",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": true,
+    "category": "negative",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M39",
+    "query": "ZephyrQuokkaNoMatch139",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": true,
+    "category": "negative",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M40",
+    "query": "月球海豚不存在測詞",
+    "expectedIds": [],
+    "forbiddenIds": [],
+    "expectZero": true,
+    "category": "negative",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M41",
+    "query": "台積電 產能",
+    "expectedIds": [
+      "rss:b34871909518a467"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "multi-word",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M42",
+    "query": "外資 穩懋",
+    "expectedIds": [
+      "rss:befcb4a6ff390110"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "multi-word",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M43",
+    "query": "台越 觀光",
+    "expectedIds": [
+      "rss:a7b3b1db95608278"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "multi-word",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M44",
+    "query": "離岸 風電",
+    "expectedIds": [
+      "rss:c3816ccee758da0e"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "multi-word",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "M45",
+    "query": "資安 Waze",
+    "expectedIds": [
+      "rss:108a1504b2cae6cb"
+    ],
+    "forbiddenIds": [],
+    "expectZero": false,
+    "category": "multi-word",
+    "exploratory": false,
+    "split": "main"
+  },
+  {
+    "id": "H01",
+    "query": "可追責",
+    "expectedIds": [
+      "rss:4a359e3de6745ded"
+    ],
+    "forbiddenIds": [],
+    "category": "traditional-body-term",
+    "split": "holdout"
+  },
+  {
+    "id": "H02",
+    "query": "亞利桑那",
+    "expectedIds": [
+      "rss:b34871909518a467"
+    ],
+    "forbiddenIds": [],
+    "category": "traditional-place-name",
+    "split": "holdout"
+  },
+  {
+    "id": "H03",
+    "query": "陳玉秀",
+    "expectedIds": [
+      "rss:a7b3b1db95608278"
+    ],
+    "forbiddenIds": [],
+    "category": "traditional-person-name",
+    "split": "holdout"
+  },
+  {
+    "id": "H04",
+    "query": "無水氨",
+    "expectedIds": [
+      "youtube:mPaQ7O5NM0A"
+    ],
+    "forbiddenIds": [],
+    "category": "traditional-specialized-term",
+    "split": "holdout"
+  },
+  {
+    "id": "H05",
+    "query": "期限溢价",
+    "expectedIds": [
+      "youtube:ABRdFe03L4c"
+    ],
+    "forbiddenIds": [],
+    "category": "simplified-specialized-term",
+    "split": "holdout"
+  },
+  {
+    "id": "H06",
+    "query": "税损收割",
+    "expectedIds": [
+      "youtube:aBksDL8pHdc"
+    ],
+    "forbiddenIds": [],
+    "category": "simplified-specialized-term",
+    "split": "holdout"
+  },
+  {
+    "id": "H07",
+    "query": "Michael Intrator",
+    "expectedIds": [
+      "youtube:LFrHquAyz0Q"
+    ],
+    "forbiddenIds": [],
+    "category": "english-person-name",
+    "split": "holdout"
+  },
+  {
+    "id": "H08",
+    "query": "transmission lines",
+    "expectedIds": [
+      "youtube:NOQ2J_r7hyo"
+    ],
+    "forbiddenIds": [],
+    "category": "english-multiword-body",
+    "split": "holdout"
+  },
+  {
+    "id": "H09",
+    "query": "Herman Chan",
+    "expectedIds": [
+      "youtube:PFpHxOm4Sv4"
+    ],
+    "forbiddenIds": [],
+    "category": "english-person-name",
+    "split": "holdout"
+  },
+  {
+    "id": "H10",
+    "query": "amortize",
+    "expectedIds": [
+      "youtube:nwmvMh6P1Lo"
+    ],
+    "forbiddenIds": [],
+    "category": "english-long-document-body",
+    "split": "holdout"
+  },
+  {
+    "id": "H11",
+    "query": "Perseverance",
+    "expectedIds": [
+      "rss:ec6bdc99d62dec05"
+    ],
+    "forbiddenIds": [],
+    "category": "english-proper-noun-in-chinese",
+    "split": "holdout"
+  },
+  {
+    "id": "H12",
+    "query": "rocket thrusters",
+    "expectedIds": [
+      "youtube:xbTzxeaZhlw"
+    ],
+    "forbiddenIds": [],
+    "category": "english-multiword-body",
+    "split": "holdout"
+  },
+  {
+    "id": "H13",
+    "query": "期限溢價",
+    "expectedIds": [
+      "youtube:ABRdFe03L4c"
+    ],
+    "forbiddenIds": [],
+    "category": "traditional-query-simplified-document",
+    "exploratory": true,
+    "split": "holdout"
+  },
+  {
+    "id": "H14",
+    "query": "稅損收割",
+    "expectedIds": [
+      "youtube:aBksDL8pHdc"
+    ],
+    "forbiddenIds": [],
+    "category": "traditional-query-simplified-document",
+    "exploratory": true,
+    "split": "holdout"
+  },
+  {
+    "id": "H15",
+    "query": "Perseverence",
+    "expectedIds": [
+      "rss:ec6bdc99d62dec05"
+    ],
+    "forbiddenIds": [],
+    "category": "english-typo",
+    "exploratory": true,
+    "split": "holdout"
+  }
+]

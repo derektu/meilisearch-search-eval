@@ -1,0 +1,10 @@
+{
+  "id": "B0",
+  "label": "Raw stock Meilisearch",
+  "normalization": false,
+  "engine": {
+    "kind": "stock",
+    "env": {}
+  },
+  "fragmentReference": false
+}

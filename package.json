@@ -1,0 +1,17 @@
+{
+  "name": "meilisearch-search-eval",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible Chinese search comparisons across normalization, dictionaries and query strategies.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "verify": "npm test && node tools/check-repository.mjs",
+    "eval": "node src/cli.mjs",
+    "engine:build": "node tools/engine/build.mjs",
+    "tokenizer:build": "cargo build --release --locked --manifest-path tools/tokenizer/Cargo.toml",
+    "lexicon:coct": "node tools/datasets/fetch-coct.mjs"
+  },
+  "dependencies": { "opencc-js": "1.4.2" }
+}

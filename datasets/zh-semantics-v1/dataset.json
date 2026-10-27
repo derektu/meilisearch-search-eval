@@ -1,0 +1,1095 @@
+{
+  "schemaVersion": 1,
+  "id": "zh-semantics-v1",
+  "description": "Authored synthetic development fixtures for contiguous Chinese fragments, complete words, AND queries and phrase matching.",
+  "purpose": "COCT fixed query semantics; expected membership frozen before candidate implementation",
+  "documents": [
+    {
+      "id": "rss:qr_tourism",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_tourism",
+      "sourceUrl": "https://example.invalid/qr/tourism",
+      "title": "case00",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "觀光旅遊需求成長。"
+    },
+    {
+      "id": "rss:qr_tourism_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_tourism_negative",
+      "sourceUrl": "https://example.invalid/qr/tourism_negative",
+      "title": "case01",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "這個解說非常直觀，庫存已經賣光。"
+    },
+    {
+      "id": "rss:qr_security",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_security",
+      "sourceUrl": "https://example.invalid/qr/security",
+      "title": "case02",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "資安漏洞需要修補。"
+    },
+    {
+      "id": "rss:qr_security_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_security_negative",
+      "sourceUrl": "https://example.invalid/qr/security_negative",
+      "title": "case03",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "這是安全的資產，投資讓人安心。"
+    },
+    {
+      "id": "rss:qr_semiconductor",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_semiconductor",
+      "sourceUrl": "https://example.invalid/qr/semiconductor",
+      "title": "case04",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "半導體製程進步。"
+    },
+    {
+      "id": "rss:qr_semiconductor_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_semiconductor_negative",
+      "sourceUrl": "https://example.invalid/qr/semiconductor_negative",
+      "title": "case05",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "半年過後導師安排體驗活動。"
+    },
+    {
+      "id": "rss:qr_tsmc",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_tsmc",
+      "sourceUrl": "https://example.invalid/qr/tsmc",
+      "title": "case06",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "台積電先進封裝產能增加。"
+    },
+    {
+      "id": "rss:qr_tsmc_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_tsmc_negative",
+      "sourceUrl": "https://example.invalid/qr/tsmc_negative",
+      "title": "case07",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "台灣累積更多電力。"
+    },
+    {
+      "id": "rss:qr_split",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_split",
+      "sourceUrl": "https://example.invalid/qr/split",
+      "title": "case08",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "公司宣布拆股。"
+    },
+    {
+      "id": "rss:qr_split_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_split_negative",
+      "sourceUrl": "https://example.invalid/qr/split_negative",
+      "title": "case09",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "我們把事情拆開來看，再分析股票走勢。"
+    },
+    {
+      "id": "rss:qr_stock",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_stock",
+      "sourceUrl": "https://example.invalid/qr/stock",
+      "title": "case10",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "個股研究與股票投資。"
+    },
+    {
+      "id": "rss:qr_cash",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_cash",
+      "sourceUrl": "https://example.invalid/qr/cash",
+      "title": "case11",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "自由現金流量增加。"
+    },
+    {
+      "id": "rss:qr_wind",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_wind",
+      "sourceUrl": "https://example.invalid/qr/wind",
+      "title": "case12",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "離岸風電技術發展。"
+    },
+    {
+      "id": "rss:qr_phrase_separated",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_phrase_separated",
+      "sourceUrl": "https://example.invalid/qr/phrase_separated",
+      "title": "case13",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "觀光旅遊帶動地方產業。"
+    },
+    {
+      "id": "rss:qr_phrase_joined",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_phrase_joined",
+      "sourceUrl": "https://example.invalid/qr/phrase_joined",
+      "title": "case14",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "觀光產業復甦。"
+    },
+    {
+      "id": "rss:qr_multi_good",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_multi_good",
+      "sourceUrl": "https://example.invalid/qr/multi_good",
+      "title": "case15",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "台積電公布法說會日期。"
+    },
+    {
+      "id": "rss:qr_multi_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_multi_negative",
+      "sourceUrl": "https://example.invalid/qr/multi_negative",
+      "title": "case16",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "台灣企業累積資產，電力充足。今天舉辦法說會。"
+    },
+    {
+      "id": "rss:qr_space_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_space_negative",
+      "sourceUrl": "https://example.invalid/qr/space_negative",
+      "title": "case17",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "觀 光。"
+    },
+    {
+      "id": "rss:qr_punctuation_negative",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_punctuation_negative",
+      "sourceUrl": "https://example.invalid/qr/punctuation_negative",
+      "title": "case18",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "觀、光。"
+    },
+    {
+      "id": "rss:qr_security_alias",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_security_alias",
+      "sourceUrl": "https://example.invalid/qr/security_alias",
+      "title": "case19",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "資訊安全事件。"
+    },
+    {
+      "id": "rss:qr_server",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_server",
+      "sourceUrl": "https://example.invalid/qr/server",
+      "title": "case20",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "伺服器與軟體。"
+    },
+    {
+      "id": "rss:qr_conductor",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_conductor",
+      "sourceUrl": "https://example.invalid/qr/conductor",
+      "title": "case21",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "導體電阻實驗。"
+    },
+    {
+      "id": "rss:qr_single_gaps",
+      "type": "Article",
+      "sourceType": "rss",
+      "sourceId": "qr_single_gaps",
+      "sourceUrl": "https://example.invalid/qr/single_gaps",
+      "title": "case22",
+      "publisher": {
+        "id": "fixture",
+        "name": "fixture"
+      },
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "collectedAt": "2026-10-27T00:00:00.000Z",
+      "contentExtent": "full",
+      "bodyMarkdown": "這家公司買進了新的設備。市場股票上漲。"
+    }
+  ],
+  "queries": [
+    {
+      "id": "W01",
+      "query": "觀光",
+      "expectedIds": [
+        "rss:qr_tourism",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "完整詞，不匹配直觀／賣光或觀 光"
+    },
+    {
+      "id": "W02",
+      "query": "資安",
+      "expectedIds": [
+        "rss:qr_security"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "完整詞，不自動等同資訊安全"
+    },
+    {
+      "id": "W03",
+      "query": "半導體",
+      "expectedIds": [
+        "rss:qr_semiconductor"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "完整詞，不匹配半年／導師／體驗"
+    },
+    {
+      "id": "W04",
+      "query": "台積電",
+      "expectedIds": [
+        "rss:qr_tsmc",
+        "rss:qr_multi_good"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "第一輪詞界保留"
+    },
+    {
+      "id": "W05",
+      "query": "拆股",
+      "expectedIds": [
+        "rss:qr_split"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "未登錄詞亦不得拆字分散匹配"
+    },
+    {
+      "id": "W06",
+      "query": "伺服器",
+      "expectedIds": [
+        "rss:qr_server"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "完整三字詞"
+    },
+    {
+      "id": "F01",
+      "query": "半導",
+      "expectedIds": [
+        "rss:qr_semiconductor"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "詞首片段；排除半年／導師"
+    },
+    {
+      "id": "F02",
+      "query": "導體",
+      "expectedIds": [
+        "rss:qr_semiconductor",
+        "rss:qr_conductor"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "詞尾片段及獨立完整詞都召回"
+    },
+    {
+      "id": "F03",
+      "query": "導",
+      "expectedIds": [
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_conductor"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "單字包括詞內與導師，不將單字語意等同半導"
+    },
+    {
+      "id": "F04",
+      "query": "台積",
+      "expectedIds": [
+        "rss:qr_tsmc",
+        "rss:qr_multi_good"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "詞首片段"
+    },
+    {
+      "id": "F05",
+      "query": "積電",
+      "expectedIds": [
+        "rss:qr_tsmc",
+        "rss:qr_multi_good"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "詞尾片段，不匹配累積更多電力"
+    },
+    {
+      "id": "F06",
+      "query": "伺服",
+      "expectedIds": [
+        "rss:qr_server"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "詞首片段"
+    },
+    {
+      "id": "F07",
+      "query": "服器",
+      "expectedIds": [
+        "rss:qr_server"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "詞尾片段"
+    },
+    {
+      "id": "C01",
+      "query": "股",
+      "expectedIds": [
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_single_gaps"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor"
+      ],
+      "notes": "獨立字及詞內字面召回"
+    },
+    {
+      "id": "C02",
+      "query": "金",
+      "expectedIds": [
+        "rss:qr_cash"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "現金流量內的連續單字"
+    },
+    {
+      "id": "M01",
+      "query": "台積電 法說",
+      "expectedIds": [
+        "rss:qr_multi_good"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "明確多詞AND，不能把台積電拆散"
+    },
+    {
+      "id": "M02",
+      "query": "觀光 產業",
+      "expectedIds": [
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "明確多詞可以不相鄰"
+    },
+    {
+      "id": "M03",
+      "query": "觀光產業",
+      "expectedIds": [
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "COCT兩個完整詞AND"
+    },
+    {
+      "id": "Q01",
+      "query": "\"觀光產業\"",
+      "expectedIds": [
+        "rss:qr_phrase_joined"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "引號要求原文連續"
+    },
+    {
+      "id": "N01",
+      "query": "观光",
+      "expectedIds": [
+        "rss:qr_tourism",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_multi_good",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "同既有簡轉繁"
+    },
+    {
+      "id": "N02",
+      "query": "臺積電",
+      "expectedIds": [
+        "rss:qr_tsmc",
+        "rss:qr_multi_good"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "同既有臺台處理"
+    },
+    {
+      "id": "N03",
+      "query": "台積電　法說",
+      "expectedIds": [
+        "rss:qr_multi_good"
+      ],
+      "forbiddenIds": [
+        "rss:qr_tourism",
+        "rss:qr_tourism_negative",
+        "rss:qr_security",
+        "rss:qr_security_negative",
+        "rss:qr_semiconductor",
+        "rss:qr_semiconductor_negative",
+        "rss:qr_tsmc",
+        "rss:qr_tsmc_negative",
+        "rss:qr_split",
+        "rss:qr_split_negative",
+        "rss:qr_stock",
+        "rss:qr_cash",
+        "rss:qr_wind",
+        "rss:qr_phrase_separated",
+        "rss:qr_phrase_joined",
+        "rss:qr_multi_negative",
+        "rss:qr_space_negative",
+        "rss:qr_punctuation_negative",
+        "rss:qr_security_alias",
+        "rss:qr_server",
+        "rss:qr_conductor",
+        "rss:qr_single_gaps"
+      ],
+      "notes": "同既有Unicode whitespace"
+    }
+  ],
+  "rankingCases": [
+    {
+      "query": "導體",
+      "preferredId": "rss:qr_conductor",
+      "overId": "rss:qr_semiconductor",
+      "notes": "同等fixture下完整詞優先於片段"
+    }
+  ],
+  "exploratoryQueries": [
+    "岸風",
+    "離岸風",
+    "買股"
+  ]
+}

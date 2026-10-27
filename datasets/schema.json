@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/derektu/meilisearch-search-eval/blob/main/datasets/schema.json",
+  "title": "Search evaluation dataset v1",
+  "type": "object",
+  "required": ["schemaVersion", "id", "documents", "queries"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "documents": { "type": "array", "items": { "$ref": "#/$defs/document" } },
+    "queries": { "type": "array", "items": { "$ref": "#/$defs/query" } },
+    "rankingCases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query", "preferredId", "overId"],
+        "properties": {
+          "query": { "type": "string" },
+          "preferredId": { "type": "string" },
+          "overId": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "exploratoryQueries": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "document": {
+      "type": "object",
+      "required": ["id", "title", "bodyMarkdown", "publisher"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "bodyMarkdown": { "type": "string" },
+        "publisher": {
+          "type": "object",
+          "required": ["id", "name"],
+          "properties": { "id": { "type": "string" }, "name": { "type": "string" } },
+          "additionalProperties": true
+        },
+        "sourceUrl": { "type": "string" },
+        "publishedAt": { "type": "string" },
+        "collectedAt": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "query": {
+      "type": "object",
+      "required": ["id", "query", "expectedIds", "forbiddenIds"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "query": { "type": "string", "minLength": 1 },
+        "expectedIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "forbiddenIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "expectZero": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

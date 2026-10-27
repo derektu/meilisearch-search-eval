@@ -1,0 +1,900 @@
+{
+  "schemaVersion": 1,
+  "id": "historical-2026-10-27",
+  "date": "2026-10-27",
+  "historicalOnly": true,
+  "newRepositoryRerun": false,
+  "description": "Sanitized legacy observations, not results from a run of this repository. No third-party document text is included.",
+  "sourceArtifacts": {
+    "stockNormalized": {
+      "relativeLegacyArtifact": "coct-comparison/matched-barebone-engine/results.json",
+      "sha256": "49981e9c3f613d118c9dfe797c7b53b154ba133592770fc51d57af9fe30a465f"
+    },
+    "embeddedCoct": {
+      "relativeLegacyArtifact": "coct-comparison/coct-main-engine/results.json",
+      "sha256": "fdd67465095706a073e35c2404e31595ddd4296971527bca0725bc90bbd3ec27"
+    },
+    "dictionaryApi": {
+      "relativeLegacyArtifact": "coct-comparison/run-2/results.json",
+      "sha256": "35c6c47c042318ebf9ed784cb70aad5c5a23a99bff306414237756b04d1bc6a2"
+    },
+    "externalSecond": {
+      "relativeLegacyArtifact": "coct-query-rules/a-original-secondary/results.json",
+      "sha256": "7e365c17ae0f270be9c1e93f4acbefce4144995185c9a3a9042016b599893343"
+    },
+    "externalNoSecond": {
+      "relativeLegacyArtifact": "coct-query-rules/b-no-secondary/results.json",
+      "sha256": "5dce26494c5b23d1fd51c8a66766cf3ff5203027e3d56e1f72481e50269f0f08"
+    },
+    "fragmentReference": {
+      "relativeLegacyArtifact": "coct-query-rules/fragment-reference-results.json",
+      "sha256": "de089cc313ad27cde6045d0931e37e13b30c5397ef2b00ddc3b38b923e17bc49"
+    }
+  },
+  "sourceInputHashes": {
+    "documentsHash": "9bb76e1a7ed3ba35377467797aedd8c91132be42d319005c38a06ad3e627c21b",
+    "queriesHash": "e5fe09d188a0832650ace5cb91f8754c8b51eea46394301b524811ee9d3b71ca",
+    "fixtureHash": "013235430cec5f8bbd89bb10f6da46b513f117327cfa55234404c07b626d0805"
+  },
+  "originalSyntheticSuiteSha256": "36842c73c3230de3021eebc64222dbda5744f124beff4144b8241034b098824a",
+  "baselineDefinitions": {
+    "B0": "Stock Meilisearch, no application text normalization",
+    "B1": "Stock Meilisearch with application text normalization",
+    "B2": "External COCT news main lexicon, application normalization, original secondary segmentation",
+    "B3": "Same external COCT main lexicon, application normalization, secondary segmentation disabled",
+    "B4": "B3 plus independent contiguous fragment reference; historical C was not a full Meili backend"
+  },
+  "baselines": {
+    "B0": {
+      "status": "not-measured",
+      "reason": "No raw-text stock baseline was run in the legacy experiment; do not fill it from B1."
+    },
+    "B1": {
+      "status": "historical-measurement",
+      "runtime": {
+        "sha256": "e62000bacb1d0633b609c70589af67122bfdae07d0d036151387f9f8be6c83c7",
+        "bytes": 51084480,
+        "version": "meilisearch 1.53.2",
+        "platform": "darwin",
+        "arch": "arm64"
+      },
+      "real34": {
+        "queries": 60,
+        "expectedPairs": 50,
+        "expectedHits": 49,
+        "missingExpected": [
+          {
+            "queryId": "M30",
+            "documentId": "rss:b34871909518a467"
+          }
+        ],
+        "forbiddenPairs": 0,
+        "forbiddenFound": [],
+        "zeroViolationQueryIds": []
+      },
+      "zhSemanticsV1": {
+        "status": "not-measured-on-this-suite"
+      },
+      "timing": {
+        "kind": "local-HTTP-with-snippet-mapping",
+        "count": 180,
+        "p50Ms": 6.178916000000754,
+        "p95Ms": 40.88395899999978
+      }
+    },
+    "B2": {
+      "status": "historical-measurement",
+      "runtime": {
+        "sha256": "012c3025b50b660615cd58ad0358f6f8c42e3d7e1c61d999f95e7f7d9a265cb4",
+        "bytes": 48719056,
+        "version": "meilisearch 1.53.2",
+        "platform": "darwin",
+        "arch": "arm64"
+      },
+      "real34": {
+        "queries": 60,
+        "expectedPairs": 50,
+        "expectedHits": 49,
+        "missingExpected": [
+          {
+            "queryId": "M30",
+            "documentId": "rss:b34871909518a467"
+          }
+        ],
+        "forbiddenPairs": 0,
+        "forbiddenFound": [],
+        "zeroViolationQueryIds": []
+      },
+      "zhSemanticsV1": {
+        "status": "measured",
+        "queries": 22,
+        "expectedPairs": 38,
+        "expectedHits": 32,
+        "forbiddenPairs": 468,
+        "falsePositivePairs": 3,
+        "failedQueryIds": [
+          "C02",
+          "F01",
+          "F02",
+          "F03",
+          "F05",
+          "F07",
+          "N01",
+          "W01"
+        ],
+        "missingExpected": [
+          {
+            "queryId": "F02",
+            "documentId": "rss:qr_semiconductor"
+          },
+          {
+            "queryId": "F03",
+            "documentId": "rss:qr_semiconductor"
+          },
+          {
+            "queryId": "F05",
+            "documentId": "rss:qr_tsmc"
+          },
+          {
+            "queryId": "F05",
+            "documentId": "rss:qr_multi_good"
+          },
+          {
+            "queryId": "F07",
+            "documentId": "rss:qr_server"
+          },
+          {
+            "queryId": "C02",
+            "documentId": "rss:qr_cash"
+          }
+        ],
+        "forbiddenFound": [
+          {
+            "queryId": "W01",
+            "documentId": "rss:qr_space_negative"
+          },
+          {
+            "queryId": "F01",
+            "documentId": "rss:qr_semiconductor_negative"
+          },
+          {
+            "queryId": "N01",
+            "documentId": "rss:qr_space_negative"
+          }
+        ]
+      },
+      "timing": {
+        "kind": "local-HTTP-with-snippet-mapping",
+        "count": 180,
+        "p50Ms": 5.47491700000046,
+        "p95Ms": 53.35591700000032
+      }
+    },
+    "B3": {
+      "status": "historical-measurement",
+      "runtime": {
+        "sha256": "012c3025b50b660615cd58ad0358f6f8c42e3d7e1c61d999f95e7f7d9a265cb4",
+        "bytes": 48719056,
+        "version": "meilisearch 1.53.2",
+        "platform": "darwin",
+        "arch": "arm64"
+      },
+      "real34": {
+        "queries": 60,
+        "expectedPairs": 50,
+        "expectedHits": 49,
+        "missingExpected": [
+          {
+            "queryId": "M30",
+            "documentId": "rss:b34871909518a467"
+          }
+        ],
+        "forbiddenPairs": 0,
+        "forbiddenFound": [],
+        "zeroViolationQueryIds": []
+      },
+      "zhSemanticsV1": {
+        "status": "measured",
+        "queries": 22,
+        "expectedPairs": 38,
+        "expectedHits": 32,
+        "forbiddenPairs": 468,
+        "falsePositivePairs": 3,
+        "failedQueryIds": [
+          "C02",
+          "F01",
+          "F02",
+          "F03",
+          "F05",
+          "F07",
+          "N01",
+          "W01"
+        ],
+        "missingExpected": [
+          {
+            "queryId": "F02",
+            "documentId": "rss:qr_semiconductor"
+          },
+          {
+            "queryId": "F03",
+            "documentId": "rss:qr_semiconductor"
+          },
+          {
+            "queryId": "F05",
+            "documentId": "rss:qr_tsmc"
+          },
+          {
+            "queryId": "F05",
+            "documentId": "rss:qr_multi_good"
+          },
+          {
+            "queryId": "F07",
+            "documentId": "rss:qr_server"
+          },
+          {
+            "queryId": "C02",
+            "documentId": "rss:qr_cash"
+          }
+        ],
+        "forbiddenFound": [
+          {
+            "queryId": "W01",
+            "documentId": "rss:qr_space_negative"
+          },
+          {
+            "queryId": "F01",
+            "documentId": "rss:qr_semiconductor_negative"
+          },
+          {
+            "queryId": "N01",
+            "documentId": "rss:qr_space_negative"
+          }
+        ]
+      },
+      "timing": {
+        "kind": "local-HTTP-with-snippet-mapping",
+        "count": 180,
+        "p50Ms": 4.7045829999997295,
+        "p95Ms": 59.193333000000166
+      }
+    },
+    "B4": {
+      "status": "historical-in-memory-reference-only",
+      "implementation": "B3 recorded IDs for non-Han queries and primary ordering; independent first-character postings plus contiguous verification for Han-containing queries",
+      "fullMeiliEndToEnd": false,
+      "real34": {
+        "queries": 60,
+        "expectedPairs": 50,
+        "expectedHits": 49,
+        "missingExpected": [
+          {
+            "queryId": "M30",
+            "documentId": "rss:b34871909518a467"
+          }
+        ],
+        "forbiddenPairs": 0,
+        "forbiddenFound": [],
+        "zeroViolationQueryIds": []
+      },
+      "zhSemanticsV1": {
+        "status": "measured-in-memory-reference",
+        "queries": 22,
+        "expectedPairs": 38,
+        "expectedHits": 38,
+        "forbiddenPairs": 468,
+        "falsePositivePairs": 0,
+        "failedQueryIds": []
+      },
+      "stockInteriorLocated": true,
+      "rawMappingCheckPasses": 3,
+      "rawMappingCheckCount": 3,
+      "ranking": [
+        {
+          "query": "導體",
+          "preferredId": "rss:qr_conductor",
+          "overId": "rss:qr_semiconductor",
+          "preferredRank": 0,
+          "otherRank": 1,
+          "pass": true
+        }
+      ],
+      "rankingLimitation": "Retains B3 order, then appends newly recalled IDs; no general full-word-vs-fragment scoring rule was implemented.",
+      "nonHanQueriesInheritedFromB3": 26,
+      "timing": {
+        "kind": "in-memory-reference-function-with-recorded-B3-inputs-NOT-HTTP",
+        "comparableToB1B2B3": false,
+        "count": 180,
+        "p50Ms": 0.006999999999948159,
+        "p95Ms": 1.2646250000000236
+      }
+    }
+  },
+  "diagnostic-full-dictionary-api": {
+    "status": "historical-diagnostic-not-a-B-baseline",
+    "dictionaryTerms": 162966,
+    "mainLexiconReplacement": false,
+    "changedQueryCount": 15,
+    "missingExpected": {
+      "baseline": [
+        {
+          "id": "M30",
+          "missing": [
+            "rss:b34871909518a467"
+          ]
+        }
+      ],
+      "coct": [
+        {
+          "id": "M06",
+          "missing": [
+            "rss:c3816ccee758da0e"
+          ]
+        },
+        {
+          "id": "M30",
+          "missing": [
+            "rss:b34871909518a467"
+          ]
+        }
+      ]
+    },
+    "timings": {
+      "baseline": {
+        "count": 180,
+        "p50Ms": 6.9131669999915175,
+        "p95Ms": 43.24550000000454
+      },
+      "coct": {
+        "count": 180,
+        "p50Ms": 473.01083399998606,
+        "p95Ms": 515.902791999979
+      }
+    },
+    "timingKind": "alternating-paired-local-HTTP-separate-experiment",
+    "knownRegression": {
+      "queryId": "M06",
+      "expectedDocumentId": "rss:c3816ccee758da0e",
+      "beforeTotal": 5,
+      "afterTotal": 0
+    }
+  },
+  "idRankDifferences": {
+    "B1-to-embedded-COCT-original-secondary": [
+      {
+        "queryId": "M01",
+        "beforeIdsInRankOrder": [
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4rkU57SEdw",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "rss:add76475f82b5eef",
+          "rss:42c18fc7adc37c9f",
+          "rss:befcb4a6ff390110",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:add76475f82b5eef",
+          "rss:42c18fc7adc37c9f",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "youtube:aBksDL8pHdc",
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "addedIds": [
+          "rss:12689431540825b4"
+        ],
+        "removedIds": [
+          "rss:befcb4a6ff390110"
+        ]
+      },
+      {
+        "queryId": "M02",
+        "beforeIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:YpmIag2gAvs",
+          "youtube:bDXI6vqn2ro",
+          "youtube:V4B_dtZKSuk"
+        ],
+        "afterIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:YpmIag2gAvs",
+          "youtube:bDXI6vqn2ro",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M03",
+        "beforeIdsInRankOrder": [
+          "rss:3d7e6a989e6fc75c",
+          "rss:ab721d29182cd656",
+          "rss:b34871909518a467",
+          "rss:c3816ccee758da0e",
+          "rss:fc0d7b8df845e842",
+          "rss:62520a04faacb9c7",
+          "rss:add76475f82b5eef",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4B_dtZKSuk",
+          "rss:12689431540825b4",
+          "youtube:bDXI6vqn2ro",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:b34871909518a467",
+          "rss:3d7e6a989e6fc75c",
+          "rss:ab721d29182cd656",
+          "rss:fc0d7b8df845e842",
+          "rss:62520a04faacb9c7",
+          "rss:c3816ccee758da0e",
+          "rss:add76475f82b5eef",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4B_dtZKSuk",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M04",
+        "beforeIdsInRankOrder": [
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A",
+          "rss:befcb4a6ff390110",
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro"
+        ],
+        "afterIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "rss:befcb4a6ff390110",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:V4rkU57SEdw"
+        ]
+      },
+      {
+        "queryId": "M05",
+        "beforeIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:aBksDL8pHdc",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "afterIdsInRankOrder": [
+          "youtube:aBksDL8pHdc",
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M06",
+        "beforeIdsInRankOrder": [
+          "rss:c3816ccee758da0e",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:bDXI6vqn2ro",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:c3816ccee758da0e"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:bDXI6vqn2ro",
+          "youtube:YpmIag2gAvs"
+        ]
+      },
+      {
+        "queryId": "M07",
+        "beforeIdsInRankOrder": [
+          "rss:a7b3b1db95608278",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:a7b3b1db95608278"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A"
+        ]
+      },
+      {
+        "queryId": "M08",
+        "beforeIdsInRankOrder": [
+          "rss:108a1504b2cae6cb",
+          "rss:feaf5f81371f7875",
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "rss:b34871909518a467",
+          "youtube:V4rkU57SEdw",
+          "youtube:aBksDL8pHdc",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:bDXI6vqn2ro"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:108a1504b2cae6cb",
+          "rss:feaf5f81371f7875"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "rss:b34871909518a467",
+          "youtube:V4rkU57SEdw",
+          "youtube:aBksDL8pHdc",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:bDXI6vqn2ro"
+        ]
+      },
+      {
+        "queryId": "M09",
+        "beforeIdsInRankOrder": [
+          "rss:42c18fc7adc37c9f",
+          "youtube:aBksDL8pHdc"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:42c18fc7adc37c9f"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:aBksDL8pHdc"
+        ]
+      },
+      {
+        "queryId": "M17",
+        "beforeIdsInRankOrder": [
+          "rss:62520a04faacb9c7",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4rkU57SEdw",
+          "youtube:V4B_dtZKSuk"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:62520a04faacb9c7",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4rkU57SEdw"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:V4B_dtZKSuk"
+        ]
+      },
+      {
+        "queryId": "M21",
+        "beforeIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M22",
+        "beforeIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M43",
+        "beforeIdsInRankOrder": [
+          "rss:a7b3b1db95608278",
+          "youtube:aBksDL8pHdc",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:a7b3b1db95608278"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:aBksDL8pHdc",
+          "youtube:mPaQ7O5NM0A"
+        ]
+      },
+      {
+        "queryId": "H01",
+        "beforeIdsInRankOrder": [
+          "rss:4a359e3de6745ded",
+          "youtube:bDXI6vqn2ro"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:4a359e3de6745ded"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:bDXI6vqn2ro"
+        ]
+      }
+    ],
+    "B2-to-B3": [
+      {
+        "queryId": "M01",
+        "beforeIdsInRankOrder": [
+          "rss:add76475f82b5eef",
+          "rss:42c18fc7adc37c9f",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "youtube:aBksDL8pHdc",
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:add76475f82b5eef",
+          "rss:42c18fc7adc37c9f",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "youtube:aBksDL8pHdc",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M03",
+        "beforeIdsInRankOrder": [
+          "rss:b34871909518a467",
+          "rss:3d7e6a989e6fc75c",
+          "rss:ab721d29182cd656",
+          "rss:fc0d7b8df845e842",
+          "rss:62520a04faacb9c7",
+          "rss:c3816ccee758da0e",
+          "rss:add76475f82b5eef",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4B_dtZKSuk",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:3d7e6a989e6fc75c",
+          "rss:ab721d29182cd656",
+          "rss:fc0d7b8df845e842",
+          "rss:c3816ccee758da0e",
+          "rss:add76475f82b5eef",
+          "youtube:V4B_dtZKSuk",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs"
+        ],
+        "addedIds": [],
+        "removedIds": [
+          "rss:b34871909518a467",
+          "rss:62520a04faacb9c7"
+        ]
+      },
+      {
+        "queryId": "M04",
+        "beforeIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "rss:befcb4a6ff390110",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:YpmIag2gAvs",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:befcb4a6ff390110",
+          "youtube:ABRdFe03L4c",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs"
+        ],
+        "addedIds": [],
+        "removedIds": []
+      },
+      {
+        "queryId": "M30",
+        "beforeIdsInRankOrder": [
+          "youtube:V4rkU57SEdw"
+        ],
+        "afterIdsInRankOrder": [],
+        "addedIds": [],
+        "removedIds": [
+          "youtube:V4rkU57SEdw"
+        ]
+      }
+    ],
+    "B3-to-B4": [
+      {
+        "queryId": "M01",
+        "beforeIdsInRankOrder": [
+          "rss:add76475f82b5eef",
+          "rss:42c18fc7adc37c9f",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "youtube:aBksDL8pHdc",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:add76475f82b5eef",
+          "rss:42c18fc7adc37c9f",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "youtube:aBksDL8pHdc",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A",
+          "rss:befcb4a6ff390110"
+        ],
+        "addedIds": [
+          "rss:befcb4a6ff390110"
+        ],
+        "removedIds": []
+      },
+      {
+        "queryId": "M03",
+        "beforeIdsInRankOrder": [
+          "rss:3d7e6a989e6fc75c",
+          "rss:ab721d29182cd656",
+          "rss:fc0d7b8df845e842",
+          "rss:c3816ccee758da0e",
+          "rss:add76475f82b5eef",
+          "youtube:V4B_dtZKSuk",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:3d7e6a989e6fc75c",
+          "rss:ab721d29182cd656",
+          "rss:fc0d7b8df845e842",
+          "rss:c3816ccee758da0e",
+          "rss:add76475f82b5eef",
+          "youtube:V4B_dtZKSuk",
+          "youtube:bDXI6vqn2ro",
+          "rss:12689431540825b4",
+          "rss:412cdeb8cc8ef9e9",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "rss:62520a04faacb9c7",
+          "rss:b34871909518a467"
+        ],
+        "addedIds": [
+          "rss:62520a04faacb9c7",
+          "rss:b34871909518a467"
+        ],
+        "removedIds": []
+      },
+      {
+        "queryId": "M04",
+        "beforeIdsInRankOrder": [
+          "rss:befcb4a6ff390110",
+          "youtube:ABRdFe03L4c",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "rss:befcb4a6ff390110",
+          "youtube:ABRdFe03L4c",
+          "youtube:aBksDL8pHdc",
+          "youtube:bDXI6vqn2ro",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk",
+          "youtube:YpmIag2gAvs",
+          "youtube:V4rkU57SEdw"
+        ],
+        "addedIds": [
+          "youtube:V4rkU57SEdw"
+        ],
+        "removedIds": []
+      },
+      {
+        "queryId": "M10",
+        "beforeIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs"
+        ],
+        "afterIdsInRankOrder": [
+          "youtube:ABRdFe03L4c",
+          "youtube:mPaQ7O5NM0A",
+          "youtube:V4B_dtZKSuk",
+          "youtube:V4rkU57SEdw",
+          "youtube:YpmIag2gAvs",
+          "rss:add76475f82b5eef"
+        ],
+        "addedIds": [
+          "rss:add76475f82b5eef"
+        ],
+        "removedIds": []
+      }
+    ]
+  },
+  "limits": [
+    "All supplied cases were development cases used during investigation, not an independent holdout.",
+    "The real set has 50 expected pairs, no forbidden pairs, and five expect-zero queries; unlabelled documents are not automatically irrelevant.",
+    "Historical B1 was measured on real34 and older fixtures, not on the complete 23-document synthetic suite.",
+    "B4 ranking passed one case with both candidates present; it does not establish a general complete-word ranking rule.",
+    "B4 reused 26 non-Han queries from B3; mixed-language typo/prefix behavior was not independently evaluated.",
+    "B4 accepted cross-COCT-boundary literal fragments in exploratory queries; those queries had no gold.",
+    "In-memory B4 timings cannot be compared to HTTP timings or used as production performance claims.",
+    "COCT corpus collection period and product redistribution permission were not established."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "B3",
+  "label": "External dictionary without secondary splitting",
+  "normalization": true,
+  "engine": {
+    "kind": "external-dictionary",
+    "env": {
+      "SEARCH_EVAL_DICTIONARY_PATH": "${DICTIONARY_PATH}",
+      "SEARCH_EVAL_DISABLE_SECONDARY_SPLIT": "1"
+    }
+  },
+  "fragmentReference": false
+}

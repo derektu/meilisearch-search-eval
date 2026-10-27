@@ -1,0 +1,10 @@
+{
+  "id": "B1",
+  "label": "Stock with normalization",
+  "normalization": true,
+  "engine": {
+    "kind": "stock",
+    "env": {}
+  },
+  "fragmentReference": false
+}
