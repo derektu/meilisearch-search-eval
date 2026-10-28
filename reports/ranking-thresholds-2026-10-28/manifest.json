@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-28T13:02:14.657Z",
+  "thresholds": [
+    null,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "appCommit": "ab6aed805f96d9933849ca3e25399d860934e643",
+  "appSourceStatus": "",
+  "evalCommit": "c48589eabb3eb7dc77072db6df4d3853d9423459",
+  "fingerprints": {
+    "resources/bin/mac/meilisearch": "4face0d17ee83fff991aaa6f0ef91e0ab4aedcc5693484066b3f1cb85754d95c",
+    "resources/search/coct-main.txt": "4b2d026eaa353ffde900f36049e72f1fa6902fbf25b14dbcb0b675d541e01264",
+    "resources/search/coct-main.json": "1a8e73f2b60905de113e6c42a59df3f85d20d22aa67f45775ab5ad7e7a5e28a8",
+    "resources/bin/mac/meilisearch-build.json": "97892ef9767cbebc56751493ddf2b0ff8e287c3682e7df1208e0c3e27bb297c2",
+    "package-lock.json": "f22add3737a056747e271512904fbc1849d43210f34cc625518e2e77155d2a5b",
+    "src/search/meilisearch-backend.ts": "6ab4b77149eba48cf009ac8ae19fb75fc9299dafafefb81acc7e1c51b58bc226",
+    "src/search/contiguous-fragment-index.ts": "054ca4d7479612843b1ec5b86ebf6b4bb9151a764f9ac74e523915a4e7b376a9",
+    "src/search/fragment-query.ts": "5e469f8eb375c784eeb6c384eaf3032889c402b9585f64487fd8293b7e1c9166",
+    "src/search/search-lexicon.ts": "b3fd496b0c68fce8dc7ab66c7f78180f0452afba2aed62c2aea200b149c25894",
+    "src/search/search-normalization.ts": "c46da59a51461335cbc8dc18d6a7f22ac090c5f613a040ff9a784a8b2ce2e15b",
+    "src/search/meilisearch-process.ts": "675f093d6875d63532a1a5e81aac5b15e8370ac5f81f87cb369e26e5a663b2ec",
+    "scripts/meilisearch-build-recipe.json": "722c683707b4c54a0360a66a554fb1aab8bf7c8c35acf5f60f9ab69d82bd7ee2"
+  },
+  "lexicon": {
+    "id": "coct-news-1141208",
+    "sha256": "4b2d026eaa353ffde900f36049e72f1fa6902fbf25b14dbcb0b675d541e01264",
+    "bytes": 2212252,
+    "formatRevision": 1,
+    "normalizationRevision": 1
+  },
+  "experimentFiles": {
+    "src/ranking-thresholds.mjs": "33a02a71f4116239badc795ca86dca95f31d37a8cd077a0047a79d466cc76806",
+    "tools/ranking-threshold-experiment.mjs": "3a03f4ea24e0a4c03f9fb42f69d5c234296a03334fb9a8739f68cd41dc57c787"
+  },
+  "policy": "Threshold every candidate retrieval (full query and Latin fallback); never threshold ID hydration. App fragment fallback remains unchanged and has no assigned relevance score.",
+  "labels": "Fixed existing gold. Unjudged results are not negatives. Scores are engine ranking values, not probabilities.",
+  "datasets": [
+    {
+      "id": "zh-semantics-v1",
+      "file": "datasets/zh-semantics-v1/dataset.json",
+      "sha256": "5093d46ab43310a498dc8dc24dd10e2f98d514e69f3877a46ec4c262271567c8",
+      "documentCount": 23,
+      "queryCount": 22,
+      "settings": {
+        "displayedAttributes": [
+          "*"
+        ],
+        "searchableAttributes": [
+          "searchTitle",
+          "searchPublisherName",
+          "searchBodyMarkdown"
+        ],
+        "filterableAttributes": [
+          "id",
+          "sourceType",
+          "publisherId",
+          "publishedAtEpoch"
+        ],
+        "sortableAttributes": [],
+        "rankingRules": [
+          "words",
+          "typo",
+          "proximity",
+          "attributeRank",
+          "sort",
+          "wordPosition",
+          "exactness"
+        ],
+        "stopWords": [],
+        "nonSeparatorTokens": [],
+        "separatorTokens": [],
+        "dictionary": [],
+        "synonyms": {},
+        "distinctAttribute": null,
+        "proximityPrecision": "byWord",
+        "typoTolerance": {
+          "enabled": true,
+          "minWordSizeForTypos": {
+            "oneTypo": 5,
+            "twoTypos": 9
+          },
+          "disableOnWords": [],
+          "disableOnAttributes": [],
+          "disableOnNumbers": false
+        },
+        "faceting": {
+          "maxValuesPerFacet": 100,
+          "sortFacetValuesBy": {
+            "*": "alpha"
+          }
+        },
+        "pagination": {
+          "maxTotalHits": 10000
+        },
+        "embedders": {},
+        "searchCutoffMs": null,
+        "localizedAttributes": null,
+        "facetSearch": true,
+        "prefixSearch": "indexingTime"
+      },
+      "version": {
+        "commitSha": "ec006cecec6f684b1dcaee093a45ab4c05707127",
+        "commitDate": "2026-09-07T09:45:12.000000000Z",
+        "pkgVersion": "1.53.2"
+      }
+    },
+    {
+      "id": "real-34-v1",
+      "file": "datasets/real-34/dataset.json",
+      "sha256": "607dde31977c1bb588fa2f2a70c061c043d70817ba6a57763d5f12060cb03ed5",
+      "documentCount": 34,
+      "queryCount": 60,
+      "settings": {
+        "displayedAttributes": [
+          "*"
+        ],
+        "searchableAttributes": [
+          "searchTitle",
+          "searchPublisherName",
+          "searchBodyMarkdown"
+        ],
+        "filterableAttributes": [
+          "id",
+          "sourceType",
+          "publisherId",
+          "publishedAtEpoch"
+        ],
+        "sortableAttributes": [],
+        "rankingRules": [
+          "words",
+          "typo",
+          "proximity",
+          "attributeRank",
+          "sort",
+          "wordPosition",
+          "exactness"
+        ],
+        "stopWords": [],
+        "nonSeparatorTokens": [],
+        "separatorTokens": [],
+        "dictionary": [],
+        "synonyms": {},
+        "distinctAttribute": null,
+        "proximityPrecision": "byWord",
+        "typoTolerance": {
+          "enabled": true,
+          "minWordSizeForTypos": {
+            "oneTypo": 5,
+            "twoTypos": 9
+          },
+          "disableOnWords": [],
+          "disableOnAttributes": [],
+          "disableOnNumbers": false
+        },
+        "faceting": {
+          "maxValuesPerFacet": 100,
+          "sortFacetValuesBy": {
+            "*": "alpha"
+          }
+        },
+        "pagination": {
+          "maxTotalHits": 10000
+        },
+        "embedders": {},
+        "searchCutoffMs": null,
+        "localizedAttributes": null,
+        "facetSearch": true,
+        "prefixSearch": "indexingTime"
+      },
+      "version": {
+        "commitSha": "ec006cecec6f684b1dcaee093a45ab4c05707127",
+        "commitDate": "2026-09-07T09:45:12.000000000Z",
+        "pkgVersion": "1.53.2"
+      }
+    },
+    {
+      "id": "zh-contiguous-holdout-v1",
+      "file": "datasets/zh-contiguous-holdout-v1/dataset.json",
+      "sha256": "a0ac124c029672ee755c99cb3dd7f05dc647f0486a75fed77a94d2cae0791695",
+      "documentCount": 26,
+      "queryCount": 46,
+      "settings": {
+        "displayedAttributes": [
+          "*"
+        ],
+        "searchableAttributes": [
+          "searchTitle",
+          "searchPublisherName",
+          "searchBodyMarkdown"
+        ],
+        "filterableAttributes": [
+          "id",
+          "sourceType",
+          "publisherId",
+          "publishedAtEpoch"
+        ],
+        "sortableAttributes": [],
+        "rankingRules": [
+          "words",
+          "typo",
+          "proximity",
+          "attributeRank",
+          "sort",
+          "wordPosition",
+          "exactness"
+        ],
+        "stopWords": [],
+        "nonSeparatorTokens": [],
+        "separatorTokens": [],
+        "dictionary": [],
+        "synonyms": {},
+        "distinctAttribute": null,
+        "proximityPrecision": "byWord",
+        "typoTolerance": {
+          "enabled": true,
+          "minWordSizeForTypos": {
+            "oneTypo": 5,
+            "twoTypos": 9
+          },
+          "disableOnWords": [],
+          "disableOnAttributes": [],
+          "disableOnNumbers": false
+        },
+        "faceting": {
+          "maxValuesPerFacet": 100,
+          "sortFacetValuesBy": {
+            "*": "alpha"
+          }
+        },
+        "pagination": {
+          "maxTotalHits": 10000
+        },
+        "embedders": {},
+        "searchCutoffMs": null,
+        "localizedAttributes": null,
+        "facetSearch": true,
+        "prefixSearch": "indexingTime"
+      },
+      "version": {
+        "commitSha": "ec006cecec6f684b1dcaee093a45ab4c05707127",
+        "commitDate": "2026-09-07T09:45:12.000000000Z",
+        "pkgVersion": "1.53.2"
+      }
+    }
+  ],
+  "status": "succeeded",
+  "completedAt": "2026-10-28T13:02:29.909Z",
+  "instrumentationPreservesBaseline": true,
+  "inputsUnchanged": true
+}

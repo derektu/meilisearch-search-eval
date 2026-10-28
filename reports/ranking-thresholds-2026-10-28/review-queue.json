@@ -1,0 +1,1429 @@
+[
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "rss:add76475f82b5eef",
+    "title": "IBM Q3 財報雙喜但毛利率落漆 盤後股價跌逾 4%",
+    "mainQueryScore": 0.9267676767676768,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "rss:42c18fc7adc37c9f",
+    "title": "Meta 營收創高、Muse 用戶破千萬人 將拆股",
+    "mainQueryScore": 0.898989898989899,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "title": "精神小伙们盘后回来了！NaNa说美股(2026.10.20)",
+    "mainQueryScore": 0.5656565656565656,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "rss:12689431540825b4",
+    "title": "德微旗下亞昕科技10/23登錄興櫃 參考價120元",
+    "mainQueryScore": 0.5505050505050505,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:V4rkU57SEdw",
+    "title": "护士，加大剂量！NaNa说美股(2026.10.21)",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:aBksDL8pHdc",
+    "title": "买1万股QQQI每月拿5600美元原地退休月月零钱！4%退休法则, 巴菲特早就算过！纳指3大分红ETF改买哪个？2大决策要素! 买错血本无归【艾财说232】",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "title": "〈台股盤前要聞〉輝達DSX POD AI工廠6台廠入列合作夥伴、外資終止連十賣",
+    "mainQueryScore": 0.5328282828282829,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:ABRdFe03L4c",
+    "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M01",
+    "query": "股",
+    "documentId": "rss:befcb4a6ff390110",
+    "title": "外資連4點讚穩懋站回500元大關 10/23法說前先回補",
+    "mainQueryScore": null,
+    "origin": "fragment-fallback",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M02",
+    "query": "債",
+    "documentId": "youtube:ABRdFe03L4c",
+    "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M02",
+    "query": "債",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M02",
+    "query": "債",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "title": "精神小伙们盘后回来了！NaNa说美股(2026.10.20)",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M02",
+    "query": "債",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M02",
+    "query": "債",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:3d7e6a989e6fc75c",
+    "title": "Windows 電腦狂跳「中毒警告」多為詐騙，使用者必學這些應對步驟",
+    "mainQueryScore": 0.9722222222222222,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:ab721d29182cd656",
+    "title": "不只要拿到電，AI 資料中心的新戰場是把電、熱與運算整合起來",
+    "mainQueryScore": 0.9595959595959596,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:fc0d7b8df845e842",
+    "title": "鉅亨速報 - Factset 最新調查：京元電子(2449-TW)EPS預估下修至8.46元，預估目標價為346.5元",
+    "mainQueryScore": 0.9267676767676768,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:c3816ccee758da0e",
+    "title": "台英深化能源合作，聚焦離岸風電、電網韌性與碳捕捉技術",
+    "mainQueryScore": 0.9116161616161617,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:add76475f82b5eef",
+    "title": "IBM Q3 財報雙喜但毛利率落漆 盤後股價跌逾 4%",
+    "mainQueryScore": 0.6540404040404041,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.547979797979798,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "title": "精神小伙们盘后回来了！NaNa说美股(2026.10.20)",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:12689431540825b4",
+    "title": "德微旗下亞昕科技10/23登錄興櫃 參考價120元",
+    "mainQueryScore": 0.5328282828282829,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "title": "〈台股盤前要聞〉輝達DSX POD AI工廠6台廠入列合作夥伴、外資終止連十賣",
+    "mainQueryScore": 0.5328282828282829,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "youtube:V4rkU57SEdw",
+    "title": "护士，加大剂量！NaNa说美股(2026.10.21)",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:62520a04faacb9c7",
+    "title": "輝達發表DSX POD AI工廠 鴻海、台達電等6台廠入列合作夥伴",
+    "mainQueryScore": null,
+    "origin": "fragment-fallback",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M03",
+    "query": "電",
+    "documentId": "rss:b34871909518a467",
+    "title": "台積電產能太搶手！英特爾擴廠向前 能接住AI商機？",
+    "mainQueryScore": null,
+    "origin": "fragment-fallback",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "rss:befcb4a6ff390110",
+    "title": "外資連4點讚穩懋站回500元大關 10/23法說前先回補",
+    "mainQueryScore": 0.5328282828282829,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:ABRdFe03L4c",
+    "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+    "mainQueryScore": 0.5328282828282829,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:aBksDL8pHdc",
+    "title": "买1万股QQQI每月拿5600美元原地退休月月零钱！4%退休法则, 巴菲特早就算过！纳指3大分红ETF改买哪个？2大决策要素! 买错血本无归【艾财说232】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "title": "精神小伙们盘后回来了！NaNa说美股(2026.10.20)",
+    "mainQueryScore": 0.5176767676767676,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.5050505050505051,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M04",
+    "query": "金",
+    "documentId": "youtube:V4rkU57SEdw",
+    "title": "护士，加大剂量！NaNa说美股(2026.10.21)",
+    "mainQueryScore": null,
+    "origin": "fragment-fallback",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M05",
+    "query": "稅",
+    "documentId": "youtube:aBksDL8pHdc",
+    "title": "买1万股QQQI每月拿5600美元原地退休月月零钱！4%退休法则, 巴菲特早就算过！纳指3大分红ETF改买哪个？2大决策要素! 买错血本无归【艾财说232】",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M05",
+    "query": "稅",
+    "documentId": "youtube:ABRdFe03L4c",
+    "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+    "mainQueryScore": 0.5050505050505051,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M05",
+    "query": "稅",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M05",
+    "query": "稅",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M05",
+    "query": "稅",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M08",
+    "query": "資安",
+    "documentId": "rss:feaf5f81371f7875",
+    "title": "連高市早苗都親自示警！PHP 爆重大漏洞，AI 挖出潛伏 20 年資安危機",
+    "mainQueryScore": 0.9595959595959596,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M10",
+    "query": "利率",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.5505050505050505,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M10",
+    "query": "利率",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.5050505050505051,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M10",
+    "query": "利率",
+    "documentId": "youtube:V4rkU57SEdw",
+    "title": "护士，加大剂量！NaNa说美股(2026.10.21)",
+    "mainQueryScore": 0.5050505050505051,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M10",
+    "query": "利率",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5050505050505051,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M10",
+    "query": "利率",
+    "documentId": "rss:add76475f82b5eef",
+    "title": "IBM Q3 財報雙喜但毛利率落漆 盤後股價跌逾 4%",
+    "mainQueryScore": null,
+    "origin": "fragment-fallback",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M13",
+    "query": "CoreWeave",
+    "documentId": "youtube:Z_oAFyE12Tk",
+    "title": "Coreweave Debt Woes Test AI Buildout (Oct. 16, 2026)",
+    "mainQueryScore": 0.9966329966329966,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M13",
+    "query": "CoreWeave",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "title": "Earnings, Cashflows and Stock Prices: The AI Storm blows through!",
+    "mainQueryScore": 0.67003367003367,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M13",
+    "query": "CoreWeave",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "title": "The Real Reason Tesla Announced The Roadster | The Brainstorm 154",
+    "mainQueryScore": 0.67003367003367,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M16",
+    "query": "DSX POD",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "title": "〈台股盤前要聞〉輝達DSX POD AI工廠6台廠入列合作夥伴、外資終止連十賣",
+    "mainQueryScore": 0.996031746031746,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M17",
+    "query": "AI 工廠",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "title": "〈台股盤前要聞〉輝達DSX POD AI工廠6台廠入列合作夥伴、外資終止連十賣",
+    "mainQueryScore": 0.996031746031746,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M17",
+    "query": "AI 工廠",
+    "documentId": "youtube:V4rkU57SEdw",
+    "title": "护士，加大剂量！NaNa说美股(2026.10.21)",
+    "mainQueryScore": 0.7525793650793651,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M20",
+    "query": "Factset EPS",
+    "documentId": "rss:c6c7dd07c65c20d0",
+    "title": "鉅亨速報 - Factset 最新調查：緯穎(6669-TW)EPS預估上修至123.83元，預估目標價為2727.31元",
+    "mainQueryScore": 0.8091269841269841,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M20",
+    "query": "Factset EPS",
+    "documentId": "rss:fc0d7b8df845e842",
+    "title": "鉅亨速報 - Factset 最新調查：京元電子(2449-TW)EPS預估下修至8.46元，預估目標價為346.5元",
+    "mainQueryScore": 0.8091269841269841,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M21",
+    "query": "国债利率",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.9376984126984127,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M21",
+    "query": "国债利率",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.8138888888888889,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M21",
+    "query": "国债利率",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.751984126984127,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M22",
+    "query": "國債利率",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "title": "大空头艾斯曼危机警告: OpenAI如果撑不住，美国经济将会一夜入冬! 1999大崩盘重演! 普通人如何做好准备? 这类资产值得押宝! 【艾财说231】",
+    "mainQueryScore": 0.9376984126984127,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M22",
+    "query": "國債利率",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.8138888888888889,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M22",
+    "query": "國債利率",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "title": "美联储重演1979年致命错误！加息+$100油价! 上一次黄金翻了4倍, 这次美债谁来买单？黄金价格即将起飞!【艾财说228】",
+    "mainQueryScore": 0.751984126984127,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M23",
+    "query": "美联储",
+    "documentId": "youtube:ABRdFe03L4c",
+    "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M23",
+    "query": "美联储",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M24",
+    "query": "美聯儲",
+    "documentId": "youtube:ABRdFe03L4c",
+    "title": "美英德日同时告急! 国债利率同步走高! 高利率时代到来! 你的房贷, 储蓄, 投资, 工作都躲不掉!【艾财说230】",
+    "mainQueryScore": 0.5353535353535354,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M24",
+    "query": "美聯儲",
+    "documentId": "youtube:YpmIag2gAvs",
+    "title": "变局! 全球货币政策转向! 未来12个月普通人购买力即将蒸发! 大资金押注这两类资产! 【艾财说229】",
+    "mainQueryScore": 0.5202020202020202,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M26",
+    "query": "CoreWeav",
+    "documentId": "youtube:Z_oAFyE12Tk",
+    "title": "Coreweave Debt Woes Test AI Buildout (Oct. 16, 2026)",
+    "mainQueryScore": 0.9873737373737373,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M26",
+    "query": "CoreWeav",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "title": "Earnings, Cashflows and Stock Prices: The AI Storm blows through!",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M26",
+    "query": "CoreWeav",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "title": "The Real Reason Tesla Announced The Roadster | The Brainstorm 154",
+    "mainQueryScore": 0.5025252525252525,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2,
+      0.4
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M27",
+    "query": "Blackston",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "title": "Coreweave's 2032 Bond Yields Top 15% (Oct. 15, 2026)",
+    "mainQueryScore": 0.0016835016835016834,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "rss:62520a04faacb9c7",
+    "title": "輝達發表DSX POD AI工廠 鴻海、台達電等6台廠入列合作夥伴",
+    "mainQueryScore": 0.1388888888888889,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "title": "〈台股盤前要聞〉輝達DSX POD AI工廠6台廠入列合作夥伴、外資終止連十賣",
+    "mainQueryScore": 0.10858585858585859,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "youtube:SzM9SRcolnI",
+    "title": "AI Borrowing Spree Hammers Tech Debt in Rush to Reprice Risk (Oct. 09, 2026)",
+    "mainQueryScore": 0.0025252525252525255,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "youtube:Z_oAFyE12Tk",
+    "title": "Coreweave Debt Woes Test AI Buildout (Oct. 16, 2026)",
+    "mainQueryScore": 0.0025252525252525255,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "title": "精神小伙们盘后回来了！NaNa说美股(2026.10.20)",
+    "mainQueryScore": 0.0025252525252525255,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "title": "Earnings, Cashflows and Stock Prices: The AI Storm blows through!",
+    "mainQueryScore": 0.0025252525252525255,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M28",
+    "query": "Nvdia",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "title": "The Real Reason Tesla Announced The Roadster | The Brainstorm 154",
+    "mainQueryScore": 0.0025252525252525255,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null
+    ],
+    "relevance": null,
+    "notes": ""
+  },
+  {
+    "queryId": "M32",
+    "query": "Energy Transition",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "title": "Earnings, Cashflows and Stock Prices: The AI Storm blows through!",
+    "mainQueryScore": 0.25013227513227515,
+    "origin": "engine-primary",
+    "retainedAtThresholds": [
+      null,
+      0.2
+    ],
+    "relevance": null,
+    "notes": ""
+  }
+]

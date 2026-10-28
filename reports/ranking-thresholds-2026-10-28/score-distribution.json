@@ -1,0 +1,1437 @@
+[
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W01",
+    "documentId": "rss:qr_tourism",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W01",
+    "documentId": "rss:qr_phrase_separated",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W01",
+    "documentId": "rss:qr_phrase_joined",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W01",
+    "documentId": "rss:qr_space_negative",
+    "score": 0.15404040404040403,
+    "label": "forbidden"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W02",
+    "documentId": "rss:qr_security",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W03",
+    "documentId": "rss:qr_semiconductor",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W04",
+    "documentId": "rss:qr_tsmc",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W04",
+    "documentId": "rss:qr_multi_good",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W05",
+    "documentId": "rss:qr_split",
+    "score": 0.9472222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "W06",
+    "documentId": "rss:qr_server",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F01",
+    "documentId": "rss:qr_semiconductor_negative",
+    "score": 0.8235449735449736,
+    "label": "forbidden"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F01",
+    "documentId": "rss:qr_semiconductor",
+    "score": 0.27275132275132274,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F02",
+    "documentId": "rss:qr_conductor",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F03",
+    "documentId": "rss:qr_conductor",
+    "score": 0.6540404040404041,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F03",
+    "documentId": "rss:qr_semiconductor_negative",
+    "score": 0.6237373737373737,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F04",
+    "documentId": "rss:qr_tsmc",
+    "score": 0.6540404040404041,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F04",
+    "documentId": "rss:qr_multi_good",
+    "score": 0.6540404040404041,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "F06",
+    "documentId": "rss:qr_server",
+    "score": 0.6540404040404041,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "C01",
+    "documentId": "rss:qr_split",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "C01",
+    "documentId": "rss:qr_stock",
+    "score": 0.6237373737373737,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "C01",
+    "documentId": "rss:qr_split_negative",
+    "score": 0.6085858585858586,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "C01",
+    "documentId": "rss:qr_single_gaps",
+    "score": 0.5631313131313131,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "M01",
+    "documentId": "rss:qr_multi_good",
+    "score": 0.9465876673249946,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "M02",
+    "documentId": "rss:qr_phrase_joined",
+    "score": 0.9498015873015873,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "M02",
+    "documentId": "rss:qr_phrase_separated",
+    "score": 0.7609126984126984,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "M03",
+    "documentId": "rss:qr_phrase_joined",
+    "score": 0.9498015873015873,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "M03",
+    "documentId": "rss:qr_phrase_separated",
+    "score": 0.7609126984126984,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "Q01",
+    "documentId": "rss:qr_phrase_joined",
+    "score": 0.32323232323232326,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N01",
+    "documentId": "rss:qr_tourism",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N01",
+    "documentId": "rss:qr_phrase_separated",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N01",
+    "documentId": "rss:qr_phrase_joined",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N01",
+    "documentId": "rss:qr_space_negative",
+    "score": 0.15404040404040403,
+    "label": "forbidden"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N02",
+    "documentId": "rss:qr_tsmc",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N02",
+    "documentId": "rss:qr_multi_good",
+    "score": 0.6616161616161617,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-semantics-v1",
+    "queryId": "N03",
+    "documentId": "rss:qr_multi_good",
+    "score": 0.9465876673249946,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "rss:add76475f82b5eef",
+    "score": 0.9267676767676768,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "rss:42c18fc7adc37c9f",
+    "score": 0.898989898989899,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "score": 0.5656565656565656,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "rss:12689431540825b4",
+    "score": 0.5505050505050505,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:V4rkU57SEdw",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:aBksDL8pHdc",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "score": 0.5328282828282829,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M01",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M02",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M02",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M02",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M02",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M02",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:3d7e6a989e6fc75c",
+    "score": 0.9722222222222222,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:ab721d29182cd656",
+    "score": 0.9595959595959596,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:fc0d7b8df845e842",
+    "score": 0.9267676767676768,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:c3816ccee758da0e",
+    "score": 0.9116161616161617,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:add76475f82b5eef",
+    "score": 0.6540404040404041,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.547979797979798,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:12689431540825b4",
+    "score": 0.5328282828282829,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "score": 0.5328282828282829,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "youtube:V4rkU57SEdw",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M03",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "rss:befcb4a6ff390110",
+    "score": 0.5328282828282829,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.5328282828282829,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "youtube:aBksDL8pHdc",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "score": 0.5176767676767676,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.5050505050505051,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M04",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M05",
+    "documentId": "youtube:aBksDL8pHdc",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M05",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.5050505050505051,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M05",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M05",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M05",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M06",
+    "documentId": "rss:c3816ccee758da0e",
+    "score": 0.9444444444444444,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M07",
+    "documentId": "rss:a7b3b1db95608278",
+    "score": 0.9444444444444444,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M08",
+    "documentId": "rss:108a1504b2cae6cb",
+    "score": 0.9595959595959596,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M08",
+    "documentId": "rss:feaf5f81371f7875",
+    "score": 0.9595959595959596,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M09",
+    "documentId": "rss:42c18fc7adc37c9f",
+    "score": 0.9924603174603175,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M10",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.9141414141414141,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M10",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.5505050505050505,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M10",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.5050505050505051,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M10",
+    "documentId": "youtube:V4rkU57SEdw",
+    "score": 0.5050505050505051,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M10",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5050505050505051,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M11",
+    "documentId": "rss:b34871909518a467",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M12",
+    "documentId": "rss:108a1504b2cae6cb",
+    "score": 0.9292929292929293,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M13",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "score": 0.9966329966329966,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M13",
+    "documentId": "youtube:Z_oAFyE12Tk",
+    "score": 0.9966329966329966,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M13",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "score": 0.67003367003367,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M13",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "score": 0.67003367003367,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M14",
+    "documentId": "youtube:NOQ2J_r7hyo",
+    "score": 0.9966329966329966,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M15",
+    "documentId": "youtube:PFpHxOm4Sv4",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M16",
+    "documentId": "rss:62520a04faacb9c7",
+    "score": 0.9972222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M16",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "score": 0.996031746031746,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M17",
+    "documentId": "rss:62520a04faacb9c7",
+    "score": 0.9972222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M17",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "score": 0.996031746031746,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M17",
+    "documentId": "youtube:V4rkU57SEdw",
+    "score": 0.7525793650793651,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M18",
+    "documentId": "youtube:aBksDL8pHdc",
+    "score": 0.871031746031746,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M19",
+    "documentId": "rss:add76475f82b5eef",
+    "score": 0.9998015873015873,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M20",
+    "documentId": "rss:c00dcce7075430c7",
+    "score": 0.8091269841269841,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M20",
+    "documentId": "rss:c6c7dd07c65c20d0",
+    "score": 0.8091269841269841,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M20",
+    "documentId": "rss:fc0d7b8df845e842",
+    "score": 0.8091269841269841,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M21",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.9942460317460318,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M21",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.9376984126984127,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M21",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.8138888888888889,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M21",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.751984126984127,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M22",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.9942460317460318,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M22",
+    "documentId": "youtube:V4B_dtZKSuk",
+    "score": 0.9376984126984127,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M22",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.8138888888888889,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M22",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.751984126984127,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M23",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M23",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M23",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M24",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M24",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.5353535353535354,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M24",
+    "documentId": "youtube:YpmIag2gAvs",
+    "score": 0.5202020202020202,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M25",
+    "documentId": "rss:b34871909518a467",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M26",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "score": 0.9873737373737373,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M26",
+    "documentId": "youtube:Z_oAFyE12Tk",
+    "score": 0.9873737373737373,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M26",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M26",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "score": 0.5025252525252525,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M27",
+    "documentId": "youtube:NOQ2J_r7hyo",
+    "score": 0.9915824915824916,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M27",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "score": 0.0016835016835016834,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "rss:62520a04faacb9c7",
+    "score": 0.1388888888888889,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "rss:412cdeb8cc8ef9e9",
+    "score": 0.10858585858585859,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "score": 0.047979797979797977,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "youtube:SzM9SRcolnI",
+    "score": 0.0025252525252525255,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "youtube:Z_oAFyE12Tk",
+    "score": 0.0025252525252525255,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "youtube:bDXI6vqn2ro",
+    "score": 0.0025252525252525255,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "score": 0.0025252525252525255,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M28",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "score": 0.0025252525252525255,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M29",
+    "documentId": "rss:3d7e6a989e6fc75c",
+    "score": 0.48737373737373735,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M31",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "score": 0.9400793650793651,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M32",
+    "documentId": "youtube:NOQ2J_r7hyo",
+    "score": 0.996031746031746,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M32",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "score": 0.25013227513227515,
+    "label": "unjudged"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M33",
+    "documentId": "youtube:PFpHxOm4Sv4",
+    "score": 0.996031746031746,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M34",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "score": 0.9528619528619529,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M35",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "score": 0.9444444444444444,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M41",
+    "documentId": "rss:b34871909518a467",
+    "score": 0.9998015873015873,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M42",
+    "documentId": "rss:befcb4a6ff390110",
+    "score": 0.9136712749615975,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M43",
+    "documentId": "rss:a7b3b1db95608278",
+    "score": 0.9996488918147904,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M44",
+    "documentId": "rss:c3816ccee758da0e",
+    "score": 0.996031746031746,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "M45",
+    "documentId": "rss:108a1504b2cae6cb",
+    "score": 0.808531746031746,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H01",
+    "documentId": "rss:4a359e3de6745ded",
+    "score": 0.9412698412698413,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H02",
+    "documentId": "rss:b34871909518a467",
+    "score": 0.5959595959595959,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H03",
+    "documentId": "rss:a7b3b1db95608278",
+    "score": 0.9424603174603174,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H04",
+    "documentId": "youtube:mPaQ7O5NM0A",
+    "score": 0.9388888888888889,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H05",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.9388888888888889,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H06",
+    "documentId": "youtube:aBksDL8pHdc",
+    "score": 0.9718674566600833,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H07",
+    "documentId": "youtube:LFrHquAyz0Q",
+    "score": 0.9388888888888889,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H08",
+    "documentId": "youtube:NOQ2J_r7hyo",
+    "score": 0.9388888888888889,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H09",
+    "documentId": "youtube:PFpHxOm4Sv4",
+    "score": 0.9424603174603174,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H10",
+    "documentId": "youtube:nwmvMh6P1Lo",
+    "score": 0.5202020202020202,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H11",
+    "documentId": "rss:ec6bdc99d62dec05",
+    "score": 0.7508417508417509,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H12",
+    "documentId": "youtube:xbTzxeaZhlw",
+    "score": 0.9388888888888889,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H13",
+    "documentId": "youtube:ABRdFe03L4c",
+    "score": 0.9388888888888889,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H14",
+    "documentId": "youtube:aBksDL8pHdc",
+    "score": 0.9718674566600833,
+    "label": "expected"
+  },
+  {
+    "dataset": "real-34-v1",
+    "queryId": "H15",
+    "documentId": "rss:ec6bdc99d62dec05",
+    "score": 0.4158249158249158,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h01-quote",
+    "documentId": "rss:h01a",
+    "score": 0.32323232323232326,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h01-and",
+    "documentId": "rss:h01a",
+    "score": 0.27275132275132274,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h02-quote",
+    "documentId": "youtube:h02a",
+    "score": 0.25252525252525254,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h02-and",
+    "documentId": "youtube:h02a",
+    "score": 0.2691798941798942,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h03-quote",
+    "documentId": "rss:h03a",
+    "score": 0.2828282828282828,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h03-fragment",
+    "documentId": "rss:h03a",
+    "score": 0.6388888888888888,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h03-and",
+    "documentId": "rss:h03a",
+    "score": 0.27037037037037037,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h04-quote",
+    "documentId": "youtube:h04a",
+    "score": 0.25252525252525254,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h04-and",
+    "documentId": "youtube:h04a",
+    "score": 0.2691798941798942,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h05-quote",
+    "documentId": "rss:h05a",
+    "score": 0.32323232323232326,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h05-and",
+    "documentId": "rss:h05a",
+    "score": 0.9498015873015873,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h05-and",
+    "documentId": "rss:h05b",
+    "score": 0.7609126984126984,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h06-quote",
+    "documentId": "youtube:h06a",
+    "score": 0.25252525252525254,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h06-and",
+    "documentId": "youtube:h06a",
+    "score": 0.9472222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h06-and",
+    "documentId": "youtube:h06b",
+    "score": 0.7603174603174603,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h07-quote",
+    "documentId": "rss:h07a",
+    "score": 0.25252525252525254,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h07-and",
+    "documentId": "rss:h07a",
+    "score": 0.9472222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h07-and",
+    "documentId": "rss:h07b",
+    "score": 0.7603174603174603,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h08-quote",
+    "documentId": "youtube:h08a",
+    "score": 0.25252525252525254,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h08-fragment",
+    "documentId": "youtube:h08b",
+    "score": 0.8834656084656085,
+    "label": "forbidden"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h08-and",
+    "documentId": "youtube:h08a",
+    "score": 0.9472222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h08-and",
+    "documentId": "youtube:h08b",
+    "score": 0.7603174603174603,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h09-quote",
+    "documentId": "rss:h09a",
+    "score": 0.32323232323232326,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h09-and",
+    "documentId": "rss:h09a",
+    "score": 0.27275132275132274,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h10-quote",
+    "documentId": "youtube:h10a",
+    "score": 0.32323232323232326,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h10-and",
+    "documentId": "youtube:h10b",
+    "score": 0.7610449735449736,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h10-and",
+    "documentId": "youtube:h10a",
+    "score": 0.27275132275132274,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h11-quote",
+    "documentId": "rss:h11a",
+    "score": 0.32323232323232326,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h11-and",
+    "documentId": "rss:h11b",
+    "score": 0.7597222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h11-and",
+    "documentId": "rss:h11a",
+    "score": 0.27275132275132274,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h12-quote",
+    "documentId": "youtube:h12a",
+    "score": 0.25252525252525254,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "h12-and",
+    "documentId": "youtube:h12a",
+    "score": 0.9472222222222222,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-case",
+    "documentId": "rss:norm-a",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-fullwidth",
+    "documentId": "rss:norm-a",
+    "score": 0.9949494949494949,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-simp",
+    "documentId": "youtube:h08b",
+    "score": 0.6414141414141414,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-simp",
+    "documentId": "rss:h05a",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-simp",
+    "documentId": "rss:h11b",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-simp",
+    "documentId": "rss:norm-a",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-trad",
+    "documentId": "youtube:h08b",
+    "score": 0.6414141414141414,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-trad",
+    "documentId": "rss:h05a",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-trad",
+    "documentId": "rss:h11b",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-trad",
+    "documentId": "rss:norm-a",
+    "score": 0.6262626262626263,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-variant",
+    "documentId": "rss:norm-a",
+    "score": 0.6111111111111112,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "norm-no-regional",
+    "documentId": "rss:norm-a",
+    "score": 0.6111111111111112,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "latin-prefix",
+    "documentId": "youtube:norm-b",
+    "score": 0.7592592592592593,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "latin-typo",
+    "documentId": "youtube:norm-b",
+    "score": 0.42592592592592593,
+    "label": "expected"
+  },
+  {
+    "dataset": "zh-contiguous-holdout-v1",
+    "queryId": "mixed-prefix",
+    "documentId": "rss:norm-a",
+    "score": 0.7852513227513227,
+    "label": "expected"
+  }
+]
